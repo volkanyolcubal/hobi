@@ -1,0 +1,158 @@
+<?php
+if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] === "off") {
+    $location = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+    header('HTTP/1.1 301 Moved Permanently');
+    header('Location: ' . $location);
+    exit;
+}
+?>
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zülkarni Sezer - YouTube Kanalı</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .header {
+            margin-bottom: 50px;
+        }
+        .profile-img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            border: 5px solid white;
+            margin: 0 auto 20px;
+            background: #ccc url('profile.jpg') center/cover;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .subscriber-count {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+            color: #FFD700;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+        }
+        .stat-card {
+            background: rgba(255,255,255,0.1);
+            padding: 30px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+        }
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #FFD700;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #FF0000;
+            color: white;
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin: 20px 0;
+            transition: transform 0.3s;
+        }
+        .cta-button:hover {
+            transform: scale(1.05);
+            background: #CC0000;
+        }
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+        .video-placeholder {
+            background: rgba(255,255,255,0.1);
+            border-radius: 10px;
+            padding: 20px;
+            min-height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            backdrop-filter: blur(10px);
+        }
+        .loading {
+            color: #FFD700;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="profile-img"></div>
+            <h1>Zülkarni Sezer</h1>
+            <div class="subscriber-count" id="subCount">Kanal İstatistikleri</div>
+        </div>
+
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-number" id="videoCount">-</div>
+                <div>Toplam Video</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="viewCount">-</div>
+                <div>Toplam İzlenme</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="subscriberCount">-</div>
+                <div>Abone Sayısı</div>
+            </div>
+        </div>
+
+        <a href="https://www.youtube.com/@zulkarnisezer5329" target="_blank" class="cta-button">
+            📺 KANALA GİT
+        </a>
+
+        <div class="video-grid">
+            <div class="video-placeholder">
+                <div class="loading">🎥 Video verileri yükleniyor...</div>
+            </div>
+            <div class="video-placeholder">
+                <div class="loading">📊 İstatistikler hazırlanıyor...</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Bu kısım YouTube API ile doldurulacak
+        // Şimdilik mock data
+        setTimeout(() => {
+            document.getElementById('videoCount').textContent = '24';
+            document.getElementById('viewCount').textContent = '15.2K';
+            document.getElementById('subscriberCount').textContent = '1.2K';
+            document.getElementById('subCount').textContent = '🎯 1,200 Abone - 📊 15,200 Görüntülenme';
+        }, 1000);
+    </script>
+</body>
+</html>
