@@ -48,7 +48,8 @@
             text-shadow: 2px 2px 4px rgba(0,0,0,0.3); 
         }
         
-        .upload-form {
+        .upload-section {
+            display: none;
             background: rgba(255,255,255,0.1);
             padding: 30px;
             border-radius: 20px;
@@ -68,7 +69,7 @@
             color: #FFD700;
         }
         
-        .form-group input, .form-group textarea {
+        .form-group input, .form-group textarea, .form-group select {
             width: 100%;
             padding: 12px;
             border: none;
@@ -91,6 +92,15 @@
             background: rgba(76, 175, 80, 0.1);
         }
         
+        .video-link-area {
+            border: 2px dashed #ff6b6b;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            background: rgba(255,107,107,0.1);
+        }
+        
         .submit-btn {
             background: #4CAF50;
             color: white;
@@ -108,25 +118,58 @@
             background: #45a049;
         }
         
-        .gallery {
+        .gallery-tabs {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+            gap: 10px;
+        }
+        
+        .tab-btn {
+            background: rgba(255,255,255,0.2);
+            border: none;
+            padding: 12px 25px;
+            border-radius: 25px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .tab-btn.active {
+            background: #FFD700;
+            color: #333;
+        }
+        
+        .photo-gallery, .video-gallery {
             background: rgba(255,255,255,0.1);
             padding: 30px;
             border-radius: 20px;
             backdrop-filter: blur(10px);
+            margin-bottom: 30px;
         }
         
-        .photo-grid { 
+        .video-gallery {
+            display: none;
+        }
+        
+        .photo-grid, .video-grid { 
             display: grid; 
             grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
             gap: 20px; 
         }
         
-        .photo-item { 
+        .photo-item, .video-item { 
             background: rgba(255,255,255,0.1);
             border-radius: 12px;
             padding: 15px;
             text-align: center;
             transition: all 0.3s ease;
+        }
+        
+        .photo-item:hover, .video-item:hover {
+            transform: scale(1.05);
+            background: rgba(255,255,255,0.2);
         }
         
         .photo-item img { 
@@ -137,68 +180,161 @@
             margin-bottom: 10px;
         }
         
-        .photo-title {
+        .video-item iframe {
+            width: 100%;
+            height: 200px;
+            border-radius: 8px;
+            border: none;
+        }
+        
+        .photo-title, .video-title {
             font-weight: bold;
             margin-bottom: 5px;
             color: #FFD700;
         }
         
-        .photo-location, .photo-date {
+        .photo-location, .photo-date, .video-location, .video-date {
             font-size: 0.9rem;
             opacity: 0.8;
             margin-bottom: 3px;
         }
+
+        .instructions {
+            background: rgba(255,255,255,0.1);
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 10px;
+            font-size: 0.9rem;
+        }
     </style>
 </head>
 <body>
+    <button class="admin-btn" onclick="showAdminLogin()">🔧 Admin Giriş</button>
+
     <div class="container">
         <div class="header">
             <h1>📸 Zülkarni Sezer</h1>
-            <p>Fotoğraf galerime hoş geldiniz! Resim yükleyin, tüm dünya görsün! 🌍</p>
+            <p>Fotoğraf ve video galerime hoş geldiniz! 🌍</p>
         </div>
 
-        <!-- YÜKLEME FORMU -->
-        <div class="upload-form">
-            <h2 style="text-align: center; margin-bottom: 20px; color: #FFD700;">📤 Resim Yükle</h2>
-            
-            <div class="upload-area" onclick="document.getElementById('photoInput').click()">
-                <p>📁 Resmi buraya sürükle veya tıkla</p>
-                <input type="file" id="photoInput" accept="image/*" style="display: none;">
-            </div>
+        <!-- YÜKLEME BÖLÜMÜ (SADECE ADMİN GÖRÜR) -->
+        <div class="upload-section" id="uploadSection">
+            <h2 style="text-align: center; margin-bottom: 20px; color: #FFD700;">📤 Yeni Medya Ekle</h2>
             
             <div class="form-group">
+                <label>📋 Medya Türü</label>
+                <select id="mediaType" onchange="toggleMediaType()">
+                    <option value="photo">📷 Fotoğraf Yükle</option>
+                    <option value="video">🎥 Video Linki Ekle</option>
+                </select>
+            </div>
+            
+            <!-- FOTOĞRAF YÜKLEME -->
+            <div id="photoUploadArea">
+                <div class="upload-area" onclick="document.getElementById('photoInput').click()">
+                    <p>📁 Resmi buraya sürükle veya tıkla</p>
+                    <input type="file" id="photoInput" accept="image/*" style="display: none;">
+                </div>
+            </div>
+            
+            <!-- VİDEO LİNK -->
+            <div id="videoLinkArea" style="display: none;">
+                <div class="video-link-area">
+                    <p>🎥 YouTube Video Linki</p>
+                    <input type="text" id="videoLink" placeholder="https://www.youtube.com/watch?v=..." class="form-group" style="margin-top: 10px;">
+                    
+                    <div class="instructions">
+                        <strong>📹 Nasıl Video Eklerim?</strong><br>
+                        1. YouTube'da videoyu aç<br>
+                        2. "Paylaş" butonuna tıkla<br>
+                        3. "Bağlantıyı kopyala"ya tıkla<br>
+                        4. Linki buraya yapıştır
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
                 <label>📝 Başlık</label>
-                <input type="text" id="photoTitle" placeholder="Örnek: İstanbul Manzarası">
+                <input type="text" id="mediaTitle" placeholder="Örnek: İstanbul Manzarası">
             </div>
 
             <div class="form-group">
                 <label>📍 Çekim Yeri</label>
-                <input type="text" id="photoLocation" placeholder="Örnek: İstanbul, Türkiye">
+                <input type="text" id="mediaLocation" placeholder="Örnek: İstanbul, Türkiye">
             </div>
 
             <div class="form-group">
                 <label>📅 Çekim Tarihi</label>
-                <input type="date" id="photoDate">
+                <input type="date" id="mediaDate">
             </div>
 
-            <button class="submit-btn" onclick="uploadPhoto()">🚀 Resmi Dünyaya Yükle!</button>
+            <button class="submit-btn" onclick="uploadMedia()">🚀 Dünyaya Yayınla!</button>
         </div>
 
         <!-- GALERİ -->
-        <div class="gallery">
-            <h2 style="text-align: center; margin-bottom: 30px; color: #FFD700;">🌍 Dünya Galerisi</h2>
-            <div class="photo-grid" id="photoGrid">
-                <!-- RESİMLER BURAYA GELECEK -->
-            </div>
+        <div class="gallery-tabs">
+            <button class="tab-btn active" onclick="showTab('photos')">📷 Fotoğraflar</button>
+            <button class="tab-btn" onclick="showTab('videos')">🎥 Videolar</button>
+        </div>
+
+        <div class="photo-gallery" id="photoGallery">
+            <h2 style="text-align: center; margin-bottom: 30px; color: #FFD700;">🌍 Fotoğraf Galerisi</h2>
+            <div class="photo-grid" id="photoGrid"></div>
+        </div>
+
+        <div class="video-gallery" id="videoGallery">
+            <h2 style="text-align: center; margin-bottom: 30px; color: #FFD700;">🎬 Video Galerisi</h2>
+            <div class="video-grid" id="videoGrid"></div>
         </div>
     </div>
 
     <script>
-        // CLOUDINARY AYARLARI (ÜCRETSİZ HESAP)
+        // AYARLAR
+        const ADMIN_PASSWORD = "zulkarni123";
         const CLOUDINARY_URL = 'https://api.cloudinary.com/v1_1/demo/image/upload';
-        const UPLOAD_PRESET = 'ml_default'; // Ücretsiz preset
+        const UPLOAD_PRESET = 'ml_default';
 
         let currentPhoto = null;
+        let isAdmin = false;
+
+        // SAYFA YÜKLENİNCE
+        document.addEventListener('DOMContentLoaded', function() {
+            loadGallery();
+        });
+
+        // ADMIN GİRİŞ
+        function showAdminLogin() {
+            if (isAdmin) {
+                logoutAdmin();
+                return;
+            }
+
+            const password = prompt('🔐 Admin şifresini girin:');
+            if (password === ADMIN_PASSWORD) {
+                isAdmin = true;
+                document.getElementById('uploadSection').style.display = 'block';
+                document.querySelector('.admin-btn').textContent = '🔓 Admin Çıkış';
+                alert('✅ Admin girişi başarılı! Şimdi medya yükleyebilirsin.');
+            } else if (password) {
+                alert('❌ Hatalı şifre!');
+            }
+        }
+
+        // ADMIN ÇIKIŞ
+        function logoutAdmin() {
+            isAdmin = false;
+            document.getElementById('uploadSection').style.display = 'none';
+            document.querySelector('.admin-btn').textContent = '🔧 Admin Giriş';
+            resetForm();
+        }
+
+        // MEDYA TÜRÜ DEĞİŞTİR
+        function toggleMediaType() {
+            const type = document.getElementById('mediaType').value;
+            document.getElementById('photoUploadArea').style.display = type === 'photo' ? 'block' : 'none';
+            document.getElementById('videoLinkArea').style.display = type === 'video' ? 'block' : 'none';
+            resetForm();
+        }
 
         // DOSYA SEÇİLDİĞİNDE
         document.getElementById('photoInput').addEventListener('change', function(event) {
@@ -215,24 +351,42 @@
             }
         });
 
-        // RESİM YÜKLE
-        async function uploadPhoto() {
-            const title = document.getElementById('photoTitle').value.trim();
-            const location = document.getElementById('photoLocation').value.trim();
-            const date = document.getElementById('photoDate').value;
-
-            if (!currentPhoto) {
-                alert('❌ Lütfen önce bir resim seçin!');
+        // MEDYA YÜKLE
+        async function uploadMedia() {
+            if (!isAdmin) {
+                alert('❌ Önce admin girişi yapmalısınız!');
                 return;
             }
+
+            const type = document.getElementById('mediaType').value;
+            const title = document.getElementById('mediaTitle').value.trim();
+            const location = document.getElementById('mediaLocation').value.trim();
+            const date = document.getElementById('mediaDate').value;
 
             if (!title || !location || !date) {
                 alert('❌ Lütfen tüm bilgileri doldurun!');
                 return;
             }
 
+            if (type === 'photo') {
+                if (!currentPhoto) {
+                    alert('❌ Lütfen bir resim seçin!');
+                    return;
+                }
+                await uploadPhoto(title, location, date);
+            } else {
+                const videoLink = document.getElementById('videoLink').value.trim();
+                if (!videoLink) {
+                    alert('❌ Lütfen YouTube linkini girin!');
+                    return;
+                }
+                await uploadVideo(title, location, date, videoLink);
+            }
+        }
+
+        // FOTOĞRAF YÜKLE
+        async function uploadPhoto(title, location, date) {
             try {
-                // CLOUDINARY'E YÜKLE
                 const formData = new FormData();
                 formData.append('file', currentPhoto);
                 formData.append('upload_preset', UPLOAD_PRESET);
@@ -245,48 +399,151 @@
                 const data = await response.json();
                 
                 if (data.secure_url) {
-                    // RESMİ GALERİYE EKLE
-                    addPhotoToGallery({
+                    addToGallery({
+                        type: 'photo',
                         url: data.secure_url,
                         title: title,
                         location: location,
                         date: formatDate(date)
                     });
                     
-                    alert('🎉 Resim tüm dünyaya yüklendi! 🌍');
+                    alert('🎉 Fotoğraf tüm dünyaya yüklendi! 🌍');
                     resetForm();
-                } else {
-                    throw new Error('Yükleme başarısız');
                 }
-
             } catch (error) {
-                console.error('Yükleme hatası:', error);
                 alert('❌ Yükleme başarısız! Lütfen tekrar deneyin.');
             }
         }
 
-        // GALERİYE RESİM EKLE
+        // VİDEO YÜKLE
+        async function uploadVideo(title, location, date, videoLink) {
+            const embedUrl = convertToEmbedUrl(videoLink);
+            if (!embedUrl) {
+                alert('❌ Geçersiz YouTube linki!');
+                return;
+            }
+
+            addToGallery({
+                type: 'video',
+                url: embedUrl,
+                title: title,
+                location: location,
+                date: formatDate(date)
+            });
+
+            alert('🎉 Video tüm dünyaya yüklendi! 🌍');
+            resetForm();
+        }
+
+        // YOUTUBE LINKINI ÇEVİR
+        function convertToEmbedUrl(url) {
+            if (url.includes('youtube.com/watch?v=')) {
+                const videoId = url.split('v=')[1]?.split('&')[0];
+                return `https://www.youtube.com/embed/${videoId}`;
+            } else if (url.includes('youtu.be/')) {
+                const videoId = url.split('youtu.be/')[1]?.split('?')[0];
+                return `https://www.youtube.com/embed/${videoId}`;
+            }
+            return null;
+        }
+
+        // GALERİYE EKLE
+        function addToGallery(media) {
+            if (media.type === 'photo') {
+                addPhotoToGallery(media);
+            } else {
+                addVideoToGallery(media);
+            }
+            saveToLocalStorage(media);
+        }
+
+        // FOTOĞRAF EKLE
         function addPhotoToGallery(photo) {
             const photoGrid = document.getElementById('photoGrid');
-            
-            const photoItem = document.createElement('div');
-            photoItem.className = 'photo-item';
-            photoItem.innerHTML = `
+            const photoItem = createPhotoItem(photo);
+            photoGrid.appendChild(photoItem);
+        }
+
+        // VİDEO EKLE
+        function addVideoToGallery(video) {
+            const videoGrid = document.getElementById('videoGrid');
+            const videoItem = createVideoItem(video);
+            videoGrid.appendChild(videoItem);
+        }
+
+        // FOTOĞRAF ITEM OLUŞTUR
+        function createPhotoItem(photo) {
+            const item = document.createElement('div');
+            item.className = 'photo-item';
+            item.innerHTML = `
                 <img src="${photo.url}" alt="${photo.title}" 
                      onerror="this.src='https://via.placeholder.com/300x200/667eea/white?text=Resim+Yükleniyor'">
                 <div class="photo-title">${photo.title}</div>
                 <div class="photo-location">📍 ${photo.location}</div>
                 <div class="photo-date">📅 ${photo.date}</div>
             `;
+            return item;
+        }
+
+        // VİDEO ITEM OLUŞTUR
+        function createVideoItem(video) {
+            const item = document.createElement('div');
+            item.className = 'video-item';
+            item.innerHTML = `
+                <iframe src="${video.url}" 
+                        title="${video.title}"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                </iframe>
+                <div class="video-title">${video.title}</div>
+                <div class="video-location">📍 ${video.location}</div>
+                <div class="video-date">📅 ${video.date}</div>
+            `;
+            return item;
+        }
+
+        // LOCALSTORAGE'A KAYDET
+        function saveToLocalStorage(media) {
+            const key = media.type === 'photo' ? 'zulkarniPhotos' : 'zulkarniVideos';
+            const existing = JSON.parse(localStorage.getItem(key)) || [];
+            existing.push(media);
+            localStorage.setItem(key, JSON.stringify(existing));
+        }
+
+        // GALERİYİ YÜKLE
+        function loadGallery() {
+            loadPhotos();
+            loadVideos();
+        }
+
+        // FOTOĞRAFLARI YÜKLE
+        function loadPhotos() {
+            const photos = JSON.parse(localStorage.getItem('zulkarniPhotos')) || [];
+            const photoGrid = document.getElementById('photoGrid');
+            photoGrid.innerHTML = '';
             
-            photoGrid.insertBefore(photoItem, photoGrid.firstChild);
+            photos.forEach(photo => {
+                photoGrid.appendChild(createPhotoItem(photo));
+            });
+        }
+
+        // VİDEOLARI YÜKLE
+        function loadVideos() {
+            const videos = JSON.parse(localStorage.getItem('zulkarniVideos')) || [];
+            const videoGrid = document.getElementById('videoGrid');
+            videoGrid.innerHTML = '';
+            
+            videos.forEach(video => {
+                videoGrid.appendChild(createVideoItem(video));
+            });
         }
 
         // FORM TEMİZLE
         function resetForm() {
-            document.getElementById('photoTitle').value = '';
-            document.getElementById('photoLocation').value = '';
-            document.getElementById('photoDate').value = '';
+            document.getElementById('mediaTitle').value = '';
+            document.getElementById('mediaLocation').value = '';
+            document.getElementById('mediaDate').value = '';
+            document.getElementById('videoLink').value = '';
             
             const uploadArea = document.querySelector('.upload-area');
             uploadArea.innerHTML = '<p>📁 Resmi buraya sürükle veya tıkla</p>';
@@ -296,34 +553,26 @@
             document.getElementById('photoInput').value = '';
         }
 
+        // TAB DEĞİŞTİR
+        function showTab(tabName) {
+            document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+            document.getElementById('photoGallery').style.display = 'none';
+            document.getElementById('videoGallery').style.display = 'none';
+            
+            if (tabName === 'photos') {
+                document.querySelector('[onclick="showTab(\'photos\')"]').classList.add('active');
+                document.getElementById('photoGallery').style.display = 'block';
+            } else {
+                document.querySelector('[onclick="showTab(\'videos\')"]').classList.add('active');
+                document.getElementById('videoGallery').style.display = 'block';
+            }
+        }
+
         // TARİH FORMATLA
         function formatDate(dateString) {
             const date = new Date(dateString);
             return date.toLocaleDateString('tr-TR');
         }
-
-        // SAYFA YÜKLENİNCE ÖRNEK RESİMLER GÖSTER
-        document.addEventListener('DOMContentLoaded', function() {
-            // Örnek resimler - gerçekte Cloudinary'den gelecek
-            const samplePhotos = [
-                {
-                    url: 'profile.jpg',
-                    title: 'Profil Fotoğrafı',
-                    location: 'Türkiye',
-                    date: '03.11.2025'
-                },
-                {
-                    url: 'z1.jfif', 
-                    title: 'Doğa Manzarası',
-                    location: 'Türkiye',
-                    date: '02.11.2025'
-                }
-            ];
-
-            samplePhotos.forEach(photo => {
-                addPhotoToGallery(photo);
-            });
-        });
     </script>
 </body>
 </html>
