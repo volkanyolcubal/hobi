@@ -28,21 +28,6 @@
             z-index: 1000;
         }
         
-        .profile-header {
-            position: fixed;
-            top: 20px;
-            left: 20px;
-            z-index: 1000;
-        }
-        .profile-img {
-            width: 80px;
-            height: 80px;
-            border-radius: 50%;
-            border: 3px solid white;
-            background: #ccc url('profile.jpg') center/cover;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-        }
-        
         .container { 
             max-width: 1400px; 
             margin: 0 auto; 
@@ -63,127 +48,13 @@
             text-shadow: 2px 2px 4px rgba(0,0,0,0.3); 
         }
         
-        .gallery-tabs {
-            display: flex;
-            justify-content: center;
-            margin-bottom: 30px;
-            gap: 10px;
-        }
-        
-        .tab-btn {
-            background: rgba(255,255,255,0.2);
-            border: none;
-            padding: 12px 25px;
-            border-radius: 25px;
-            color: white;
-            font-weight: bold;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-        
-        .tab-btn.active {
-            background: #FFD700;
-            color: #333;
-        }
-        
-        .photo-gallery, .video-gallery {
+        .upload-form {
             background: rgba(255,255,255,0.1);
             padding: 30px;
             border-radius: 20px;
             backdrop-filter: blur(10px);
-            margin-bottom: 30px;
-        }
-        
-        .video-gallery {
-            display: none;
-        }
-        
-        .gallery-title {
-            text-align: center;
-            font-size: 2rem;
-            margin-bottom: 30px;
-            color: #FFD700;
-        }
-        
-        .photo-grid, .video-grid { 
-            display: grid; 
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
-            gap: 20px; 
-        }
-        
-        .photo-item, .video-item { 
-            background: rgba(255,255,255,0.1);
-            border-radius: 12px;
-            padding: 15px;
-            text-align: center;
-            transition: all 0.3s ease;
-            cursor: pointer;
-        }
-        
-        .photo-item:hover, .video-item:hover {
-            transform: scale(1.05);
-            background: rgba(255,255,255,0.2);
-        }
-        
-        .photo-item img { 
-            width: 100%; 
-            height: 150px; 
-            object-fit: cover; 
-            border-radius: 8px;
-            margin-bottom: 10px;
-        }
-        
-        .video-item iframe {
-            width: 100%;
-            height: 150px;
-            border-radius: 8px;
-            border: none;
-        }
-        
-        .video-item {
-            position: relative;
-        }
-        
-        .photo-title, .video-title {
-            font-weight: bold;
-            margin-bottom: 5px;
-            color: #FFD700;
-        }
-        
-        .photo-location, .photo-date, .video-location, .video-date {
-            font-size: 0.8rem;
-            opacity: 0.8;
-            margin-bottom: 3px;
-        }
-        
-        .admin-panel {
-            display: none;
-            background: rgba(0,0,0,0.9);
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 2000;
-            padding: 20px;
-            overflow-y: auto;
-        }
-        
-        .admin-header {
-            text-align: center;
-            margin-bottom: 30px;
-            padding: 20px;
-            background: rgba(255,255,255,0.1);
-            border-radius: 15px;
-        }
-        
-        .admin-form {
-            background: rgba(255,255,255,0.1);
-            padding: 30px;
-            border-radius: 15px;
-            max-width: 600px;
-            margin: 0 auto;
-            backdrop-filter: blur(10px);
+            max-width: 500px;
+            margin: 0 auto 40px;
         }
         
         .form-group {
@@ -197,18 +68,13 @@
             color: #FFD700;
         }
         
-        .form-group input, .form-group textarea, .form-group select {
+        .form-group input, .form-group textarea {
             width: 100%;
             padding: 12px;
             border: none;
             border-radius: 8px;
             background: rgba(255,255,255,0.9);
             font-size: 1rem;
-        }
-        
-        .form-group textarea {
-            height: 100px;
-            resize: vertical;
         }
         
         .upload-area {
@@ -225,698 +91,238 @@
             background: rgba(76, 175, 80, 0.1);
         }
         
-        .upload-area.has-file {
-            background: rgba(76, 175, 80, 0.2);
-            border-color: #45a049;
-        }
-        
-        .video-link-area {
-            border: 2px dashed #ff6b6b;
-            padding: 20px;
-            text-align: center;
-            border-radius: 10px;
-            margin-bottom: 20px;
-            background: rgba(255,107,107,0.1);
-        }
-        
-        .action-buttons {
-            display: flex;
-            gap: 15px;
-            margin-top: 30px;
-        }
-        
-        .btn {
-            padding: 15px 25px;
-            border: none;
-            border-radius: 8px;
-            font-size: 1rem;
-            font-weight: bold;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            flex: 1;
-        }
-        
-        .btn-primary {
+        .submit-btn {
             background: #4CAF50;
             color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+            transition: all 0.3s ease;
         }
         
-        .btn-primary:hover {
+        .submit-btn:hover {
             background: #45a049;
         }
         
-        .btn-secondary {
-            background: #ff6b6b;
-            color: white;
-        }
-        
-        .btn-secondary:hover {
-            background: #ff5252;
-        }
-        
-        .admin-list {
-            margin-top: 30px;
+        .gallery {
             background: rgba(255,255,255,0.1);
-            padding: 20px;
-            border-radius: 15px;
-        }
-        
-        .admin-item {
-            background: rgba(255,255,255,0.1);
-            padding: 15px;
-            margin-bottom: 10px;
-            border-radius: 8px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        
-        .media-type {
-            background: #667eea;
-            color: white;
-            padding: 3px 8px;
-            border-radius: 12px;
-            font-size: 0.7rem;
-            margin-left: 10px;
-        }
-        
-        .delete-btn {
-            background: #ff6b6b;
-            color: white;
-            border: none;
-            padding: 5px 10px;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        
-        .media-modal {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0,0,0,0.95);
-            z-index: 2000;
-            justify-content: center;
-            align-items: center;
-            padding: 20px;
-        }
-        
-        .modal-content {
-            max-width: 90%;
-            max-height: 90vh;
-            text-align: center;
-        }
-        
-        .modal-image {
-            max-width: 100%;
-            max-height: 70vh;
-            border-radius: 15px;
-            margin-bottom: 20px;
-        }
-        
-        .modal-video {
-            width: 80%;
-            height: 70vh;
-            border-radius: 15px;
-            border: none;
-        }
-        
-        .modal-details {
-            color: white;
-            background: rgba(255,255,255,0.1);
-            padding: 20px;
-            border-radius: 10px;
+            padding: 30px;
+            border-radius: 20px;
             backdrop-filter: blur(10px);
-            max-width: 500px;
-            margin: 0 auto;
         }
         
-        .modal-close {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            background: #ff6b6b;
-            color: white;
-            border: none;
-            padding: 12px 18px;
-            border-radius: 8px;
-            cursor: pointer;
-            font-weight: bold;
+        .photo-grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+            gap: 20px; 
         }
-
-        .instructions {
+        
+        .photo-item { 
             background: rgba(255,255,255,0.1);
+            border-radius: 12px;
             padding: 15px;
-            border-radius: 10px;
-            margin-top: 10px;
-            font-size: 0.9rem;
-        }
-
-        .profile-upload {
-            border: 2px dashed #667eea;
-            padding: 20px;
             text-align: center;
-            border-radius: 10px;
-            margin-bottom: 20px;
-            background: rgba(102,126,234,0.1);
-            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .photo-item img { 
+            width: 100%; 
+            height: 200px; 
+            object-fit: cover; 
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        
+        .photo-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #FFD700;
+        }
+        
+        .photo-location, .photo-date {
+            font-size: 0.9rem;
+            opacity: 0.8;
+            margin-bottom: 3px;
         }
     </style>
 </head>
 <body>
-    <button class="admin-btn" onclick="showAdminLogin()">🔧 Admin</button>
-
-    <div class="profile-header">
-        <div class="profile-img"></div>
-    </div>
-
     <div class="container">
         <div class="header">
             <h1>📸 Zülkarni Sezer</h1>
-            <p>Fotoğraf ve video galerime hoş geldiniz!</p>
+            <p>Fotoğraf galerime hoş geldiniz! Resim yükleyin, tüm dünya görsün! 🌍</p>
         </div>
 
-        <div class="gallery-tabs">
-            <button class="tab-btn active" onclick="showTab('photos')">📷 Fotoğraflar</button>
-            <button class="tab-btn" onclick="showTab('videos')">🎥 Videolar</button>
-        </div>
-
-        <div class="photo-gallery" id="photoGallery">
-            <h2 class="gallery-title">🎨 Fotoğraf Koleksiyonum</h2>
-            <div class="photo-grid" id="photoGrid"></div>
-        </div>
-
-        <div class="video-gallery" id="videoGallery">
-            <h2 class="gallery-title">🎬 Video Koleksiyonum</h2>
-            <div class="video-grid" id="videoGrid"></div>
-        </div>
-    </div>
-
-    <div id="mediaModal" class="media-modal">
-        <button class="modal-close" onclick="closeModal()">✖ Kapat</button>
-        <div class="modal-content">
-            <img id="modalImage" class="modal-image" src="" alt="Fotoğraf" style="display: none;">
-            <iframe id="modalVideo" class="modal-video" style="display: none;" allowfullscreen></iframe>
-            <div class="modal-details">
-                <div id="modalTitle" class="photo-title"></div>
-                <div id="modalLocation" class="photo-location"></div>
-                <div id="modalDate" class="photo-date"></div>
-                <div id="modalDescription"></div>
-            </div>
-        </div>
-    </div>
-
-    <div id="adminPanel" class="admin-panel">
-        <div class="admin-header">
-            <h2>🔧 Admin Panel - Medya Yönetimi</h2>
-        </div>
-
-        <div class="admin-form">
-            <h3>👤 Profil Fotoğrafı</h3>
-            <div class="profile-upload" onclick="document.getElementById('profilePhotoInput').click()">
-                <p>📷 Profil fotoğrafını değiştirmek için tıkla</p>
-                <input type="file" id="profilePhotoInput" accept="image/*" style="display: none;">
-            </div>
-
-            <h3>📤 Yeni Medya Ekle</h3>
+        <!-- YÜKLEME FORMU -->
+        <div class="upload-form">
+            <h2 style="text-align: center; margin-bottom: 20px; color: #FFD700;">📤 Resim Yükle</h2>
             
-            <div class="form-group">
-                <label>📋 Medya Türü</label>
-                <select id="mediaType" onchange="toggleMediaType()">
-                    <option value="photo">📷 Fotoğraf Yükle</option>
-                    <option value="video">🎥 Video Linki Ekle</option>
-                </select>
+            <div class="upload-area" onclick="document.getElementById('photoInput').click()">
+                <p>📁 Resmi buraya sürükle veya tıkla</p>
+                <input type="file" id="photoInput" accept="image/*" style="display: none;">
             </div>
             
-            <!-- FOTOĞRAF YÜKLEME ALANI -->
-            <div id="photoUploadArea">
-                <div class="upload-area" id="uploadArea" onclick="triggerFileInput()">
-                    <p>📁 Resmi sürükle bırak VEYA tıkla</p>
-                    <input type="file" id="fileInput" accept="image/*" style="display: none;">
-                </div>
-            </div>
-            
-            <!-- VİDEO LİNK ALANI -->
-            <div id="videoLinkArea" style="display: none;">
-                <div class="video-link-area">
-                    <p>🎥 YouTube Video Linki</p>
-                    <input type="text" id="videoLink" placeholder="https://www.youtube.com/watch?v=..." class="form-group" style="margin-top: 10px;">
-                    
-                    <div class="instructions">
-                        <strong>📹 Nasıl Video Eklerim?</strong><br>
-                        1. YouTube'da videoyu aç<br>
-                        2. "Paylaş" butonuna tıkla<br>
-                        3. "Bağlantıyı kopyala"ya tıkla<br>
-                        4. Linki buraya yapıştır<br>
-                        <br>
-                        <strong>Örnek Linkler:</strong><br>
-                        • https://www.youtube.com/watch?v=dQw4w9WgXcQ<br>
-                        • https://youtu.be/dQw4w9WgXcQ
-                    </div>
-                </div>
-            </div>
-
             <div class="form-group">
                 <label>📝 Başlık</label>
-                <input type="text" id="mediaTitle" placeholder="Örnek: İstanbul Manzarası">
+                <input type="text" id="photoTitle" placeholder="Örnek: İstanbul Manzarası">
             </div>
 
             <div class="form-group">
                 <label>📍 Çekim Yeri</label>
-                <input type="text" id="mediaLocation" placeholder="Örnek: İstanbul, Türkiye">
+                <input type="text" id="photoLocation" placeholder="Örnek: İstanbul, Türkiye">
             </div>
 
             <div class="form-group">
                 <label>📅 Çekim Tarihi</label>
-                <input type="date" id="mediaDate">
+                <input type="date" id="photoDate">
             </div>
 
-            <div class="form-group">
-                <label>📖 Açıklama</label>
-                <textarea id="mediaDescription" placeholder="Medya hakkında kısa bilgi..."></textarea>
-            </div>
-
-            <div class="action-buttons">
-                <button class="btn btn-primary" onclick="addMedia()">✅ Medyayı Ekle</button>
-                <button class="btn btn-secondary" onclick="hideAdminPanel()">❌ Çıkış</button>
-            </div>
+            <button class="submit-btn" onclick="uploadPhoto()">🚀 Resmi Dünyaya Yükle!</button>
         </div>
 
-        <div class="admin-list">
-            <h3>📋 Mevcut Medyalar</h3>
-            <div id="adminMediaList"></div>
+        <!-- GALERİ -->
+        <div class="gallery">
+            <h2 style="text-align: center; margin-bottom: 30px; color: #FFD700;">🌍 Dünya Galerisi</h2>
+            <div class="photo-grid" id="photoGrid">
+                <!-- RESİMLER BURAYA GELECEK -->
+            </div>
         </div>
     </div>
 
     <script>
-        const ADMIN_PASSWORD = "inceğiz1234";
-        let photos = JSON.parse(localStorage.getItem('zulkarniPhotos')) || [];
-        let videos = JSON.parse(localStorage.getItem('zulkarniVideos')) || [];
-        let selectedFile = null;
+        // CLOUDINARY AYARLARI (ÜCRETSİZ HESAP)
+        const CLOUDINARY_URL = 'https://api.cloudinary.com/v1_1/demo/image/upload';
+        const UPLOAD_PRESET = 'ml_default'; // Ücretsiz preset
 
-        // SAYFA YÜKLENİNCE
-        document.addEventListener('DOMContentLoaded', function() {
-            loadPhotos();
-            loadVideos();
-            setupEventListeners();
-            loadProfilePhoto();
+        let currentPhoto = null;
+
+        // DOSYA SEÇİLDİĞİNDE
+        document.getElementById('photoInput').addEventListener('change', function(event) {
+            const file = event.target.files[0];
+            if (file && file.type.startsWith('image/')) {
+                currentPhoto = file;
+                const uploadArea = document.querySelector('.upload-area');
+                uploadArea.innerHTML = `
+                    <p>✅ Resim seçildi:</p>
+                    <p><strong>${file.name}</strong></p>
+                    <p><small>Yeniden seçmek için tıkla</small></p>
+                `;
+                uploadArea.style.background = 'rgba(76, 175, 80, 0.2)';
+            }
         });
 
-        // PROFİL FOTOĞRAFINI YÜKLE
-        function loadProfilePhoto() {
-            const savedProfilePhoto = localStorage.getItem('zulkarniProfilePhoto');
-            if (savedProfilePhoto) {
-                const profileImg = document.querySelector('.profile-img');
-                profileImg.style.backgroundImage = `url('${savedProfilePhoto}')`;
-            }
-        }
+        // RESİM YÜKLE
+        async function uploadPhoto() {
+            const title = document.getElementById('photoTitle').value.trim();
+            const location = document.getElementById('photoLocation').value.trim();
+            const date = document.getElementById('photoDate').value;
 
-        // EVENT LISTENER'LARI AYARLA
-        function setupEventListeners() {
-            const fileInput = document.getElementById('fileInput');
-            const uploadArea = document.getElementById('uploadArea');
-            const profilePhotoInput = document.getElementById('profilePhotoInput');
-            
-            // File input değiştiğinde
-            fileInput.addEventListener('change', handleFileSelect);
-            
-            // Profil fotoğrafı değiştiğinde
-            profilePhotoInput.addEventListener('change', function(event) {
-                const file = event.target.files[0];
-                if (file && file.type.startsWith('image/')) {
-                    const reader = new FileReader();
-                    reader.onload = function(e) {
-                        const profileImg = document.querySelector('.profile-img');
-                        profileImg.style.backgroundImage = `url('${e.target.result}')`;
-                        localStorage.setItem('zulkarniProfilePhoto', e.target.result);
-                        alert('✅ Profil fotoğrafı güncellendi!');
-                    };
-                    reader.readAsDataURL(file);
-                }
-            });
-            
-            // Drag and drop
-            uploadArea.addEventListener('dragover', function(e) {
-                e.preventDefault();
-                uploadArea.classList.add('dragover');
-            });
-            
-            uploadArea.addEventListener('dragleave', function() {
-                uploadArea.classList.remove('dragover');
-            });
-            
-            uploadArea.addEventListener('drop', function(e) {
-                e.preventDefault();
-                uploadArea.classList.remove('dragover');
-                const files = e.dataTransfer.files;
-                if (files.length > 0) {
-                    handleFileSelect({ target: { files: files } });
-                }
-            });
-        }
-
-        // DOSYA GİRİŞİNİ TETİKLE
-        function triggerFileInput() {
-            document.getElementById('fileInput').click();
-        }
-
-        // DOSYA SEÇİMİ
-        function handleFileSelect(event) {
-            const file = event.target.files[0];
-            if (!file) return;
-            
-            const isImage = file.type.startsWith('image/');
-            
-            if (isImage) {
-                selectedFile = file;
-                const reader = new FileReader();
-                
-                reader.onload = function(e) {
-                    const uploadArea = document.getElementById('uploadArea');
-                    uploadArea.classList.add('has-file');
-                    uploadArea.innerHTML = `
-                        <p>✅ Resim seçildi:</p>
-                        <p><strong>${file.name}</strong></p>
-                        <img src="${e.target.result}" style="max-width: 100px; max-height: 100px; border-radius: 5px; margin-top: 10px;">
-                        <br><small>Yeniden seçmek için tıkla</small>
-                    `;
-                    
-                    // Yeni tıklama eventi ekle
-                    uploadArea.onclick = triggerFileInput;
-                };
-                
-                reader.readAsDataURL(file);
-            } else {
-                alert('❌ Lütfen sadece resim dosyası seçin!');
-                event.target.value = '';
-            }
-        }
-
-        // MEDYA TÜRÜ DEĞİŞTİĞİNDE
-        function toggleMediaType() {
-            const currentMediaType = document.getElementById('mediaType').value;
-            const photoUploadArea = document.getElementById('photoUploadArea');
-            const videoLinkArea = document.getElementById('videoLinkArea');
-            
-            if (currentMediaType === 'photo') {
-                photoUploadArea.style.display = 'block';
-                videoLinkArea.style.display = 'none';
-                resetForm();
-            } else {
-                photoUploadArea.style.display = 'none';
-                videoLinkArea.style.display = 'block';
-                resetForm();
-            }
-        }
-
-        // YOUTUBE LINKINI EMBED LINKINE ÇEVİR
-        function convertToEmbedUrl(url) {
-            // YouTube watch linki
-            if (url.includes('youtube.com/watch?v=')) {
-                const videoId = url.split('v=')[1]?.split('&')[0];
-                return `https://www.youtube.com/embed/${videoId}`;
-            }
-            // YouTube kısa link
-            else if (url.includes('youtu.be/')) {
-                const videoId = url.split('youtu.be/')[1]?.split('?')[0];
-                return `https://www.youtube.com/embed/${videoId}`;
-            }
-            // Zaten embed linki
-            else if (url.includes('youtube.com/embed/')) {
-                return url;
-            }
-            // Desteklenmeyen format
-            else {
-                return null;
-            }
-        }
-
-        // MEDYA EKLE
-        function addMedia() {
-            const currentMediaType = document.getElementById('mediaType').value;
-            const title = document.getElementById('mediaTitle').value.trim();
-            const location = document.getElementById('mediaLocation').value.trim();
-            const date = document.getElementById('mediaDate').value;
-            const description = document.getElementById('mediaDescription').value.trim();
-            
-            if (!title || !location || !date) {
-                alert('❌ Lütfen başlık, yer ve tarih bilgilerini doldurun!');
+            if (!currentPhoto) {
+                alert('❌ Lütfen önce bir resim seçin!');
                 return;
             }
-            
-            if (currentMediaType === 'photo') {
-                // FOTOĞRAF EKLE
-                if (!selectedFile) {
-                    alert('❌ Önce bir resim seçin!');
-                    return;
-                }
+
+            if (!title || !location || !date) {
+                alert('❌ Lütfen tüm bilgileri doldurun!');
+                return;
+            }
+
+            try {
+                // CLOUDINARY'E YÜKLE
+                const formData = new FormData();
+                formData.append('file', currentPhoto);
+                formData.append('upload_preset', UPLOAD_PRESET);
+
+                const response = await fetch(CLOUDINARY_URL, {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const data = await response.json();
                 
-                const reader = new FileReader();
-                reader.onload = function(e) {
-                    const newPhoto = {
-                        id: Date.now().toString(),
-                        url: e.target.result,
+                if (data.secure_url) {
+                    // RESMİ GALERİYE EKLE
+                    addPhotoToGallery({
+                        url: data.secure_url,
                         title: title,
                         location: location,
-                        date: formatDate(date),
-                        description: description,
-                        type: 'photo'
-                    };
+                        date: formatDate(date)
+                    });
                     
-                    photos.push(newPhoto);
-                    localStorage.setItem('zulkarniPhotos', JSON.stringify(photos));
-                    loadPhotos();
+                    alert('🎉 Resim tüm dünyaya yüklendi! 🌍');
                     resetForm();
-                    updateAdminList();
-                    alert('✅ Fotoğraf başarıyla eklendi!');
-                };
-                reader.readAsDataURL(selectedFile);
-                
-            } else {
-                // VİDEO LİNK EKLE
-                const videoLink = document.getElementById('videoLink').value.trim();
-                if (!videoLink) {
-                    alert('❌ Lütfen YouTube video linkini girin!');
-                    return;
+                } else {
+                    throw new Error('Yükleme başarısız');
                 }
-                
-                // YouTube linkini embed formatına çevir
-                const embedUrl = convertToEmbedUrl(videoLink);
-                if (!embedUrl) {
-                    alert('❌ Geçersiz YouTube linki! Lütfen YouTube video linki girin.\n\nÖrnek: https://www.youtube.com/watch?v=... veya https://youtu.be/...');
-                    return;
-                }
-                
-                const newVideo = {
-                    id: Date.now().toString(),
-                    url: embedUrl,
-                    title: title,
-                    location: location,
-                    date: formatDate(date),
-                    description: description,
-                    type: 'video'
-                };
-                
-                videos.push(newVideo);
-                localStorage.setItem('zulkarniVideos', JSON.stringify(videos));
-                loadVideos();
-                resetForm();
-                updateAdminList();
-                alert('✅ Video başarıyla eklendi!');
+
+            } catch (error) {
+                console.error('Yükleme hatası:', error);
+                alert('❌ Yükleme başarısız! Lütfen tekrar deneyin.');
             }
+        }
+
+        // GALERİYE RESİM EKLE
+        function addPhotoToGallery(photo) {
+            const photoGrid = document.getElementById('photoGrid');
+            
+            const photoItem = document.createElement('div');
+            photoItem.className = 'photo-item';
+            photoItem.innerHTML = `
+                <img src="${photo.url}" alt="${photo.title}" 
+                     onerror="this.src='https://via.placeholder.com/300x200/667eea/white?text=Resim+Yükleniyor'">
+                <div class="photo-title">${photo.title}</div>
+                <div class="photo-location">📍 ${photo.location}</div>
+                <div class="photo-date">📅 ${photo.date}</div>
+            `;
+            
+            photoGrid.insertBefore(photoItem, photoGrid.firstChild);
         }
 
         // FORM TEMİZLE
         function resetForm() {
-            document.getElementById('mediaTitle').value = '';
-            document.getElementById('mediaLocation').value = '';
-            document.getElementById('mediaDate').value = '';
-            document.getElementById('mediaDescription').value = '';
-            document.getElementById('videoLink').value = '';
+            document.getElementById('photoTitle').value = '';
+            document.getElementById('photoLocation').value = '';
+            document.getElementById('photoDate').value = '';
             
-            const uploadArea = document.getElementById('uploadArea');
-            uploadArea.innerHTML = '<p>📁 Resmi sürükle bırak VEYA tıkla</p>';
-            uploadArea.classList.remove('has-file');
+            const uploadArea = document.querySelector('.upload-area');
+            uploadArea.innerHTML = '<p>📁 Resmi buraya sürükle veya tıkla</p>';
+            uploadArea.style.background = '';
             
-            selectedFile = null;
-            document.getElementById('fileInput').value = '';
+            currentPhoto = null;
+            document.getElementById('photoInput').value = '';
         }
 
-        // FOTOĞRAFLARI YÜKLE
-        function loadPhotos() {
-            const photoGrid = document.getElementById('photoGrid');
-            photoGrid.innerHTML = '';
-            
-            if (photos.length === 0) {
-                photoGrid.innerHTML = '<p style="text-align: center; grid-column: 1/-1;">Henüz fotoğraf eklenmemiş</p>';
-                return;
-            }
-            
-            photos.forEach((photo, index) => {
-                const photoItem = document.createElement('div');
-                photoItem.className = 'photo-item';
-                photoItem.innerHTML = `
-                    <img src="${photo.url}" alt="${photo.title}" 
-                         onerror="this.src='z1.jfif'">
-                    <div class="photo-title">${photo.title}</div>
-                    <div class="photo-location">📍 ${photo.location}</div>
-                    <div class="photo-date">📅 ${photo.date}</div>
-                `;
-                photoItem.onclick = () => showLargeMedia('photo', index);
-                photoGrid.appendChild(photoItem);
-            });
-        }
-
-        // VİDEOLARI YÜKLE
-        function loadVideos() {
-            const videoGrid = document.getElementById('videoGrid');
-            videoGrid.innerHTML = '';
-            
-            if (videos.length === 0) {
-                videoGrid.innerHTML = '<p style="text-align: center; grid-column: 1/-1;">Henüz video eklenmemiş</p>';
-                return;
-            }
-            
-            videos.forEach((video, index) => {
-                const videoItem = document.createElement('div');
-                videoItem.className = 'video-item';
-                videoItem.innerHTML = `
-                    <iframe src="${video.url}" 
-                            title="${video.title}"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                            allowfullscreen>
-                    </iframe>
-                    <div class="video-title">${video.title}</div>
-                    <div class="video-location">📍 ${video.location}</div>
-                    <div class="video-date">📅 ${video.date}</div>
-                `;
-                videoItem.onclick = () => showLargeMedia('video', index);
-                videoGrid.appendChild(videoItem);
-            });
-        }
-
-        function showTab(tabName) {
-            document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
-            document.getElementById('photoGallery').style.display = 'none';
-            document.getElementById('videoGallery').style.display = 'none';
-            
-            if (tabName === 'photos') {
-                document.querySelector('[onclick="showTab(\'photos\')"]').classList.add('active');
-                document.getElementById('photoGallery').style.display = 'block';
-            } else {
-                document.querySelector('[onclick="showTab(\'videos\')"]').classList.add('active');
-                document.getElementById('videoGallery').style.display = 'block';
-            }
-        }
-
+        // TARİH FORMATLA
         function formatDate(dateString) {
             const date = new Date(dateString);
             return date.toLocaleDateString('tr-TR');
         }
 
-        function showLargeMedia(type, index) {
-            const media = type === 'photo' ? photos[index] : videos[index];
-            
-            document.getElementById('modalImage').style.display = 'none';
-            document.getElementById('modalVideo').style.display = 'none';
-            
-            if (type === 'photo') {
-                document.getElementById('modalImage').src = media.url;
-                document.getElementById('modalImage').style.display = 'block';
-            } else {
-                const modalVideo = document.getElementById('modalVideo');
-                modalVideo.src = media.url;
-                modalVideo.style.display = 'block';
-            }
-            
-            document.getElementById('modalTitle').textContent = media.title;
-            document.getElementById('modalLocation').textContent = `📍 ${media.location}`;
-            document.getElementById('modalDate').textContent = `📅 ${media.date}`;
-            document.getElementById('modalDescription').textContent = media.description || 'Açıklama yok';
-            document.getElementById('mediaModal').style.display = 'flex';
-        }
-
-        function closeModal() {
-            document.getElementById('mediaModal').style.display = 'none';
-            const modalVideo = document.getElementById('modalVideo');
-            if (modalVideo) {
-                modalVideo.src = '';
-            }
-        }
-
-        function updateAdminList() {
-            const adminList = document.getElementById('adminMediaList');
-            adminList.innerHTML = '';
-            
-            photos.forEach((photo, index) => {
-                const adminItem = document.createElement('div');
-                adminItem.className = 'admin-item';
-                adminItem.innerHTML = `
-                    <div>
-                        <strong>${photo.title}</strong>
-                        <span class="media-type">📷 Fotoğraf</span><br>
-                        <small>${photo.location} - ${photo.date}</small>
-                    </div>
-                    <button class="delete-btn" onclick="deleteMedia('photo', ${index})">🗑️ Sil</button>
-                `;
-                adminList.appendChild(adminItem);
-            });
-            
-            videos.forEach((video, index) => {
-                const adminItem = document.createElement('div');
-                adminItem.className = 'admin-item';
-                adminItem.innerHTML = `
-                    <div>
-                        <strong>${video.title}</strong>
-                        <span class="media-type">🎥 Video</span><br>
-                        <small>${video.location} - ${video.date}</small>
-                    </div>
-                    <button class="delete-btn" onclick="deleteMedia('video', ${index})">🗑️ Sil</button>
-                `;
-                adminList.appendChild(adminItem);
-            });
-        }
-
-        function deleteMedia(type, index) {
-            if (confirm('Bu medyayı silmek istediğinizden emin misiniz?')) {
-                if (type === 'photo') {
-                    photos.splice(index, 1);
-                    localStorage.setItem('zulkarniPhotos', JSON.stringify(photos));
-                    loadPhotos();
-                } else {
-                    videos.splice(index, 1);
-                    localStorage.setItem('zulkarniVideos', JSON.stringify(videos));
-                    loadVideos();
+        // SAYFA YÜKLENİNCE ÖRNEK RESİMLER GÖSTER
+        document.addEventListener('DOMContentLoaded', function() {
+            // Örnek resimler - gerçekte Cloudinary'den gelecek
+            const samplePhotos = [
+                {
+                    url: 'profile.jpg',
+                    title: 'Profil Fotoğrafı',
+                    location: 'Türkiye',
+                    date: '03.11.2025'
+                },
+                {
+                    url: 'z1.jfif', 
+                    title: 'Doğa Manzarası',
+                    location: 'Türkiye',
+                    date: '02.11.2025'
                 }
-                updateAdminList();
-            }
-        }
+            ];
 
-        function showAdminLogin() {
-            const password = prompt('🔐 Admin şifresini girin:');
-            if (password === ADMIN_PASSWORD) {
-                showAdminPanel();
-            } else if (password) {
-                alert('❌ Hatalı şifre!');
-            }
-        }
-
-        function showAdminPanel() {
-            document.getElementById('adminPanel').style.display = 'block';
-            updateAdminList();
-        }
-
-        function hideAdminPanel() {
-            document.getElementById('adminPanel').style.display = 'none';
-            resetForm();
-        }
-
-        document.addEventListener('keydown', (e) => {
-            if (document.getElementById('mediaModal').style.display === 'flex' && e.key === 'Escape') {
-                closeModal();
-            }
+            samplePhotos.forEach(photo => {
+                addPhotoToGallery(photo);
+            });
         });
     </script>
 </body>
