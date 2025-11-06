@@ -326,7 +326,7 @@
     <script>
         // CLOUDINARY AYARLARI - GERÇEK HESAP
         const CLOUDINARY_URL = 'https://api.cloudinary.com/v1_1/dcwucn0si/upload';
-        const UPLOAD_PRESET = 'zulkarni_preset'; // Cloudinary'de oluşturman gerekecek
+        const UPLOAD_PRESET = 'ml_default'; // DEMO PRESET - ÇALIŞIYOR
 
         // DİĞER AYARLAR
         const ADMIN_PASSWORD = "zulkarni123";
@@ -447,8 +447,7 @@
 
                 const formData = new FormData();
                 formData.append('file', currentPhoto);
-                formData.append('upload_preset', 'ml_default'); // Cloudinary'deki ücretsiz preset
-                formData.append('cloud_name', 'dcwucn0si');
+                formData.append('upload_preset', UPLOAD_PRESET);
 
                 const response = await fetch(CLOUDINARY_URL, {
                     method: 'POST',
@@ -477,7 +476,7 @@
                 }
             } catch (error) {
                 console.error('Yükleme hatası:', error);
-                alert('❌ Yükleme başarısız! Lütfen tekrar deneyin. Hata: ' + error.message);
+                alert('❌ Yükleme başarısız! Lütfen tekrar deneyin.');
             } finally {
                 // Loading gizle
                 document.getElementById('loading').style.display = 'none';
