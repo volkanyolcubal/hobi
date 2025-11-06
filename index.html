@@ -39,7 +39,7 @@
             height: 80px;
             border-radius: 50%;
             border: 3px solid white;
-            background: #ccc url('https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&h=200&q=80') center/cover;
+            background: #ccc url('profile.jpg') center/cover;
             box-shadow: 0 4px 15px rgba(0,0,0,0.3);
         }
         
@@ -759,7 +759,7 @@
                 photoItem.className = 'photo-item';
                 photoItem.innerHTML = `
                     <img src="${photo.url}" alt="${photo.title}" 
-                         onerror="this.src='https://via.placeholder.com/300x200/667eea/white?text=Resim+Yüklenemedi'">
+                         onerror="this.src='z1.jfif'">
                     <div class="photo-title">${photo.title}</div>
                     <div class="photo-location">📍 ${photo.location}</div>
                     <div class="photo-date">📅 ${photo.date}</div>
