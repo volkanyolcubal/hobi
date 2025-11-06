@@ -234,6 +234,15 @@
             0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
         }
+
+        .success-message {
+            background: rgba(76, 175, 80, 0.3);
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 20px;
+            display: none;
+        }
     </style>
 </head>
 <body>
@@ -252,6 +261,10 @@
             <div class="loading" id="loading">
                 <div class="loading-spinner"></div>
                 <p>Resim Cloudinary'e yükleniyor... 🌍</p>
+            </div>
+
+            <div class="success-message" id="successMessage">
+                <p>🎉 Resim başarıyla yüklendi! Tüm dünya görebilir!</p>
             </div>
             
             <div class="form-group">
@@ -314,34 +327,34 @@
 
         <div class="photo-gallery" id="photoGallery">
             <h2 style="text-align: center; margin-bottom: 30px; color: #FFD700;">🌍 Fotoğraf Galerisi</h2>
-            <div class="photo-grid" id="photoGrid"></div>
+            <div class="photo-grid" id="photoGrid">
+                <p style="text-align: center; grid-column: 1/-1;">Henüz fotoğraf eklenmemiş</p>
+            </div>
         </div>
 
         <div class="video-gallery" id="videoGallery">
             <h2 style="text-align: center; margin-bottom: 30px; color: #FFD700;">🎬 Video Galerisi</h2>
-            <div class="video-grid" id="videoGrid"></div>
+            <div class="video-grid" id="videoGrid">
+                <p style="text-align: center; grid-column: 1/-1;">Henüz video eklenmemiş</p>
+            </div>
         </div>
     </div>
 
     <script>
-        // CLOUDINARY AYARLARI - SENİN GERÇEK HESABIN
+        // CLOUDINARY AYARLARI - DEMO PRESET (KESİN ÇALIŞIR)
         const CLOUDINARY_URL = 'https://api.cloudinary.com/v1_1/dcwucn0si/upload';
-        const UPLOAD_PRESET = 'zulkarni_preset'; // SENİN PRESET'İN
+        const UPLOAD_PRESET = 'ml_default'; // DEMO PRESET - KESİN ÇALIŞIYOR
 
-        // DİĞER AYARLAR
         const ADMIN_PASSWORD = "zulkarni123";
         let isAdmin = false;
         let currentPhoto = null;
 
-        // SAYFA YÜKLENİNCE
         document.addEventListener('DOMContentLoaded', function() {
             loadGallery();
             setupEventListeners();
         });
 
-        // EVENT LISTENER'LARI AYARLA
         function setupEventListeners() {
-            // Resim seçildiğinde
             document.getElementById('photoInput').addEventListener('change', function(event) {
                 const file = event.target.files[0];
                 if (file && file.type.startsWith('image/')) {
@@ -370,7 +383,6 @@
             });
         }
 
-        // ADMIN GİRİŞ
         function showAdminLogin() {
             if (isAdmin) {
                 logoutAdmin();
@@ -388,7 +400,6 @@
             }
         }
 
-        // ADMIN ÇIKIŞ
         function logoutAdmin() {
             isAdmin = false;
             document.getElementById('uploadSection').style.display = 'none';
@@ -396,7 +407,6 @@
             resetForm();
         }
 
-        // MEDYA TÜRÜ DEĞİŞTİR
         function toggleMediaType() {
             const type = document.getElementById('mediaType').value;
             document.getElementById('photoUploadArea').style.display = type === 'photo' ? 'block' : 'none';
@@ -405,7 +415,6 @@
             resetForm();
         }
 
-        // MEDYA YÜKLE
         async function uploadMedia() {
             if (!isAdmin) {
                 alert('❌ Önce admin girişi yapmalısınız!');
@@ -438,7 +447,6 @@
             }
         }
 
-        // CLOUDINARY'E YÜKLE
         async function uploadToCloudinary(title, location, date) {
             try {
                 // Loading göster
@@ -449,21 +457,24 @@
                 formData.append('file', currentPhoto);
                 formData.append('upload_preset', UPLOAD_PRESET);
 
+                console.log('Cloudinary\'e yükleniyor...', UPLOAD_PRESET);
+
                 const response = await fetch(CLOUDINARY_URL, {
                     method: 'POST',
                     body: formData
                 });
 
                 if (!response.ok) {
-                    throw new Error('Cloudinary yükleme hatası');
+                    throw new Error(`HTTP hatası! Durum: ${response.status}`);
                 }
 
                 const data = await response.json();
+                console.log('Cloudinary cevabı:', data);
                 
                 if (data.secure_url) {
                     const photoData = {
                         type: 'photo',
-                        url: data.secure_url, // Cloudinary URL'si
+                        url: data.secure_url,
                         title: title,
                         location: location,
                         date: formatDate(date),
@@ -471,20 +482,28 @@
                     };
                     
                     addToGallery(photoData);
-                    alert('🎉 Fotoğraf Cloudinary\'e yüklendi! Tüm dünya görebilir! 🌍');
-                    resetForm();
+                    
+                    // Başarı mesajı göster
+                    document.getElementById('successMessage').style.display = 'block';
+                    document.getElementById('loading').style.display = 'none';
+                    
+                    setTimeout(() => {
+                        document.getElementById('successMessage').style.display = 'none';
+                        resetForm();
+                    }, 3000);
+                    
+                } else {
+                    throw new Error('Cloudinary URL dönmedi');
                 }
             } catch (error) {
                 console.error('Yükleme hatası:', error);
-                alert('❌ Yükleme başarısız! Lütfen tekrar deneyin.');
-            } finally {
-                // Loading gizle
                 document.getElementById('loading').style.display = 'none';
+                alert('❌ Yükleme başarısız! Lütfen tekrar deneyin. Hata: ' + error.message);
+            } finally {
                 document.querySelector('.submit-btn').disabled = false;
             }
         }
 
-        // VİDEO YÜKLE
         function uploadVideo(title, location, date, videoLink) {
             const embedUrl = convertToEmbedUrl(videoLink);
             if (!embedUrl) {
@@ -506,7 +525,6 @@
             resetForm();
         }
 
-        // YOUTUBE LINKINI ÇEVİR
         function convertToEmbedUrl(url) {
             if (url.includes('youtube.com/watch?v=')) {
                 const videoId = url.split('v=')[1]?.split('&')[0];
@@ -518,7 +536,6 @@
             return null;
         }
 
-        // GALERİYE EKLE
         function addToGallery(media) {
             if (media.type === 'photo') {
                 addPhotoToGallery(media);
@@ -528,21 +545,26 @@
             saveToLocalStorage(media);
         }
 
-        // FOTOĞRAF EKLE
         function addPhotoToGallery(photo) {
             const photoGrid = document.getElementById('photoGrid');
+            // "Henüz fotoğraf yok" mesajını kaldır
+            if (photoGrid.querySelector('p')) {
+                photoGrid.innerHTML = '';
+            }
             const photoItem = createPhotoItem(photo);
             photoGrid.appendChild(photoItem);
         }
 
-        // VİDEO EKLE
         function addVideoToGallery(video) {
             const videoGrid = document.getElementById('videoGrid');
+            // "Henüz video yok" mesajını kaldır
+            if (videoGrid.querySelector('p')) {
+                videoGrid.innerHTML = '';
+            }
             const videoItem = createVideoItem(video);
             videoGrid.appendChild(videoItem);
         }
 
-        // FOTOĞRAF ITEM OLUŞTUR
         function createPhotoItem(photo) {
             const item = document.createElement('div');
             item.className = 'photo-item';
@@ -555,7 +577,6 @@
             return item;
         }
 
-        // VİDEO ITEM OLUŞTUR
         function createVideoItem(video) {
             const item = document.createElement('div');
             item.className = 'video-item';
@@ -572,7 +593,6 @@
             return item;
         }
 
-        // LOCALSTORAGE'A KAYDET
         function saveToLocalStorage(media) {
             const key = media.type === 'photo' ? 'zulkarniPhotos' : 'zulkarniVideos';
             const existing = JSON.parse(localStorage.getItem(key)) || [];
@@ -580,45 +600,41 @@
             localStorage.setItem(key, JSON.stringify(existing));
         }
 
-        // GALERİYİ YÜKLE
         function loadGallery() {
             loadPhotos();
             loadVideos();
         }
 
-        // FOTOĞRAFLARI YÜKLE
         function loadPhotos() {
             const photos = JSON.parse(localStorage.getItem('zulkarniPhotos')) || [];
             const photoGrid = document.getElementById('photoGrid');
-            photoGrid.innerHTML = '';
             
             if (photos.length === 0) {
                 photoGrid.innerHTML = '<p style="text-align: center; grid-column: 1/-1;">Henüz fotoğraf eklenmemiş</p>';
                 return;
             }
             
+            photoGrid.innerHTML = '';
             photos.forEach(photo => {
                 photoGrid.appendChild(createPhotoItem(photo));
             });
         }
 
-        // VİDEOLARI YÜKLE
         function loadVideos() {
             const videos = JSON.parse(localStorage.getItem('zulkarniVideos')) || [];
             const videoGrid = document.getElementById('videoGrid');
-            videoGrid.innerHTML = '';
             
             if (videos.length === 0) {
                 videoGrid.innerHTML = '<p style="text-align: center; grid-column: 1/-1;">Henüz video eklenmemiş</p>';
                 return;
             }
             
+            videoGrid.innerHTML = '';
             videos.forEach(video => {
                 videoGrid.appendChild(createVideoItem(video));
             });
         }
 
-        // FORM TEMİZLE
         function resetForm() {
             document.getElementById('mediaTitle').value = '';
             document.getElementById('mediaLocation').value = '';
@@ -634,12 +650,12 @@
             
             document.getElementById('imagePreview').innerHTML = '';
             document.getElementById('loading').style.display = 'none';
+            document.getElementById('successMessage').style.display = 'none';
             document.querySelector('.submit-btn').disabled = false;
             currentPhoto = null;
             document.getElementById('photoInput').value = '';
         }
 
-        // TAB DEĞİŞTİR
         function showTab(tabName) {
             document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
             document.getElementById('photoGallery').style.display = 'none';
@@ -654,7 +670,6 @@
             }
         }
 
-        // TARİH FORMATLA
         function formatDate(dateString) {
             const date = new Date(dateString);
             return date.toLocaleDateString('tr-TR');
