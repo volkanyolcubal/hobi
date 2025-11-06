@@ -213,6 +213,27 @@
             border-radius: 8px;
             margin-top: 10px;
         }
+
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .loading-spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #4CAF50;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 2s linear infinite;
+            margin: 0 auto 10px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
     </style>
 </head>
 <body>
@@ -228,6 +249,11 @@
         <div class="upload-section" id="uploadSection">
             <h2 style="text-align: center; margin-bottom: 20px; color: #FFD700;">📤 Yeni Medya Ekle</h2>
             
+            <div class="loading" id="loading">
+                <div class="loading-spinner"></div>
+                <p>Resim Cloudinary'e yükleniyor... 🌍</p>
+            </div>
+            
             <div class="form-group">
                 <label>📋 Medya Türü</label>
                 <select id="mediaType" onchange="toggleMediaType()">
@@ -240,7 +266,7 @@
             <div id="photoUploadArea">
                 <div class="upload-area" id="uploadArea" onclick="document.getElementById('photoInput').click()">
                     <p>📁 Resmi buraya sürükle veya tıkla</p>
-                    <p><small>Resim doğrudan tarayıcına kaydedilir</small></p>
+                    <p><small>Resim Cloudinary'e yüklenecek 🌍</small></p>
                     <input type="file" id="photoInput" accept="image/*" style="display: none;">
                 </div>
                 <div id="imagePreview"></div>
@@ -277,7 +303,7 @@
                 <input type="date" id="mediaDate">
             </div>
 
-            <button class="submit-btn" onclick="uploadMedia()">🚀 Galeriye Ekle!</button>
+            <button class="submit-btn" onclick="uploadMedia()">🚀 Dünyaya Yayınla!</button>
         </div>
 
         <!-- GALERİ -->
@@ -298,7 +324,11 @@
     </div>
 
     <script>
-        // AYARLAR
+        // CLOUDINARY AYARLARI - GERÇEK HESAP
+        const CLOUDINARY_URL = 'https://api.cloudinary.com/v1_1/dcwucn0si/upload';
+        const UPLOAD_PRESET = 'zulkarni_preset'; // Cloudinary'de oluşturman gerekecek
+
+        // DİĞER AYARLAR
         const ADMIN_PASSWORD = "zulkarni123";
         let isAdmin = false;
         let currentPhoto = null;
@@ -325,7 +355,7 @@
                         uploadArea.innerHTML = `
                             <p>✅ Resim seçildi:</p>
                             <p><strong>${file.name}</strong></p>
-                            <p><small>Yeniden seçmek için tıkla</small></p>
+                            <p><small>Cloudinary'e yüklenecek 🌍</small></p>
                         `;
                         uploadArea.style.background = 'rgba(76, 175, 80, 0.2)';
                         
@@ -376,7 +406,7 @@
         }
 
         // MEDYA YÜKLE
-        function uploadMedia() {
+        async function uploadMedia() {
             if (!isAdmin) {
                 alert('❌ Önce admin girişi yapmalısınız!');
                 return;
@@ -397,7 +427,7 @@
                     alert('❌ Lütfen bir resim seçin!');
                     return;
                 }
-                uploadPhoto(title, location, date);
+                await uploadToCloudinary(title, location, date);
             } else {
                 const videoLink = document.getElementById('videoLink').value.trim();
                 if (!videoLink) {
@@ -408,26 +438,51 @@
             }
         }
 
-        // FOTOĞRAF YÜKLE
-        function uploadPhoto(title, location, date) {
-            const reader = new FileReader();
-            
-            reader.onload = function(e) {
-                const photoData = {
-                    type: 'photo',
-                    url: e.target.result, // Base64 formatında resim
-                    title: title,
-                    location: location,
-                    date: formatDate(date),
-                    id: Date.now().toString()
-                };
+        // CLOUDINARY'E YÜKLE
+        async function uploadToCloudinary(title, location, date) {
+            try {
+                // Loading göster
+                document.getElementById('loading').style.display = 'block';
+                document.querySelector('.submit-btn').disabled = true;
+
+                const formData = new FormData();
+                formData.append('file', currentPhoto);
+                formData.append('upload_preset', 'ml_default'); // Cloudinary'deki ücretsiz preset
+                formData.append('cloud_name', 'dcwucn0si');
+
+                const response = await fetch(CLOUDINARY_URL, {
+                    method: 'POST',
+                    body: formData
+                });
+
+                if (!response.ok) {
+                    throw new Error('Cloudinary yükleme hatası');
+                }
+
+                const data = await response.json();
                 
-                addToGallery(photoData);
-                alert('🎉 Fotoğraf galeriye eklendi!');
-                resetForm();
-            };
-            
-            reader.readAsDataURL(currentPhoto);
+                if (data.secure_url) {
+                    const photoData = {
+                        type: 'photo',
+                        url: data.secure_url, // Cloudinary URL'si
+                        title: title,
+                        location: location,
+                        date: formatDate(date),
+                        id: Date.now().toString()
+                    };
+                    
+                    addToGallery(photoData);
+                    alert('🎉 Fotoğraf Cloudinary\'e yüklendi! Tüm dünya görebilir! 🌍');
+                    resetForm();
+                }
+            } catch (error) {
+                console.error('Yükleme hatası:', error);
+                alert('❌ Yükleme başarısız! Lütfen tekrar deneyin. Hata: ' + error.message);
+            } finally {
+                // Loading gizle
+                document.getElementById('loading').style.display = 'none';
+                document.querySelector('.submit-btn').disabled = false;
+            }
         }
 
         // VİDEO YÜKLE
@@ -574,11 +629,13 @@
             const uploadArea = document.getElementById('uploadArea');
             uploadArea.innerHTML = `
                 <p>📁 Resmi buraya sürükle veya tıkla</p>
-                <p><small>Resim doğrudan tarayıcına kaydedilir</small></p>
+                <p><small>Resim Cloudinary'e yüklenecek 🌍</small></p>
             `;
             uploadArea.style.background = '';
             
             document.getElementById('imagePreview').innerHTML = '';
+            document.getElementById('loading').style.display = 'none';
+            document.querySelector('.submit-btn').disabled = false;
             currentPhoto = null;
             document.getElementById('photoInput').value = '';
         }
