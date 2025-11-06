@@ -206,6 +206,13 @@
             margin-top: 10px;
             font-size: 0.9rem;
         }
+
+        .preview-image {
+            max-width: 100%;
+            max-height: 150px;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body>
@@ -231,10 +238,12 @@
             
             <!-- FOTOĞRAF YÜKLEME -->
             <div id="photoUploadArea">
-                <div class="upload-area" onclick="document.getElementById('photoInput').click()">
+                <div class="upload-area" id="uploadArea" onclick="document.getElementById('photoInput').click()">
                     <p>📁 Resmi buraya sürükle veya tıkla</p>
+                    <p><small>Resim doğrudan tarayıcına kaydedilir</small></p>
                     <input type="file" id="photoInput" accept="image/*" style="display: none;">
                 </div>
+                <div id="imagePreview"></div>
             </div>
             
             <!-- VİDEO LİNK -->
@@ -268,7 +277,7 @@
                 <input type="date" id="mediaDate">
             </div>
 
-            <button class="submit-btn" onclick="uploadMedia()">🚀 Dünyaya Yayınla!</button>
+            <button class="submit-btn" onclick="uploadMedia()">🚀 Galeriye Ekle!</button>
         </div>
 
         <!-- GALERİ -->
@@ -291,16 +300,45 @@
     <script>
         // AYARLAR
         const ADMIN_PASSWORD = "zulkarni123";
-        const CLOUDINARY_URL = 'https://api.cloudinary.com/v1_1/demo/image/upload';
-        const UPLOAD_PRESET = 'ml_default';
-
-        let currentPhoto = null;
         let isAdmin = false;
+        let currentPhoto = null;
 
         // SAYFA YÜKLENİNCE
         document.addEventListener('DOMContentLoaded', function() {
             loadGallery();
+            setupEventListeners();
         });
+
+        // EVENT LISTENER'LARI AYARLA
+        function setupEventListeners() {
+            // Resim seçildiğinde
+            document.getElementById('photoInput').addEventListener('change', function(event) {
+                const file = event.target.files[0];
+                if (file && file.type.startsWith('image/')) {
+                    currentPhoto = file;
+                    const reader = new FileReader();
+                    
+                    reader.onload = function(e) {
+                        const uploadArea = document.getElementById('uploadArea');
+                        const imagePreview = document.getElementById('imagePreview');
+                        
+                        uploadArea.innerHTML = `
+                            <p>✅ Resim seçildi:</p>
+                            <p><strong>${file.name}</strong></p>
+                            <p><small>Yeniden seçmek için tıkla</small></p>
+                        `;
+                        uploadArea.style.background = 'rgba(76, 175, 80, 0.2)';
+                        
+                        imagePreview.innerHTML = `
+                            <p><strong>Önizleme:</strong></p>
+                            <img src="${e.target.result}" class="preview-image" alt="Önizleme">
+                        `;
+                    };
+                    
+                    reader.readAsDataURL(file);
+                }
+            });
+        }
 
         // ADMIN GİRİŞ
         function showAdminLogin() {
@@ -333,26 +371,12 @@
             const type = document.getElementById('mediaType').value;
             document.getElementById('photoUploadArea').style.display = type === 'photo' ? 'block' : 'none';
             document.getElementById('videoLinkArea').style.display = type === 'video' ? 'block' : 'none';
+            document.getElementById('imagePreview').innerHTML = '';
             resetForm();
         }
 
-        // DOSYA SEÇİLDİĞİNDE
-        document.getElementById('photoInput').addEventListener('change', function(event) {
-            const file = event.target.files[0];
-            if (file && file.type.startsWith('image/')) {
-                currentPhoto = file;
-                const uploadArea = document.querySelector('.upload-area');
-                uploadArea.innerHTML = `
-                    <p>✅ Resim seçildi:</p>
-                    <p><strong>${file.name}</strong></p>
-                    <p><small>Yeniden seçmek için tıkla</small></p>
-                `;
-                uploadArea.style.background = 'rgba(76, 175, 80, 0.2)';
-            }
-        });
-
         // MEDYA YÜKLE
-        async function uploadMedia() {
+        function uploadMedia() {
             if (!isAdmin) {
                 alert('❌ Önce admin girişi yapmalısınız!');
                 return;
@@ -373,65 +397,58 @@
                     alert('❌ Lütfen bir resim seçin!');
                     return;
                 }
-                await uploadPhoto(title, location, date);
+                uploadPhoto(title, location, date);
             } else {
                 const videoLink = document.getElementById('videoLink').value.trim();
                 if (!videoLink) {
                     alert('❌ Lütfen YouTube linkini girin!');
                     return;
                 }
-                await uploadVideo(title, location, date, videoLink);
+                uploadVideo(title, location, date, videoLink);
             }
         }
 
         // FOTOĞRAF YÜKLE
-        async function uploadPhoto(title, location, date) {
-            try {
-                const formData = new FormData();
-                formData.append('file', currentPhoto);
-                formData.append('upload_preset', UPLOAD_PRESET);
-
-                const response = await fetch(CLOUDINARY_URL, {
-                    method: 'POST',
-                    body: formData
-                });
-
-                const data = await response.json();
+        function uploadPhoto(title, location, date) {
+            const reader = new FileReader();
+            
+            reader.onload = function(e) {
+                const photoData = {
+                    type: 'photo',
+                    url: e.target.result, // Base64 formatında resim
+                    title: title,
+                    location: location,
+                    date: formatDate(date),
+                    id: Date.now().toString()
+                };
                 
-                if (data.secure_url) {
-                    addToGallery({
-                        type: 'photo',
-                        url: data.secure_url,
-                        title: title,
-                        location: location,
-                        date: formatDate(date)
-                    });
-                    
-                    alert('🎉 Fotoğraf tüm dünyaya yüklendi! 🌍');
-                    resetForm();
-                }
-            } catch (error) {
-                alert('❌ Yükleme başarısız! Lütfen tekrar deneyin.');
-            }
+                addToGallery(photoData);
+                alert('🎉 Fotoğraf galeriye eklendi!');
+                resetForm();
+            };
+            
+            reader.readAsDataURL(currentPhoto);
         }
 
         // VİDEO YÜKLE
-        async function uploadVideo(title, location, date, videoLink) {
+        function uploadVideo(title, location, date, videoLink) {
             const embedUrl = convertToEmbedUrl(videoLink);
             if (!embedUrl) {
                 alert('❌ Geçersiz YouTube linki!');
                 return;
             }
 
-            addToGallery({
+            const videoData = {
                 type: 'video',
                 url: embedUrl,
                 title: title,
                 location: location,
-                date: formatDate(date)
-            });
+                date: formatDate(date),
+                id: Date.now().toString()
+            };
 
-            alert('🎉 Video tüm dünyaya yüklendi! 🌍');
+            addToGallery(videoData);
+            alert('🎉 Video galeriye eklendi!');
             resetForm();
         }
 
@@ -476,8 +493,7 @@
             const item = document.createElement('div');
             item.className = 'photo-item';
             item.innerHTML = `
-                <img src="${photo.url}" alt="${photo.title}" 
-                     onerror="this.src='https://via.placeholder.com/300x200/667eea/white?text=Resim+Yükleniyor'">
+                <img src="${photo.url}" alt="${photo.title}">
                 <div class="photo-title">${photo.title}</div>
                 <div class="photo-location">📍 ${photo.location}</div>
                 <div class="photo-date">📅 ${photo.date}</div>
@@ -522,6 +538,11 @@
             const photoGrid = document.getElementById('photoGrid');
             photoGrid.innerHTML = '';
             
+            if (photos.length === 0) {
+                photoGrid.innerHTML = '<p style="text-align: center; grid-column: 1/-1;">Henüz fotoğraf eklenmemiş</p>';
+                return;
+            }
+            
             photos.forEach(photo => {
                 photoGrid.appendChild(createPhotoItem(photo));
             });
@@ -532,6 +553,11 @@
             const videos = JSON.parse(localStorage.getItem('zulkarniVideos')) || [];
             const videoGrid = document.getElementById('videoGrid');
             videoGrid.innerHTML = '';
+            
+            if (videos.length === 0) {
+                videoGrid.innerHTML = '<p style="text-align: center; grid-column: 1/-1;">Henüz video eklenmemiş</p>';
+                return;
+            }
             
             videos.forEach(video => {
                 videoGrid.appendChild(createVideoItem(video));
@@ -545,10 +571,14 @@
             document.getElementById('mediaDate').value = '';
             document.getElementById('videoLink').value = '';
             
-            const uploadArea = document.querySelector('.upload-area');
-            uploadArea.innerHTML = '<p>📁 Resmi buraya sürükle veya tıkla</p>';
+            const uploadArea = document.getElementById('uploadArea');
+            uploadArea.innerHTML = `
+                <p>📁 Resmi buraya sürükle veya tıkla</p>
+                <p><small>Resim doğrudan tarayıcına kaydedilir</small></p>
+            `;
             uploadArea.style.background = '';
             
+            document.getElementById('imagePreview').innerHTML = '';
             currentPhoto = null;
             document.getElementById('photoInput').value = '';
         }
