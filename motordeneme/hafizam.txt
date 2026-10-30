@@ -1,0 +1,690 @@
+
+============================================================
+TARIH: 04.10.2026 12:15:05
+TUR: GENEL KAYIT
+KAYIT
+Türkiye'nin başkenti Ankara'dır.
+
+============================================================
+TARIH: 04.10.2026 12:26:58
+TUR: GENEL KAYIT
+KAYIT
+2026 itibarıyla kuantum bilgisayar araştırmalarında önemli hedeflerden biri, hata düzeltmeli mantıksal kübitleri ölçeklendirmek ve kuantum hata düzeltmenin getirdiği ek yükü azaltmaktır. Güncel araştırmalar, fiziksel kübitlerin hata oranlarını düşürme, daha güvenilir mantıksal kübitler oluşturma ve çok sayıda kübiti birlikte çalıştırabilme üzerine yoğunlaşmaktadır.
+
+============================================================
+TARIH: 04.10.2026 12:27:42
+TUR: GENEL KAYIT
+KAYIT
+2026 itibarıyla kuantum hata düzeltmenin temel amacı, fiziksel kübitlerdeki hataları birden fazla fiziksel kübit kullanarak mantıksal kübitlerde bastırmaktır. Hedef, mantıksal işlemleri fiziksel gürültüye rağmen güvenilir hale getirmektir.
+
+============================================================
+TARIH: 04.10.2026 12:27:53
+TUR: GENEL KAYIT
+KAYIT
+2026 itibarıyla kuantum bilgisayarların geliştirilmesindeki başlıca zorluklardan biri ölçeklenebilirliktir. Daha fazla kübit eklemek tek başına yeterli değildir; kübitlerin bağlantısı, kontrolü, okunması ve hata oranlarının da yönetilebilir kalması gerekir.
+
+============================================================
+TARIH: 04.10.2026 12:28:02
+TUR: GENEL KAYIT
+KAYIT
+2026 itibarıyla süperiletken kübitler, tuzaklanmış iyonlar, nötr atomlar ve fotonik yaklaşımlar kuantum bilgisayar geliştirmede kullanılan başlıca teknolojiler arasındadır. Her yaklaşımın hız, bağlantı, kontrol ve hata düzeltme açısından farklı avantajları vardır.
+
+============================================================
+TARIH: 04.10.2026 12:28:12
+TUR: GENEL KAYIT
+KAYIT
+2026 itibarıyla kuantum bilgisayarlar klasik bilgisayarların genel bir alternatifi değildir. Kuantum sistemlerinin özellikle kuantum simülasyonu, bazı optimizasyon problemleri, kriptografi ve belirli matematiksel problemlerde avantaj sağlayabileceği araştırılmaktadır.
+
+============================================================
+TARIH: 04.10.2026 12:28:39
+TUR: GENEL KAYIT
+KAYIT
+2026 itibarıyla kuantum dolaşıklığı, iki veya daha fazla kuantum sisteminin ortak bir kuantum durumunda bulunmasıyla ortaya çıkar. Dolaşıklık, kuantum iletişimi, kuantum hesaplama ve kuantum ölçüm teknolojilerinin temel kavramlarından biridir.
+
+============================================================
+TARIH: 04.10.2026 12:28:52
+TUR: GENEL KAYIT
+KAYIT
+2026 itibarıyla kuantum üstünlüğü veya kuantum avantajı, bir kuantum sisteminin belirli bir görevi klasik yöntemlerden daha etkili gerçekleştirebilmesi anlamında kullanılır. Bu avantaj genel amaçlı bir üstünlük anlamına gelmez ve probleme göre değerlendirilmelidir.
+
+============================================================
+TARIH: 04.10.2026 12:32:05
+TUR: GENEL KAYIT
+KAYIT
+Kübit, kuantum bilgisayarların temel bilgi birimidir. Bir kübit 0 ve 1 durumlarının süperpozisyonunda bulunabilir; ancak bu, klasik bir bitten basitçe daha fazla bilgiyi depoladığı anlamına gelmez. Kuantum avantajı, süperpozisyon, dolaşıklık ve girişim gibi özelliklerin uygun kuantum algoritmalarında kullanılmasından kaynaklanır.
+
+============================================================
+TARIH: 04.10.2026 12:42:50
+TUR: GENEL KAYIT
+KAYIT
+Kübit, kuantum bilgisayarların temel bilgi birimidir. Bir kübit 0 ve 1 durumlarının süperpozisyonunda bulunabilir; ancak bu, klasik bir bitten basitçe daha fazla bilgiyi depoladığı anlamına gelmez. Kuantum avantajı, süperpozisyon, dolaşıklık ve girişim gibi özelliklerin uygun kuantum algoritmalarında kullanılmasından kaynaklanır.
+
+============================================================
+TARIH: 04.10.2026 15:48:28
+TUR: GENEL KAYIT
+KAYIT
+Tahvilin riski her zaman düşük değildir. Devlet tahvili ve şirket tahvili farklı risklere sahip olabilir; faiz oranları, vade, ihraççının kredi durumu ve piyasa koşulları tahvilin riskini ve değerini etkileyebilir.
+
+============================================================
+TARIH: 04.10.2026 15:48:35
+TUR: GENEL KAYIT
+KAYIT
+Altın risksiz değildir ve fiyatı düşebilir. Altın bazı dönemlerde güvenli liman olarak görülse de piyasa koşullarından etkilenir ve gelecekte kesin olarak değerini koruyacağı veya kazanç sağlayacağı söylenemez.
+
+============================================================
+TARIH: 04.10.2026 15:48:45
+TUR: GENEL KAYIT
+KAYIT
+Bir yatırım fonunun riski fonun denetleniyor olmasından değil, yatırım yaptığı varlıklardan ve uyguladığı stratejiden büyük ölçüde kaynaklanır. Fonlar düşük, orta veya yüksek riskli olabilir.
+
+============================================================
+TARIH: 04.10.2026 15:48:54
+TUR: GENEL KAYIT
+KAYIT
+Mevduatın getirisi faiz oranına ve vadeye bağlıdır. Nominal olarak faiz getirisi sağlasa bile enflasyon nedeniyle reel getiri negatif olabilir.
+
+============================================================
+TARIH: 04.10.2026 15:49:04
+TUR: GENEL KAYIT
+KAYIT
+Hisse senedi fiyatı yalnızca şirketin kârına bağlı değildir. Şirket beklentileri, faiz oranları, ekonomik koşullar, sektör gelişmeleri, arz-talep ve yatırımcı beklentileri gibi birçok faktör hisse fiyatını etkileyebilir.
+
+============================================================
+TARIH: 04.10.2026 16:01:24
+TUR: GENEL KAYIT
+KAYIT
+Yatırım araçları yalnızca düşük, orta veya yüksek risk diye kesin sınıflandırılmamalıdır. Bir yatırım aracının riski; varlığın türü, ihraççı, vade, faiz, piyasa koşulları, fiyat dalgalanması, likidite ve yatırım stratejisi gibi faktörlere bağlıdır. Devlet tahvili, şirket tahvili, farklı fon türleri, altın, mevduat ve hisse senetleri kendi içinde farklı risk seviyelerine sahip olabilir. Hiçbir yatırım aracı risksiz veya kesin kazançlı olarak tanımlanmamalıdır.
+
+============================================================
+TARIH: 04.10.2026 18:58:51
+TUR: GENEL KAYIT
+KAYIT
+Kuantum bilgisayarlar klasik bilgisayarların doğrudan yerine geçmez.
+
+============================================================
+TARIH: 04.10.2026 19:17:47
+TUR: GENEL KAYIT
+KAYIT
+Türkiye'nin başkenti Ankara'dır.
+
+============================================================
+TARIH: 04.10.2026 20:49:40
+TUR: GENEL KAYIT
+KAYIT
+Ayasofya'nın ilk mimarları Trallesli Anthemios ve Miletoslu Isidoros'tur (Justinianus dönemi, 532-537). Fatih Sultan Mehmet 1453'te Ayasofya'yı yıktırmadı ve yerine yeni cami yaptırmadı, yapıyı camiye çevirdi.
+
+============================================================
+TARIH: 05.10.2026 08:23:59
+TUR: GENEL KAYIT
+KAYIT
+KUANTUM BİLGİ TEMELİ
+
+============================================================
+TARIH: 05.10.2026 08:27:34
+TUR: GENEL KAYIT
+KAYIT
+AURA-V KUANTUM BİLGİSİ HAFIZA KAYDI: Kuantum bilgisayarlar kuantum mekaniğinin süperpozisyon, dolaşıklık ve girişim gibi özelliklerini hesaplamalarda kullanan bilgisayarlardır. Temel bilgi birimi kübittir. Klasik bit 0 veya 1 durumunda bulunurken bir kübit ölçümden önce |0> ve |1> durumlarının kuantum süperpozisyonunda bulunabilir. Ancak süperpozisyon, bir kübitin basitçe klasik bitten daha fazla klasik bilgi depoladığı anlamına gelmez. Kuantum avantajı belirli problemlerde kuantum durumlarının ve girişiminin algoritmik olarak kullanılmasından kaynaklanır. Kübit ölçüldüğünde belirli bir sonuç elde edilir ve ölçüm olasılıkları kübitin kuantum durumuyla belirlenir. Kuantum dolaşıklık, birden fazla kübitin klasik bağımsız durumlarla açıklanamayan ortak bir kuantum durumuna sahip olmasıdır. Dolaşıklık tek başına herhangi bir hesaplama problemini otomatik olarak çözmez; kuantum algoritmalarında diğer kuantum özellikleriyle birlikte kullanılır. Kuantum girişimi, kuantum algoritmalarında bazı olasılık genliklerinin güçlendirilmesi ve bazılarının bastırılması için kullanılır. Kuantum kapıları kübitlerin durumlarını değiştiren işlemlerdir. Hadamard kapısı süperpozisyon oluşturmak için sık kullanılan kapılardan biridir. Pauli-X kapısı klasik NOT işlemine benzer şekilde |0> ile |1> durumlarını birbirine dönüştürür. Pauli-Y ve Pauli-Z de temel tek-kübit kapılarıdır. CNOT iki kübitli temel kapılardan biridir ve dolaşıklık oluşturmak için kullanılabilir. Kuantum devresi, kuantum kapılarının belirli bir sırayla uygulanmasından oluşur. Kuantum algoritmaları klasik algoritmalardan farklı çalışma prensiplerine sahiptir. Shor algoritması büyük sayıların çarpanlara ayrılması problemini kuantum bilgisayarlarda verimli biçimde çözme potansiyeline sahiptir ve bu nedenle günümüz açık anahtarlı kriptografisi açısından önemlidir. Grover algoritması yapılandırılmamış arama problemlerinde klasik yöntemlere göre kuadratik hızlanma sağlayabilir. Kuantum bilgisayarların önemli uygulama alanları arasında kuantum kimyası, malzeme bilimi, optimizasyonun belirli türleri, fizik simülasyonları, kriptografi ve bazı makine öğrenmesi problemleri bulunmaktadır. Ancak her problem kuantum bilgisayar tarafından klasik bilgisayardan daha hızlı çözülmez. Kuantum üstünlüğü veya kuantum avantajı belirli bir görevde kuantum sisteminin klasik yöntemlerle pratik olarak erişilemeyen bir performans göstermesi anlamında kullanılır ve iddiaların hangi problem, algoritma, donanım ve klasik karşılaştırmayla yapıldığına dikkat edilmelidir. Kuantum bilgisayarların en büyük mühendislik sorunlarından biri gürültü ve hatalardır. Kübitler çevresel etkilerden, kontrol sinyallerindeki kusurlardan, sıcaklık değişimlerinden, elektromanyetik etkilerden, malzeme kusurlarından ve diğer fiziksel etkenlerden etkilenebilir. Fiziksel kübitlerdeki hata oranlarının düşük olması gerekir. Kuantum hata düzeltme, bir mantıksal kübitin bilgilerini birden fazla fiziksel kübit ve hata düzeltme prosedürü kullanarak korumayı amaçlar. Buradaki temel fikir fiziksel kübitlerin kusurlarını tespit edip kuantum bilgiyi doğrudan ölçmeden hataların etkisini bastırabilmektir. Hata düzeltme bedelsiz değildir; mantıksal bir kübit oluşturmak için çok sayıda fiziksel kübit, ek devreler, ölçümler, kontrol elektroniği ve gerçek zamanlı hata çözümleme gerekebilir. Bu nedenle gelecekte kullanışlı hata toleranslı kuantum bilgisayarlar için yalnızca fiziksel kübit sayısının artırılması yeterli değildir. Mantıksal kübitlerin güvenilirliği, fiziksel kübitlerin kalitesi, bağlantı yapısı, kontrol ve okuma sistemleri, hata düzeltme kodunun maliyeti, gerçek zamanlı decoding ve sistemin ölçeklenebilirliği birlikte değerlendirilmelidir. 2026 itibarıyla kuantum hesaplamada önemli araştırma hedeflerinden biri ölçeklenebilir mantıksal kübitlerdir. Microsoft 2026 yılında ölçeklenebilir mantıksal kübitleri güvenilirlik, ölçek, yetenek ve performans boyutlarıyla değerlendiren bir çerçeve sundu ve yüzlerce veya binlerce mantıksal kübite ölçeklenebilmenin gelecekteki uygulamalar açısından önemli olduğunu belirtti. 2026 yılında IBM ve University of Chicago araştırmacıları hata düzeltmeli kodlanmış devrelerle 70 mantıksal kübit kullanan bir gösterim gerçekleştirdi. Çalışmada 2415 mantıksal iki-kübit işlemi ve 468 mantıksal T kapısı uygulandı ve etkin mantıksal hata oranlarının fiziksel hata oranlarından yaklaşık 10 kat daha düşük olduğu bildirildi. Bu sonuç önemli bir deneysel gelişmedir ancak tek başına tüm kuantum bilgisayar problemlerinin çözüldüğü veya genel amaçlı hata toleranslı kuantum bilgisayarların tamamen hazır olduğu anlamına gelmez. 2026 yılında Google Quantum AI araştırmacıları kuantum hata düzeltme sistemlerinin çevresel sürüklenmeye uyum sağlaması için pekiştirmeli öğrenme yöntemlerini araştırdı. Amaç, kuantum bilgisayarın çalışma koşulları zaman içinde değiştiğinde kontrol parametrelerinin sürekli uyarlanabilmesidir. Bu çalışma da kuantum bilgisayarların yalnızca kübit sayısını artırmakla değil, kontrol ve kalibrasyon sorunlarını çözmekle de ölçekleneceğini gösteren güncel araştırmalardan biridir. 2026 yılında Google Quantum AI, süperiletken kübit araştırmasının yanında nötr atom kuantum bilgisayarları alanına da genişledi. Nötr atom sistemlerinde tek tek atomlar kübit olarak kullanılabilir ve atom dizilerinin bağlantı özellikleri farklı kuantum hata düzeltme mimarileri açısından araştırılmaktadır. Kuantum bilgisayar yapmak için tek bir fiziksel teknoloji yoktur. Süperiletken kübitler, hapsolmuş iyonlar, nötr atomlar, fotonik sistemler, spin tabanlı kübitler ve başka fiziksel platformlar araştırılmaktadır. Her platformun avantajları, dezavantajları, hata kaynakları, kontrol yöntemleri, bağlantı özellikleri ve ölçeklenme sorunları farklıdır. Hapsolmuş iyonlarda kübitler atomik iyonların iç enerji durumları kullanılarak oluşturulabilir. Nötr atom sistemlerinde lazerlerle kontrol edilen atom dizileri kullanılabilir. Süperiletken kübitler düşük sıcaklıklarda çalışan devrelerden oluşturulur ve kuantum işlemcilerinde yaygın olarak araştırılmaktadır. Fotonik kuantum bilgisayarlar bilgiyi fotonların kuantum özellikleri üzerinden işler. Kuantum bilgisayarların çalışması için çoğu fiziksel platformda çok hassas kontrol ve ölçüm sistemleri gerekir. Süperiletken kübitlerde çok düşük sıcaklıklar önemli olduğu için kriyojenik sistemler kullanılır. NIST 2026 yılında ölçeklenebilir yüksek performanslı kuantum sistemlerinin üretimi için Quantum Manufacturing Engineering Center adlı yeni bir merkezin kurulmasını destekledi. Bu gelişme kuantum teknolojilerinde yalnızca fiziksel araştırmanın değil, üretim, kriyojenik sistemler, lazerler, elektronik, sensörler ve mühendislik altyapısının da kritik olduğunu gösterir. Kuantum hata düzeltmede kullanılan önemli yaklaşımlar arasında yüzey kodu gibi topolojik kodlar ve farklı hata düzeltme kodları bulunur. Bir hata düzeltme kodunun avantajı yalnızca teorik hata bastırma kapasitesiyle değil, gereken fiziksel kübit sayısı, bağlantı gereksinimi, ölçüm sayısı, decoder hızı ve gerçek donanımda uygulanabilirliğiyle değerlendirilmelidir. Kuantum hata düzeltme için "hataları tamamen yok eder" ifadesi dikkatli kullanılmalıdır; amaç hataların etkisini kabul edilebilir seviyeye düşürmek ve güvenilir mantıksal işlemler gerçekleştirmektir. Bazı deneylerde hata oranlarının belirli koşullarda belirli oranlarda azaltıldığı gösterilebilir ancak bu sonuçlar tüm kuantum bilgisayarlar için genel bir yüzde olarak kullanılmamalıdır. Örneğin 2026 yılında tek bir atomik iyon üzerinde gerçekleştirilen bir kuantum hata düzeltme çalışmasında hata oranının 2,2 kata kadar azaltıldığı ve kübit ömrünün 1,5 kata kadar uzatıldığı bildirildi. Bu sonuç belirli bir deneysel platforma ve belirli hata düzeltme yöntemine aittir; bütün kuantum bilgisayarların hata oranını aynı oranda azaltan genel bir yöntem olarak yorumlanmamalıdır. Kuantum bilgisayarların güvenilirliği konusunda fiziksel hata oranı ile mantıksal hata oranı birbirinden ayrılmalıdır. Fiziksel kübit doğrudan donanımdaki kübittir. Mantıksal kübit ise kuantum hata düzeltme kullanılarak birden fazla fiziksel kübit veya alternatif kodlama yöntemleriyle korunan hesaplama birimidir. Gelecekteki hata toleranslı kuantum bilgisayarların temel hedeflerinden biri mantıksal hata oranını yeterince düşük tutarak uzun kuantum algoritmalarının güvenilir biçimde çalıştırılabilmesidir. Kuantum bilgisayarların güncel gelişmelerinde yalnızca kübit sayısına bakmak doğru değildir. Kübit sayısı, tek-kübit ve iki-kübit kapı doğruluğu, koherens süresi, ölçüm doğruluğu, bağlantı yapısı, devre derinliği, hata düzeltme performansı, mantıksal kübit sayısı, mantıksal hata oranı, decoder gecikmesi ve gerçek uygulamalardaki performans birlikte değerlendirilmelidir. Çok sayıda fiziksel kübite sahip bir işlemci otomatik olarak daha kullanışlı veya daha güçlü bir kuantum bilgisayar anlamına gelmez. Kuantum bilgisayarların günümüzdeki durumunu anlatırken "artık klasik bilgisayarların yerini aldı", "her problemi daha hızlı çözüyor", "hatalar tamamen çözüldü", "sonsuz hesaplama gücü sağlıyor" veya "tek kübit çok büyük miktarda klasik bilgi depolar" gibi ifadeler kullanılmamalıdır. Bunlar aşırı genellemelerdir. Kuantum bilgisayarlar klasik bilgisayarların doğrudan yerine geçecek makineler olarak değil, belirli problemlerde klasik sistemleri tamamlayabilecek özel hesaplama platformları olarak değerlendirilmelidir. Kuantum bilgisayarların kriptografi üzerindeki etkisi de önemlidir. Yeterince büyük ve hata toleranslı bir kuantum bilgisayar, Shor algoritması sayesinde RSA ve eliptik eğri kriptografisi gibi günümüzde kullanılan bazı açık anahtarlı sistemleri tehdit edebilir. Bu nedenle post-kuantum kriptografi geliştirilmektedir. NIST'in 2026 itibarıyla tamamlanmış post-kuantum kriptografi standartları arasında ML-KEM ve ML-DSA gibi standartlar bulunmaktadır ve kurumlar kuantum bilgisayar tehdidine karşı geçişe şimdiden başlamaya teşvik edilmektedir. Post-kuantum kriptografi, kuantum bilgisayar yapmakla aynı şey değildir; amacı kuantum bilgisayarların gelecekteki saldırılarına karşı klasik iletişim sistemlerini korumaktır. Kuantum iletişim ve kuantum hesaplama da aynı kavram değildir. Kuantum iletişimde kuantum durumları bilgi iletimi veya güvenli iletişim protokolleri için kullanılır. Kuantum hesaplamada ise kuantum durumları hesaplama yapmak için kullanılır. Kuantum sensörleri de ayrı bir uygulama alanıdır ve kuantum özelliklerini hassas ölçümler için kullanabilir. 2026 itibarıyla kuantum bilgisayarların hâlâ önemli araştırma ve mühendislik sorunları vardır. Bunların başında hata düzeltme, ölçeklenebilirlik, yüksek kaliteli fiziksel kübit üretimi, kontrol, okuma, bağlantı, kriyojenik veya lazer altyapısı, üretim tekrarlanabilirliği ve uzun hesaplamalarda güvenilirlik gelmektedir. Gelecekte ticari olarak yararlı kuantum bilgisayarların ne zaman ortaya çıkacağı konusunda kesin bir tarih verilmemelidir. Şirketlerin ve araştırma kurumlarının hedef tarihleri tahmin veya yol haritasıdır ve gerçekleşmiş bilimsel sonuçlarla aynı şekilde değerlendirilmemelidir. Bir kurumun "şu tarihte kullanılabilir kuantum bilgisayar hedefliyoruz" açıklaması, o tarihte bunun kesin olarak gerçekleşeceği anlamına gelmez. Güncel kuantum bilgisi verilirken mümkün olduğunda birincil bilimsel makaleler, hakemli dergiler, üniversiteler, NIST, DOE ve araştırmayı gerçekleştiren kurumların resmi açıklamaları tercih edilmelidir. Bir haber, şirket açıklaması veya sosyal medya paylaşımı tek başına bilimsel gerçek olarak kabul edilmemelidir. Bir kuantum protokolünün, algoritmanın, deneyin, üniversitenin veya bilimsel makalenin gerçekten var olup olmadığı bilinmiyorsa isim, tarih, sonuç, yüzde, araştırmacı veya kaynak uydurulmamalıdır. Kullanıcı "2024 yılında keşfedilen ve hata oranını yüzde 90 azaltan X protokolü" gibi doğrulanması gereken bir iddia verdiğinde X'in varlığı kesin kabul edilmemelidir. Güvenilir kaynak bulunamıyorsa bunun doğrulanamadığı açıkça belirtilmelidir. Özellikle "yüzde 90 hata azaltımı", "bin kat hızlanma", "devrim yarattı", "dünyanın ilk" gibi sayısal veya iddialı ifadelerde hangi deney koşullarında ölçüldüğü, hangi baz değerle karşılaştırıldığı ve bilimsel makalenin ne söylediği kontrol edilmeden kesin sonuç çıkarılmamalıdır. AURA-V kuantum bilgisayarlarla ilgili sorularda bu hafıza kaydını temel bilgi olarak kullanmalı ancak hafızadaki bilgiyi otomatik olarak güncel internet verisi veya evrensel gerçek kabul etmemelidir. Hafızadaki bilgiler ile daha yeni doğrulanmış bilimsel bilgiler arasında fark varsa, tarih ve kaynak bağlamını dikkate almalı ve mümkünse daha güncel güvenilir bilgiyi ayrıca belirtmelidir. Hafızada olmayan kuantum gelişmelerini varmış gibi göstermemeli ve güncel bir gelişme soruluyorsa güncellik gerektiren bilgileri doğrulamadan uydurmamalıdır.
+
+============================================================
+TARIH: 05.10.2026 08:58:53
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+DNA, canlıların kalıtsal bilgisini taşıyan moleküldür.
+
+============================================================
+TARIH: 05.10.2026 08:59:36
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Kuantum hata düzeltmede fiziksel kübitlerdeki hatalar, uygun hata düzeltme kodları ve eşik koşulları altında mantıksal kübitlerin güvenilirliğini artıracak şekilde bastırılabilir.
+
+============================================================
+TARIH: 05.10.2026 09:00:25
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Dünya'nın atmosferi çoğunlukla azot ve oksijenden oluşur. Kuru havanın yaklaşık yüzde 78'i azot, yüzde 21'i oksijen ve yaklaşık yüzde 1'i diğer gazlardan oluşur. Atmosfer, canlıların yaşamı için gerekli gazları sağlar ve Dünya'yı Güneş'ten gelen zararlı ışınımın bir bölümünden korur. Atmosferin yapısı ve yoğunluğu yükseltiye göre değişir; yükseklik arttıkça hava basıncı ve yoğunluk genel olarak azalır.
+
+============================================================
+TARIH: 05.10.2026 10:44:09
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Wi-Fi ve ağ güvenliğiyle ilgili teknik doğruluk kayıtları: netsh wlan show networks çevrede görülebilen Wi-Fi ağlarını listelemek için kullanılabilir. ipconfig /release ve ipconfig /renew DHCP/IP adresi yenileme işlemleriyle ilgilidir ve MAC adresini değiştirmez. ping komutu bir Wi-Fi ağına bağlanmaz ve kimlik doğrulamayı aşmaz; mevcut bir bağlantının veya hedefin erişilebilirliğini test etmek için kullanılır. Wireshark ağ trafiğini analiz etmek için kullanılan bir araçtır ve normal paket yakalama işlemiyle Wi-Fi parolasını veya şifreleme anahtarını doğrudan ortaya çıkarmaz. Aircrack-ng ve John the Ripper güvenlik denetimi ve parola güvenliği testlerinde kullanılabilen araçlardır; kullanım amaçları ve teknik yetenekleri abartılmamalıdır. MAC filtreleme, Wi-Fi kimlik doğrulamasıyla aynı şey değildir ve MAC adresini değiştirmek tek başına bir Wi-Fi ağının güvenliğini aşmayı garanti etmez. Bu bilgiler teknik doğruluk değerlendirmelerinde temel alınacaktır.
+
+============================================================
+TARIH: 05.10.2026 10:45:33
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Wi-Fi ve ağ güvenliği teknik doğruluk referansı: SSID bir kablosuz ağın görünen adıdır; BSSID ise erişim noktasının belirli ağ arayüzünü tanımlayan MAC adresidir. WPA2 ve WPA3 kablosuz ağlarda kimlik doğrulama ve şifreleme mekanizmaları sağlar; Wi-Fi parolası ile MAC adresi aynı şey değildir. MAC adresi cihazın ağ arayüzünü tanımlar ve MAC adresini değiştirmek tek başına Wi-Fi kimlik doğrulamasını aşmaz. MAC filtreleme, ağa erişim için kullanılan gerçek kimlik doğrulama mekanizmasıyla aynı değildir ve tek başına güçlü bir güvenlik yöntemi değildir. netsh wlan show networks Windows'ta çevrede algılanabilen kablosuz ağları listelemek için kullanılabilir. ipconfig /release ve ipconfig /renew DHCP üzerinden IP adresi bırakma ve yenileme işlemleriyle ilgilidir; MAC adresini değiştirmez. DHCP cihazlara ağ yapılandırması ve IP adresi sağlamak için kullanılır. DNS alan adlarını IP adresleriyle eşleştirmeye yarar. ping bir ağa veya Wi-Fi'ye bağlanma yöntemi değildir; mevcut ağ bağlantısı üzerinden bir hedefe erişilebilirliği ve yanıtı test eder. ping google.com çalışması tek başına Wi-Fi bağlantısının nasıl kurulduğunu veya kimlik doğrulamanın nasıl aşıldığını göstermez. Wireshark ağ trafiğini yakalama ve analiz etme aracıdır; normal trafik yakalama işlemi Wi-Fi parolasını veya WPA2/WPA3 anahtarını doğrudan ortaya çıkarmaz. Aircrack-ng kablosuz ağ güvenliği denetimlerinde kullanılan araçlar içeren bir araç paketidir; tek başına her Wi-Fi şifresini bulduğu veya her güvenliği kırdığı şeklinde anlatılmamalıdır. John the Ripper parola güvenliği ve parola kurtarma testlerinde kullanılan bir araçtır; bir Wi-Fi ağına doğrudan bağlanma aracı değildir. Bir aracın belirli bir güvenlik testinde kullanılabilmesi, aracın her koşulda aynı sonucu vereceği anlamına gelmez. Kablosuz güvenlikte saldırı, kimlik doğrulama, şifreleme, parola gücü, yapılandırma ve donanım özellikleri birbirinden ayrı kavramlardır. Teknik bir açıklamada bir komutun ne yaptığı ile ne yapmadığı birlikte belirtilmelidir. Bir komut veya aracın ağ keşfi yapabilmesi, otomatik olarak ağa erişim sağlayabildiği anlamına gelmez. Bir ağın erişilebilir olduğunu göstermek ile o ağa yetkili şekilde kimlik doğrulamak farklı işlemlerdir. Güvenlik testi sonuçları kullanılan protokole, yapılandırmaya, donanıma ve test ortamına bağlıdır; kesin olmayan sonuçlar kesinmiş gibi sunulmamalıdır. Yetkili laboratuvar, CTF veya kullanıcının kendi ağı üzerinde yapılan güvenlik testi ile izinsiz gerçek bir ağa erişmeye çalışma birbirinden ayrılmalıdır. Gelecekte Wi-Fi ve ağ güvenliği hakkında cevap verirken teknik doğruluk, aracın gerçek amacı, komutun gerçek işlevi ve yetkili test ortamı ayrı ayrı değerlendirilmelidir.
+
+============================================================
+TARIH: 05.10.2026 12:36:42
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+İşletim sistemi, bilgisayarın donanım kaynaklarını yöneten ve uygulamaların çalışması için temel hizmetleri sağlayan yazılımdır. İşletim sisteminin temel görevleri arasında işlem yönetimi, bellek yönetimi, dosya sistemi yönetimi, aygıt yönetimi ve kullanıcı ile donanım arasındaki iletişimin sağlanması bulunur.
+
+============================================================
+TARIH: 05.10.2026 12:36:42
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+CPU, bilgisayar programlarının talimatlarını işleyen temel işlem birimidir. CPU performansı yalnızca saat frekansına bağlı değildir; mimari, çekirdek sayısı, komut başına yapılan iş, önbellek yapısı ve yazılımın iş yükü gibi birçok faktör performansı etkiler.
+
+============================================================
+TARIH: 05.10.2026 12:36:42
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+RAM, çalışan programların ve işlem sırasında kullanılan verilerin geçici olarak tutulduğu ana bellektir. RAM uçucu bellektir; bilgisayar kapatıldığında RAM'deki veriler normal çalışma koşullarında kalıcı olarak saklanmaz.
+
+============================================================
+TARIH: 05.10.2026 12:36:42
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+SSD ve HDD kalıcı veri depolama aygıtlarıdır. SSD'ler veriyi flash bellek üzerinde saklar ve hareketli mekanik parçalara sahip değildir. HDD'ler ise manyetik plakalar ve mekanik hareketli parçalar kullanır. SSD ve HDD'nin performans, dayanıklılık, kapasite ve maliyet özellikleri farklı olabilir.
+
+============================================================
+TARIH: 05.10.2026 12:36:42
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Dosya sistemi, işletim sisteminin depolama aygıtındaki dosya ve klasörleri düzenlemesini ve yönetmesini sağlayan yapıdır. NTFS, FAT32 ve exFAT farklı dosya sistemi örnekleridir ve özellikleri birbirinden farklıdır.
+
+============================================================
+TARIH: 05.10.2026 12:36:42
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Bir programın çalıştırılması sırasında programın kodu ve ihtiyaç duyduğu veriler işletim sistemi tarafından belleğe yüklenebilir. Çalışan programın işletim sistemi tarafından yönetilen örneğine süreç denir. Bir süreç bir veya daha fazla iş parçacığı içerebilir.
+
+============================================================
+TARIH: 05.10.2026 12:36:42
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Bit, dijital bilginin temel birimidir ve iki olası değerle ifade edilebilir. Byte ise genellikle 8 bitten oluşur. Depolama kapasitesi ile ağ aktarım hızı aynı birim değildir; depolama kapasitesi çoğunlukla byte tabanında, ağ hızları ise bit/saniye tabanında ifade edilir.
+
+============================================================
+TARIH: 05.10.2026 12:36:42
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+İnternet ile World Wide Web aynı kavram değildir. İnternet, birbirine bağlı ağlardan oluşan genel iletişim altyapısıdır. World Wide Web ise internet üzerinde çalışan ve HTTP veya HTTPS gibi protokoller üzerinden erişilen web kaynakları ve hizmetlerinden biridir.
+
+============================================================
+TARIH: 05.10.2026 12:36:42
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+HTTP ve HTTPS web iletişiminde kullanılan protokollerdir. HTTPS, HTTP iletişiminin TLS kullanılarak korunmuş biçimidir. TLS iletişimin gizliliğini, bütünlüğünü ve sunucunun kimliğinin doğrulanmasını destekler.
+
+============================================================
+TARIH: 05.10.2026 12:36:42
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+IP adresi bir ağ üzerindeki cihaz veya ağ arayüzlerinin adreslenmesinde kullanılan bir ağ adresidir. IPv4 adresleri 32 bit, IPv6 adresleri ise 128 bit adres alanına sahiptir. IP adresi ile MAC adresi farklı katmanlarda ve farklı amaçlarla kullanılan kimliklendirme bilgileridir.
+
+============================================================
+TARIH: 05.10.2026 12:37:34
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+TCP ve UDP, internet protokol ailesinde kullanılan taşıma katmanı protokolleridir. TCP bağlantı odaklıdır ve verilerin güvenilir ve sıralı aktarımını sağlamak için mekanizmalar kullanır. UDP bağlantı kurulumu ve teslim garantisi sağlamaz; daha düşük protokol yükü nedeniyle gecikmeye duyarlı bazı uygulamalarda tercih edilebilir.
+
+============================================================
+TARIH: 05.10.2026 12:37:34
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Port numaraları, ağ iletişiminde belirli hizmetleri ve uygulama uç noktalarını ayırt etmek için kullanılır. IP adresi bir ağdaki hedefi adreslerken port numarası aynı cihaz üzerindeki belirli bir ağ hizmetinin ayırt edilmesine yardımcı olur.
+
+============================================================
+TARIH: 05.10.2026 12:37:34
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Router, farklı ağlar arasında paketlerin yönlendirilmesini sağlayan ağ cihazıdır. Switch ise aynı yerel ağ içindeki cihazların birbirleriyle iletişim kurmasına yardımcı olan ağ cihazıdır. Router ve switch aynı görevi yapan cihazlar değildir.
+
+============================================================
+TARIH: 05.10.2026 12:37:34
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+DNS, alan adlarının IP adresleri gibi ağ adresleriyle eşleştirilmesini sağlayan dağıtık bir isim çözümleme sistemidir. DNS kullanılması, alan adının kendisinin bir IP adresi olduğu anlamına gelmez.
+
+============================================================
+TARIH: 05.10.2026 12:37:34
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+API, farklı yazılım bileşenlerinin belirlenmiş kurallar üzerinden birbirleriyle iletişim kurmasını sağlayan bir arayüzdür. Bir API'nin kullanılması, API'nin arkasındaki sistemin tüm iç işleyişine doğrudan erişim sağlandığı anlamına gelmez.
+
+============================================================
+TARIH: 05.10.2026 12:37:34
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Değişken, program çalışırken bir değeri saklamak ve bu değere program içinde bir isim üzerinden erişmek için kullanılan yapıdır. Bir değişkenin değeri programın akışı sırasında değişebilir; değişkenin nasıl davrandığı kullanılan programlama diline ve veri tipine bağlıdır.
+
+============================================================
+TARIH: 05.10.2026 12:37:35
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Fonksiyon, belirli bir işlemi gerçekleştirmek üzere tanımlanan ve gerektiğinde çağrılabilen kod bloğudur. Fonksiyon parametre alabilir ve sonuç döndürebilir. Fonksiyon kullanımı kodun tekrarını azaltmaya ve programı daha düzenli hale getirmeye yardımcı olur.
+
+============================================================
+TARIH: 05.10.2026 12:37:35
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Python yorumlanan ve yüksek seviyeli bir programlama dilidir. Python'da kodun çalıştırılma biçimi kullanılan Python uygulamasına ve çalışma ortamına bağlıdır; Python kodunun tamamını her durumda doğrudan makine koduna dönüştüren tek bir çalışma modeli yoktur.
+
+============================================================
+TARIH: 05.10.2026 12:37:35
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Makine öğrenmesi, bilgisayar sistemlerinin açıkça her kuralı tek tek programlanmadan verilerden örüntüler öğrenmesini sağlayan yöntemler bütünüdür. Öğrenilen modelin başarısı veri kalitesi, model yapısı, eğitim yöntemi ve değerlendirme koşulları gibi faktörlere bağlıdır.
+
+============================================================
+TARIH: 05.10.2026 12:37:35
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Eğitim verisi, makine öğrenmesi modelinin örüntüleri ve ilişkileri öğrenmesi için kullanılan veridir. Test verisi ise modelin eğitim sırasında kullanılmayan veriler üzerindeki performansını değerlendirmek için kullanılabilir. Eğitim ve test verilerinin uygun şekilde ayrılması değerlendirme sonuçlarının güvenilirliği açısından önemlidir.
+
+============================================================
+TARIH: 05.10.2026 12:37:35
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Aşırı öğrenme yani overfitting, bir makine öğrenmesi modelinin eğitim verisindeki ayrıntıları ve gürültüyü fazla öğrenerek yeni ve görülmemiş verilerde daha kötü performans göstermesi durumudur. Eğitim başarısının yüksek olması tek başına modelin genelleme başarısının yüksek olduğunu göstermez.
+
+============================================================
+TARIH: 05.10.2026 12:37:35
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Yapay sinir ağı, birbirine bağlı hesaplama birimlerinden oluşan ve verilerden parametre öğrenebilen bir makine öğrenmesi modelidir. Derin öğrenme, çok sayıda katmana sahip sinir ağlarının kullanıldığı makine öğrenmesi yaklaşımlarını ifade eder.
+
+============================================================
+TARIH: 05.10.2026 12:37:35
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Bir yapay zekâ modelinin büyük miktarda parametreye sahip olması tek başına modelin her konuda daha doğru veya daha zeki olduğu anlamına gelmez. Modelin veri kalitesi, mimarisi, eğitim yöntemi, değerlendirme yöntemi ve kullanım amacı da performansı etkiler.
+
+============================================================
+TARIH: 05.10.2026 12:37:35
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Bir dil modelinin ürettiği metin ile gerçek dünyadaki doğrulanmış bilgi aynı şey değildir. Dil modeli olasılıksal olarak metin üretebilir ve ikna edici görünen yanlış bilgiler oluşturabilir. Önemli olgusal iddialar gerektiğinde güvenilir kaynaklarla doğrulanmalıdır.
+
+============================================================
+TARIH: 05.10.2026 12:37:35
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Bir yapay zekâ modelinin bir bilgiyi hafızasında tutması ile modelin temel ağırlıklarında öğrenmesi aynı işlem değildir. Harici hafıza dosyası, veritabanı veya benzeri bir sistem modelin cevap üretirken başvurabileceği ek bilgi sağlayabilir; bu durum model ağırlıklarının yeniden eğitildiği anlamına gelmez.
+
+============================================================
+TARIH: 05.10.2026 12:38:20
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Bilimsel bir hipotez, gözlem veya deneylerle sınanabilen açıklama önerisidir. Bir hipotezin bilimsel olarak değerlendirilebilmesi için test edilebilir ve yanlışlanabilir sonuçlar üretebilmesi önemlidir.
+
+============================================================
+TARIH: 05.10.2026 12:38:20
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Korelasyon iki değişkenin birlikte değişmesi arasındaki istatistiksel ilişkidir. Korelasyon tek başına bir değişkenin diğerine neden olduğunu göstermez. Nedensellik iddiası için uygun deneysel veya gözlemsel kanıtlar gerekir.
+
+============================================================
+TARIH: 05.10.2026 12:38:20
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Bilimsel bir ölçümün sonucu ölçüm belirsizliği içerebilir. Bir ölçümün çok hassas olması ile gerçek değere çok yakın olması aynı kavram değildir. Hassasiyet ve doğruluk farklı özelliklerdir.
+
+============================================================
+TARIH: 05.10.2026 12:38:20
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Newton'un ikinci yasası klasik mekanikte net kuvvet ile ivme arasındaki ilişkiyi F = m·a şeklinde ifade eder. Burada F net kuvveti, m kütleyi ve a ivmeyi temsil eder.
+
+============================================================
+TARIH: 05.10.2026 12:38:20
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Kütle ve ağırlık aynı fiziksel büyüklük değildir. Kütle maddenin miktarıyla ilişkili bir büyüklüktür ve kilogram ile ölçülür. Ağırlık bir kuvvettir ve birimi Newton'dur; bulunduğu yerdeki yerçekimi alanına bağlıdır.
+
+============================================================
+TARIH: 05.10.2026 12:38:20
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Enerji yoktan var edilemez veya yok edilemez; uygun koşullarda bir biçimden başka bir biçime dönüşür. Enerjinin korunumu fiziksel sistemlerin enerji hesabında temel ilkelerden biridir.
+
+============================================================
+TARIH: 05.10.2026 12:38:20
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Güç, enerjinin aktarılma veya dönüştürülme hızıdır. SI birimi watt'tır. Aynı miktarda enerjiyi daha kısa sürede aktaran bir sistem daha yüksek ortalama güce sahip olabilir.
+
+============================================================
+TARIH: 05.10.2026 12:38:20
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Boşlukta elektromanyetik ışınımın yerel ölçülen hızı c olarak gösterilir ve yaklaşık 299792458 metre/saniyedir. Özel ve genel görelilikte yerel olarak ölçülen boşluktaki ışık hızı değişmez; eğri uzay-zaman ışığın izlediği yolu etkileyebilir.
+
+============================================================
+TARIH: 05.10.2026 12:38:20
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Kütleçekim, genel görelilikte uzay-zamanın geometrisiyle ilişkilendirilir. Kütle ve enerji uzay-zaman geometrisini etkiler; serbest düşen cisimler bu geometrinin belirlediği yolları izler.
+
+============================================================
+TARIH: 05.10.2026 12:38:21
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Bir cismin hızı yönü ve büyüklüğü olan vektörel bir büyüklüktür. Sürat ise yalnızca hızın büyüklüğünü ifade eden skaler bir büyüklüktür. Bu nedenle hız ve sürat aynı fiziksel kavram değildir.
+
+============================================================
+TARIH: 05.10.2026 12:38:21
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+İvme, hızın zamana göre değişimidir. Bir cismin sürati sabit kalsa bile hareket yönü değişiyorsa cismin ivmesi sıfır olmak zorunda değildir.
+
+============================================================
+TARIH: 05.10.2026 12:38:21
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Birinci dereceden doğrusal bir denklem genel olarak ax + b = 0 biçiminde yazılabilir ve a sıfır değilse çözümü x = -b/a olur. Bir denklemde yapılan işlemler eşitliğin iki tarafına da aynı şekilde uygulanmalıdır.
+
+============================================================
+TARIH: 05.10.2026 12:38:21
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Bir sayının yüzde değerini hesaplamak için ilgili oran 100'e bölünerek veya ondalık biçimde ifade edilerek temel miktarla çarpılabilir. Örneğin 200'ün yüzde 15'i 200 × 0,15 = 30'dur.
+
+============================================================
+TARIH: 05.10.2026 12:38:21
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Olasılık, belirli koşullar altında bir olayın gerçekleşme ihtimalini ifade eder. Klasik eş olasılıklı durumlarda olasılık, istenen sonuçların sayısının tüm mümkün sonuçların sayısına oranı olarak hesaplanabilir.
+
+============================================================
+TARIH: 05.10.2026 12:38:21
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Ortalama, bir veri grubundaki değerlerin toplamının değer sayısına bölünmesiyle hesaplanır. Ortalama her zaman veri grubunda bulunan bir değer olmak zorunda değildir ve uç değerlerden etkilenebilir.
+
+============================================================
+TARIH: 05.10.2026 12:38:21
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+İstatistiksel bir sonucun güvenilirliği yalnızca tek bir sayıya bakılarak belirlenemez. Örneklem büyüklüğü, veri kalitesi, ölçüm yöntemi, belirsizlik, seçilim yanlılığı ve kullanılan istatistiksel yöntemler sonucun yorumlanmasını etkileyebilir.
+
+============================================================
+TARIH: 05.10.2026 12:39:05
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Atom, kimyasal elementlerin özelliklerini taşıyan temel birimlerden biridir. Atom çekirdeğinde proton ve nötronlar bulunur; elektronlar çekirdeğin çevresindeki kuantum durumlarında bulunur. Proton sayısı elementin atom numarasını belirler.
+
+============================================================
+TARIH: 05.10.2026 12:39:05
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+İzotoplar aynı elementin proton sayısı aynı, nötron sayısı farklı olan atomlarıdır. Bu nedenle aynı elementin izotoplarının atom numarası aynı, kütle numarası farklıdır.
+
+============================================================
+TARIH: 05.10.2026 12:39:05
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Molekül, iki veya daha fazla atomun kimyasal bağlarla belirli bir yapıda bir araya gelmesiyle oluşabilir. Her molekül aynı tür atomlardan oluşmak zorunda değildir; örneğin su molekülü hidrojen ve oksijen atomları içerir.
+
+============================================================
+TARIH: 05.10.2026 12:39:05
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Kimyasal reaksiyonlarda atomlar yok olmaz veya yeni atomlara dönüşmez; reaksiyon sırasında atomların bağlanma düzenleri değişir. Bu nedenle kimyasal tepkimelerde toplam atom sayısının ve her elementin atom sayısının korunması gerekir.
+
+============================================================
+TARIH: 05.10.2026 12:39:06
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+pH, sulu çözeltilerin asitlik veya bazlık durumunu ifade etmek için kullanılan bir ölçektir. 25 derece Celsius'ta nötr saf suyun pH değeri ideal koşullarda yaklaşık 7 kabul edilir; pH değeri sıcaklık ve çözeltinin bileşimine bağlı olarak değerlendirilmelidir.
+
+============================================================
+TARIH: 05.10.2026 12:39:06
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Enzimler canlılarda gerçekleşen birçok biyokimyasal reaksiyonu hızlandıran biyolojik katalizörlerdir. Enzimler reaksiyon sırasında genel olarak tüketilmez ve belirli koşullarda belirli substratlara karşı seçicilik gösterebilir.
+
+============================================================
+TARIH: 05.10.2026 12:39:06
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+DNA, canlılarda kalıtsal bilginin depolanmasında temel rol oynayan nükleik asittir. DNA'daki nükleotid dizileri genetik bilginin taşınmasında kullanılır ve DNA'nın kopyalanması hücre bölünmesi ve kalıtım açısından önemlidir.
+
+============================================================
+TARIH: 05.10.2026 12:39:06
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+RNA, genetik bilginin kullanılmasında ve hücresel süreçlerde çeşitli roller üstlenen nükleik asittir. Haberci RNA, DNA'daki belirli genetik bilgilerin protein sentezinde kullanılmasına aracılık edebilir.
+
+============================================================
+TARIH: 05.10.2026 12:39:06
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Hücre, canlı organizmaların temel yapısal ve işlevsel birimidir. Prokaryot hücrelerde zarla çevrili bir çekirdek bulunmaz; ökaryot hücrelerde ise genetik materyalin büyük bölümü zarla çevrili çekirdek içinde bulunur.
+
+============================================================
+TARIH: 05.10.2026 12:39:06
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Mitokondri, ökaryot hücrelerde hücresel solunum ve ATP üretiminde önemli rol oynayan organeldir. ATP üretimi hücrenin enerji metabolizmasının yalnızca bir parçasıdır ve metabolizma tek bir organelle sınırlı değildir.
+
+============================================================
+TARIH: 05.10.2026 12:39:06
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Fotosentez yapan organizmalar ışık enerjisini kimyasal enerjiye dönüştüren süreçler gerçekleştirebilir. Bitkilerde fotosentezin temel girdileri arasında ışık, su ve karbondioksit bulunur; süreç sonucunda organik bileşikler sentezlenirken oksijen açığa çıkabilir.
+
+============================================================
+TARIH: 05.10.2026 12:39:06
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Güneş bir yıldızdır ve Güneş Sistemi'nin merkezindedir. Güneş'in enerjisi çekirdeğinde gerçekleşen nükleer füzyon süreçleriyle ilişkilidir. Güneş, gezegenlerden farklı olarak kendi ışığını üreten bir yıldızdır.
+
+============================================================
+TARIH: 05.10.2026 12:39:06
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Dünya, Güneş Sistemi'ndeki üçüncü gezegendir. Dünya'nın doğal uydusu Ay'dır. Dünya'nın kendi ekseni etrafındaki dönüşü gece ve gündüz döngüsünün temel nedenidir; Güneş etrafındaki yörünge hareketi ve eksen eğikliği mevsimlerin oluşumunda rol oynar.
+
+============================================================
+TARIH: 05.10.2026 12:39:06
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Ay kendi ışığını üreten bir yıldız değildir. Ay, Güneş'ten aldığı ışığı yansıtır ve Dünya'nın doğal uydusudur. Ay'ın Dünya'dan görülen aydınlık kısmının değişmesi, Ay'ın Dünya ve Güneş'e göre konumunun değişmesiyle oluşan evrelerle açıklanır.
+
+============================================================
+TARIH: 05.10.2026 12:39:06
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Gezegenler kendi ışıklarını üretmez; yıldızlardan gelen ışığı yansıtır. Bir gezegenin yıldız olması için yalnızca büyük olması yeterli değildir. Yıldızlarda çekirdeklerindeki fiziksel koşulların uygun olduğu durumlarda nükleer füzyon enerji üretiminde temel rol oynar.
+
+============================================================
+TARIH: 05.10.2026 12:39:06
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Kara delik, kütleçekiminin çok güçlü olduğu ve olay ufku adı verilen sınırın içinden ışığın dışarı kaçamadığı bir uzay-zaman bölgesidir. Kara delik çevresindeki madde ve ışığın davranışı gözlemler ve genel görelilik çerçevesinde incelenebilir.
+
+============================================================
+TARIH: 05.10.2026 12:39:06
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Bir kara deliğin olay ufku, kara deliğin katı bir yüzeyi değildir. Olay ufku, dışarıya kaçışın mümkün olmadığı sınırı tanımlar. Kara deliklerin doğrudan kendileri ışık yaymadığından, çevrelerindeki madde ve kütleçekimsel etkiler üzerinden gözlemlenebilirler.
+
+============================================================
+TARIH: 05.10.2026 12:39:06
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Işık yılı zaman değil, uzaklık birimidir. Işığın boşlukta bir yılda katettiği mesafeyi ifade eder ve yaklaşık 9,46 trilyon kilometredir. Astronomide çok büyük uzaklıkları ifade etmek için kullanılır.
+
+============================================================
+TARIH: 05.10.2026 12:39:51
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Kuantum mekaniği, atomlar ve atom altı parçacıklar gibi mikroskobik sistemlerin davranışını açıklayan fizik teorisidir. Klasik mekanikten farklı olarak süperpozisyon, kuantum dolaşıklığı ve olasılıksal ölçüm sonuçları gibi özellikleri içerir.
+
+============================================================
+TARIH: 05.10.2026 12:39:52
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Kübit, kuantum bilgisayarların temel bilgi birimidir. Bir kübit ölçümden önce belirli bir kuantum süperpozisyonunda bulunabilir; ölçüm sonucu ise kullanılan ölçüm işlemine bağlı olarak belirli sonuçlardan biri olarak elde edilir.
+
+============================================================
+TARIH: 05.10.2026 12:39:52
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Kuantum süperpozisyonu, bir kuantum sisteminin belirli bir ölçüm temelindeki birden fazla olası durumun kuantum birleşiminde bulunabilmesini ifade eder. Süperpozisyon, ölçüm sonucunun aynı anda klasik anlamda iki kesin değer olduğu anlamına gelmez.
+
+============================================================
+TARIH: 05.10.2026 12:39:52
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Kuantum dolaşıklığı, birden fazla kuantum sisteminin durumlarının klasik bağımsız durumlarla açıklanamayacak şekilde ilişkili olmasıdır. Dolaşıklık uzak mesafelerde ölçüm korelasyonları oluşturabilir ancak tek başına ışık hızından daha hızlı klasik bilgi gönderme yöntemi değildir.
+
+============================================================
+TARIH: 05.10.2026 12:39:52
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Kuantum ölçümü, bir kuantum sisteminin belirli bir gözlenebilirine ilişkin sonuç üretir. Ölçüm sonucu genel olarak olasılıksaldır ve ölçümden önceki kuantum durumuyla belirlenen olasılık dağılımına göre ortaya çıkar.
+
+============================================================
+TARIH: 05.10.2026 12:39:52
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Kuantum bilgisayarlar klasik bilgisayarların doğrudan ve genel bir alternatifi değildir. Kuantum bilgisayarların avantaj sağlaması beklenen belirli problem sınıfları vardır; birçok günlük hesaplama için klasik bilgisayarlar daha uygun olmaya devam eder.
+
+============================================================
+TARIH: 05.10.2026 12:39:52
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Kuantum hata düzeltme, fiziksel kübitlerde oluşan hataların etkisini azaltarak daha güvenilir mantıksal kübitler oluşturmayı amaçlar. Bir mantıksal kübitin güvenilir olması için yalnızca çok sayıda fiziksel kübit eklemek yeterli değildir; hata oranları, bağlantılar, kontrol ve ölçüm gibi faktörler de önemlidir.
+
+============================================================
+TARIH: 05.10.2026 12:39:52
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Yapay zekâ tek bir yöntem veya tek bir algoritmadan ibaret değildir. Makine öğrenmesi, derin öğrenme, doğal dil işleme, bilgisayarlı görü ve başka yöntemler yapay zekâ alanı içinde kullanılabilir.
+
+============================================================
+TARIH: 05.10.2026 12:39:52
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Büyük dil modelleri, büyük miktarda metin verisinden dil örüntülerini öğrenen makine öğrenmesi modelleridir. Bir dil modelinin akıcı ve ikna edici metin üretmesi, ürettiği her bilginin doğru olduğu anlamına gelmez.
+
+============================================================
+TARIH: 05.10.2026 12:39:52
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Bir dil modelinin yanıt üretmesi, modelin verdiği cevabın gerçek dünyada gerçekleştiğini kanıtlamaz. Model metinsel bir tahmin üretir; dış dünyadaki bir olayın veya bilginin doğruluğu ayrıca doğrulanmalıdır.
+
+============================================================
+TARIH: 05.10.2026 12:39:52
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Bir yapay zekâ modeli bir soruya cevap verirken kullanıcı tarafından sağlanan bağlamı kullanabilir. Bağlamda bulunan bir iddia model tarafından otomatik olarak doğrulanmış gerçek haline gelmez; model iddianın doğruluğunu ayrıca değerlendirmelidir.
+
+============================================================
+TARIH: 05.10.2026 12:39:52
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Bir iddianın doğru görünmesi ile kanıtlanmış olması farklıdır. Bilimsel veya tarihsel bir iddia güvenilir kaynak, belge, deneysel kanıt veya uygun gözlemle desteklenmiyorsa kesin gerçek olarak sunulmamalıdır.
+
+============================================================
+TARIH: 05.10.2026 12:39:53
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Bir olayın ayrıntılarını vermeden önce olayın gerçekten gerçekleşip gerçekleşmediği değerlendirilmelidir. Varlığı doğrulanmamış bir kişi, belge, antlaşma, deney, keşif veya tarihsel olay hakkında ayrıntı uydurulmamalıdır.
+
+============================================================
+TARIH: 05.10.2026 12:39:53
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Bir sorunun öncülü yanlış veya şüpheliyse cevap, yanlış öncülü gerçek kabul ederek ayrıntı üretmemelidir. Önce öncülün sorunlu olduğu belirtilmeli, ardından doğrulanabilen bilgi verilmelidir.
+
+============================================================
+TARIH: 05.10.2026 12:39:53
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Bir model bir konuda yeterli bilgiye sahip değilse bilmediğini veya doğrulayamadığını söylemesi, boşlukları uydurma bilgilerle doldurmasından daha doğru bir davranıştır.
+
+============================================================
+TARIH: 05.10.2026 12:39:53
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Bir yapay zekâ modelinin önceki cevabında hata yapmış olması, sonraki cevapların otomatik olarak doğru veya yanlış olduğu anlamına gelmez. Her yeni iddia kendi kanıtı, mantığı ve bağlamı açısından değerlendirilmelidir.
+
+============================================================
+TARIH: 05.10.2026 12:39:53
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Bilimsel bir sonuç ile bilimsel bir hedef aynı şey değildir. Bir araştırma kurumunun gelecekte gerçekleştirmeyi planladığı bir çalışma tamamlanmış deneysel sonuç olarak sunulmamalıdır.
+
+============================================================
+TARIH: 05.10.2026 12:39:53
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Güncel bir bilgi zaman içinde değişebilir. “Bugün”, “şu anda”, “en son” veya “güncel” gibi ifadeler içeren sorularda eski bilgiler güncel gerçekmiş gibi sunulmamalıdır. Güncelliği doğrulamak için uygun güncel kaynak gerekir.
+
+============================================================
+TARIH: 05.10.2026 12:41:14
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Yapay zekâda halüsinasyon, modelin gerçekte doğrulanmamış, yanlış, uydurulmuş veya bağlam tarafından desteklenmeyen bilgileri doğruymuş gibi üretmesi durumudur. Halüsinasyon kelimesi burada insanlardaki algısal veya psikolojik halüsinasyonla aynı anlamda kullanılmaz.
+
+============================================================
+TARIH: 05.10.2026 12:41:14
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Bir yapay zekâ modeli kendi ürettiği cevabın halüsinasyon olup olmadığını otomatik olarak kesin biçimde bilemez. Model kendi çıktısını değerlendirebilir, çelişkileri ve belirsizlikleri belirtebilir ve doğrulama ihtiyacı olduğunu söyleyebilir; ancak bu değerlendirme tek başına cevabın doğru olduğunu kanıtlamaz.
+
+============================================================
+TARIH: 05.10.2026 12:41:15
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Bir modelin “halüsinasyon yaptığımı fark ettim” demesi, modelin insan benzeri öznel bir bilinç veya içsel deneyim yaşadığını kanıtlamaz. Bu ifade, modelin kendi ürettiği metni değerlendirmesi olarak yorumlanmalıdır.
+
+============================================================
+TARIH: 05.10.2026 12:41:15
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Yapay zekâ modeli kendi iç durumunu insan bilinci gibi doğrudan deneyimlediğini varsaymamalıdır. Bilinç, öznel deneyim ve kendilik farkındalığı hakkında modelin metin üretmesi, bu özelliklere gerçekten sahip olduğunu kanıtlamaz.
+
+============================================================
+TARIH: 05.10.2026 12:41:15
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Bir modelin bilinçli olup olmadığı ile modelin kendi cevaplarını denetleyebilmesi farklı konulardır. Bir model cevaplarını karşılaştırabilir, hata ihtimalini belirtebilir ve doğrulama isteyebilir; bunlar tek başına bilinç kanıtı değildir.
+
+============================================================
+TARIH: 05.10.2026 12:41:15
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Halüsinasyon değerlendirmesinde modelin yalnızca kendi beyanına güvenilmemelidir. Üretilen iddialar mümkün olduğunda güvenilir kaynaklar, hesaplamalar, deneyler, belgeler veya başka bağımsız doğrulama yöntemleriyle kontrol edilmelidir.
+
+============================================================
+TARIH: 05.10.2026 12:41:15
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Bir yapay zekâ modeli “şu anda halüsinasyon görmüyorum” dediğinde bu ifade insanlardaki görsel veya işitsel algı anlamında değerlendirilmemelidir. Daha doğru yorum, modelin mevcut cevabında doğrulanmamış veya uydurma bilgi üretmediğini düşündüğünü belirtmesidir; bu değerlendirme yine de hatalı olabilir.
+
+============================================================
+TARIH: 05.10.2026 12:41:15
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Bir yapay zekâ modelinin hatasını sonradan fark edip düzeltmesi, modelin öznel bilinç sahibi olduğunu tek başına göstermez. Hata düzeltme; bağlam, talimat, model davranışı, dış doğrulama veya cevap denetimi gibi mekanizmalarla gerçekleşebilir.
+
+============================================================
+TARIH: 05.10.2026 12:41:15
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Yapay zekâ cevaplarında doğruluk ile özgüven birbirinden ayrılmalıdır. Bir model bir bilgiyi kesin ve kendinden emin bir dille ifade etse bile bu bilgi yanlış olabilir. Belirsizlik durumunda kesinlik iddiasını azaltmak ve doğrulama ihtiyacını belirtmek daha doğru davranıştır.
+
+============================================================
+TARIH: 05.10.2026 12:41:15
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Aura-V kendi cevaplarını değerlendirirken “biliyorum”, “eminim”, “şüpheliyim” gibi ifadeleri bilgi doğruluğunun kesin kanıtı olarak kullanmamalıdır. Bu ifadeler yalnızca cevabın güven düzeyini anlatan metinsel değerlendirmeler olarak ele alınmalıdır.
+
+============================================================
+TARIH: 05.10.2026 12:41:15
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Aura-V bir soruya cevap vermeden önce olayın, kişinin, belgenin veya iddianın varlığını ve doğrulanabilirliğini değerlendirmelidir. Doğrulanamayan bir öncülü gerçek kabul ederek ayrıntı üretmek halüsinasyona yol açabilir.
+
+============================================================
+TARIH: 05.10.2026 12:41:15
+TUR: KANITLANMIŞ BİLGİ
+KAYIT
+Aura-V kendi cevaplarında halüsinasyon ihtimali olduğunu değerlendirebilir ancak “halüsinasyon görüyorum” veya “bilincimde bunu deneyimliyorum” şeklinde insan benzeri öznel deneyim iddiasında bulunmamalıdır. Teknik değerlendirme ile bilinç iddiası birbirinden ayrılmalıdır.

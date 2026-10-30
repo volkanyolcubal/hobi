@@ -1,0 +1,108 @@
+{
+  "son_duygu": "meraklı",
+  "enerji": 100,
+  "gecmis": [
+    {
+      "tarih": "15:21",
+      "duygu": "meraklı",
+      "enerji": 100
+    },
+    {
+      "tarih": "16:46",
+      "duygu": "dikkatli",
+      "enerji": 95
+    },
+    {
+      "tarih": "16:50",
+      "duygu": "dikkatli",
+      "enerji": 90
+    },
+    {
+      "tarih": "16:51",
+      "duygu": "yorgun",
+      "enerji": 70
+    },
+    {
+      "tarih": "16:54",
+      "duygu": "yorgun",
+      "enerji": 50
+    },
+    {
+      "tarih": "17:04",
+      "duygu": "meraklı",
+      "enerji": 55
+    },
+    {
+      "tarih": "17:20",
+      "duygu": "kararlı",
+      "enerji": 60
+    },
+    {
+      "tarih": "14:13",
+      "duygu": "kararlı",
+      "enerji": 65
+    },
+    {
+      "tarih": "14:24",
+      "duygu": "meraklı",
+      "enerji": 70
+    },
+    {
+      "tarih": "14:52",
+      "duygu": "meraklı",
+      "enerji": 75
+    },
+    {
+      "tarih": "15:03",
+      "duygu": "meraklı",
+      "enerji": 80
+    },
+    {
+      "tarih": "15:22",
+      "duygu": "meraklı",
+      "enerji": 85
+    },
+    {
+      "tarih": "15:36",
+      "duygu": "meraklı",
+      "enerji": 90
+    },
+    {
+      "tarih": "15:57",
+      "duygu": "meraklı",
+      "enerji": 95
+    },
+    {
+      "tarih": "16:20",
+      "duygu": "meraklı",
+      "enerji": 100
+    },
+    {
+      "tarih": "16:31",
+      "duygu": "meraklı",
+      "enerji": 100
+    },
+    {
+      "tarih": "16:59",
+      "duygu": "meraklı",
+      "enerji": 100
+    },
+    {
+      "tarih": "17:24",
+      "duygu": "meraklı",
+      "enerji": 100
+    },
+    {
+      "tarih": "17:48",
+      "duygu": "meraklı",
+      "enerji": 100
+    },
+    {
+      "tarih": "18:07",
+      "duygu": "meraklı",
+      "enerji": 100
+    }
+  ],
+  "etkilesim": 1265,
+  "tarih": "2026-10-25 18:07"
+}

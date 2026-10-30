@@ -1,0 +1,20 @@
+{
+  "ad": "Volkan",
+  "ses_hizi": 150,
+  "ses_tonu": 200,
+  "ses_volumu": 0.95,
+  "kayit_tarihi": "2026-09-23T14:39:37.528513",
+  "ses_ornekleri": [
+    {
+      "tarih": "2026-09-23T14:39:37.528513",
+      "notlar": "",
+      "ayarlar": {
+        "hiz": 150,
+        "ton": 200,
+        "volum": 0.95
+      }
+    }
+  ],
+  "klonlama_hazir": false,
+  "not": "Bu profil Mimar Volkan'ın ses tercihlerini saklar. Gelecekte ses klonlama teknolojisi kullanıma girdiğinde AURA bu profili kullanarak Volkan'ın sesiyle konuşacak."
+}

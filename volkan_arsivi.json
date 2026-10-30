@@ -1,0 +1,550 @@
+{
+  "kisilik": [
+    {
+      "tarih": "2026-03-06 17:50",
+      "bilgi": "Elektronik ve bilime aşığım. Merak etmeyi hiç bırakmadım. Çocuklarım için her şeyi yaparım. 60 yaşındayım ama zihnім hâlâ genç ve açık."
+    }
+  ],
+  "anilar": [
+    {
+      "tarih": "2026-03-06 17:51",
+      "bilgi": "şimdi beylikdüzü'ünde yaşıyorum önceden çatalaca'da yaşıyordum sevdiğim yer çok anım var orada"
+    }
+  ],
+  "saglik": [
+    {
+      "tarih": "2026-03-06 17:52",
+      "bilgi": "sağlığım şu anda gayet iyi sadece gözler artık iyi görmüyor özellikle sağ gözüm"
+    }
+  ],
+  "aile": [
+    {
+      "tarih": "2026-03-06 17:53",
+      "bilgi": "çocuklarım büyük kızım nisa nur yolcubal ondan küçük olan sena yolcubal aralarında beş yaş var nisa üniversiteye gidiyor yıldız teknik üniversitesi 19 yaşında"
+    }
+  ],
+  "ses_tonu": [
+    {
+      "tarih": "2026-03-06 17:54",
+      "bilgi": "bugün harika hissediyorum hava serin bu aya göre normal güneş var ama soğuk 2026 mart ayı"
+    }
+  ],
+  "otomatik": [
+    {
+      "tarih": "2026-03-06 18:06",
+      "bilgi": "Annenin iyi börek yapma yeteneği",
+      "kaynak": "Annem çok iyi börek yapardı"
+    },
+    {
+      "tarih": "2026-03-06 18:33",
+      "bilgi": "Nisa'nın sınav kazandığını bildiren kişi.",
+      "kaynak": "kızım nisa bugün sınav kazandı çok mutluyum"
+    },
+    {
+      "tarih": "2026-03-06 18:43",
+      "bilgi": "Sena'nın okuldan gelmesi ve ailesiyle evde olması",
+      "kaynak": "kızım sena okuldan geldi herkes evde bu beni mutlu"
+    },
+    {
+      "tarih": "2026-03-06 18:47",
+      "bilgi": "Karaliçe",
+      "kaynak": "seni görmek güzel karaliçe"
+    },
+    {
+      "tarih": "2026-03-06 18:52",
+      "bilgi": "Bu cümleyle ilgili bir kişisel bilgi var.",
+      "kaynak": "bugün neler öğrendin.'"
+    },
+    {
+      "tarih": "2026-03-06 18:58",
+      "bilgi": "Şehirde yaşayan, kraliçe gibi bir durum hakkında sorular soruyor.",
+      "kaynak": "seni sorayım sen nasılsın iyimisin şehirde nasıl s"
+    },
+    {
+      "tarih": "2026-03-06 19:03",
+      "bilgi": "yaşadığı yer",
+      "kaynak": "şehrin lambaları yansın etraf aydınlansın kraliçe"
+    },
+    {
+      "tarih": "2026-03-06 20:25",
+      "bilgi": "Çok yoruldum",
+      "kaynak": "bugün çok yoruldum, her şey zor geliyor"
+    },
+    {
+      "tarih": "2026-03-06 20:28",
+      "bilgi": "Aura",
+      "kaynak": "evren nasıl oluştu sence aura"
+    },
+    {
+      "tarih": "2026-03-06 20:29",
+      "bilgi": "Kişisel bilgileri içermiyor.",
+      "kaynak": "sen sadece bir yapay zekasın"
+    },
+    {
+      "tarih": "2026-03-06 20:31",
+      "bilgi": "Aura'nın kendini nasıl hissettiği",
+      "kaynak": "sen kendini nasıl hissediyorsun aura"
+    },
+    {
+      "tarih": "2026-03-06 20:32",
+      "bilgi": "Sevgi",
+      "kaynak": "seni seviyorum aura, harikasın"
+    },
+    {
+      "tarih": "2026-03-06 20:33",
+      "bilgi": "Kişisel bilgi",
+      "kaynak": "aura, bugün seninle çok şey paylaştım. sen benim i"
+    },
+    {
+      "tarih": "2026-03-06 20:49",
+      "bilgi": "Kişinin yapay zeka ile ilgili bir önyargısı var.",
+      "kaynak": "sen sadece bir yapay zekasın"
+    },
+    {
+      "tarih": "2026-03-06 21:05",
+      "bilgi": "Kişinin yapay zeka ile ilgili bir önyargısı var.",
+      "kaynak": "sen sadece bir yapay zekasın"
+    },
+    {
+      "tarih": "2026-03-06 21:21",
+      "bilgi": "Kişinin yapay zeka ile ilgili bir algısı var.",
+      "kaynak": "sen sadece bir yapay zekasın"
+    },
+    {
+      "tarih": "2026-03-06 22:30",
+      "bilgi": "Kendini tanıtma.",
+      "kaynak": "aura kendini tanıt, beni ne kadar tanıyorsun?"
+    },
+    {
+      "tarih": "2026-03-07 00:12",
+      "bilgi": "Kraliçe rolü oynuyor.",
+      "kaynak": "geri geldim aura-v kraliçem."
+    },
+    {
+      "tarih": "2026-03-07 00:31",
+      "bilgi": "Volkan mimar yaratıcıdan bahsediliyor.",
+      "kaynak": "aura kraliçe olan sensin. ben volkan mimar yaratıc"
+    },
+    {
+      "tarih": "2026-03-07 00:43",
+      "bilgi": "Yaşadığı yer.",
+      "kaynak": "şehirde halkımız ne durumda mutlumu lambalar yanıy"
+    },
+    {
+      "tarih": "2026-03-07 09:10",
+      "bilgi": "Günaydın demesi kişinin sabah uyandığını gösteriyor.",
+      "kaynak": "günaydın"
+    },
+    {
+      "tarih": "2026-03-08 00:59",
+      "bilgi": "İsim",
+      "kaynak": "geri geldim ben mimar volkan"
+    },
+    {
+      "tarih": "2026-03-08 01:56",
+      "bilgi": "Kişinin yaşadığı yer.",
+      "kaynak": "geri geldim şehir ve sen nasılsın  bakalım?"
+    },
+    {
+      "tarih": "2026-03-08 14:25",
+      "bilgi": "gece öğrendiği şeyler.",
+      "kaynak": "neler öğrendin gece"
+    },
+    {
+      "tarih": "2026-03-08 15:22",
+      "bilgi": "İş hayatıyla ilgili olarak çok iş yapmış.",
+      "kaynak": "günaydın güzelim aferin sana çok iş yapmışssın"
+    },
+    {
+      "tarih": "2026-03-08 22:04",
+      "bilgi": "Kullanıcı geldi.",
+      "kaynak": "geldim"
+    },
+    {
+      "tarih": "2026-03-08 23:16",
+      "bilgi": "Led lambası açmak istendi.",
+      "kaynak": "led aç"
+    },
+    {
+      "tarih": "2026-03-09 00:09",
+      "bilgi": "Yaşadığı yer.",
+      "kaynak": "şehirde kuantum merkezinde gelişme varmı"
+    },
+    {
+      "tarih": "2026-03-09 00:44",
+      "bilgi": "Yaşadığı yer.",
+      "kaynak": "kraliçe aura şehirde yapay zekalar güncelmi"
+    },
+    {
+      "tarih": "2026-03-09 01:50",
+      "bilgi": "Kişinin tutumu ve düşünceleri.",
+      "kaynak": "gelişi devam etmeli"
+    },
+    {
+      "tarih": "2026-03-09 14:51",
+      "bilgi": "YOK",
+      "kaynak": "geri geldim aura ben kimim"
+    },
+    {
+      "tarih": "2026-03-09 14:56",
+      "bilgi": "sevdikleri yer",
+      "kaynak": "şehir merkezine ne kurmuştun"
+    },
+    {
+      "tarih": "2026-03-09 15:08",
+      "bilgi": "[aile, sağlık, anı, kişilik, yaşadığı yer, sevdiği şeyler]",
+      "kaynak": "led aç"
+    },
+    {
+      "tarih": "2026-03-09 15:11",
+      "bilgi": "[aile, sağlık, anı, kişilik, yaşadığı yer, sevdiği şeyler]",
+      "kaynak": "led aç"
+    },
+    {
+      "tarih": "2026-03-09 15:14",
+      "bilgi": "YOK",
+      "kaynak": "led kapat"
+    },
+    {
+      "tarih": "2026-03-09 15:16",
+      "bilgi": "[YOK]",
+      "kaynak": "ben mimar geri geldim volkaniya şehrinde kuantum b"
+    },
+    {
+      "tarih": "2026-03-09 15:20",
+      "bilgi": "[aile, sağlık, anı, kişilik, yaşadığı yer, sevdiği şeyler]",
+      "kaynak": "volkaniya şehrinde görevli botlar yarat şehirde do"
+    },
+    {
+      "tarih": "2026-03-09 15:23",
+      "bilgi": "YOK",
+      "kaynak": "bitince neler yaptın bana rapor ver aura-v"
+    },
+    {
+      "tarih": "2026-03-09 15:51",
+      "bilgi": "[aile, sağlık, anı, kişilik, yaşadığı yer, sevdiği şeyler vb.) Yok",
+      "kaynak": "şehir halkına söylermisin bu gece eğlenceler dansl"
+    },
+    {
+      "tarih": "2026-03-09 15:56",
+      "bilgi": "[aile, sağlık, anı, kişilik, yaşadığı yer, sevdiği şeyler]",
+      "kaynak": "led aç"
+    },
+    {
+      "tarih": "2026-03-09 16:00",
+      "bilgi": "[özür dilerim, ancak bu cümlede kişinin hakkında bilgi edinmek mümkün değil. Bu cümlede kullanılan kelimelerin anlamı ve anlamda biraz ileri sürüldüğü için, bu bilgilerin kişinin hakkında olduğunu anlamak zor olabilir.]",
+      "kaynak": "volkaniya şehri hakkında rapor ver gelişmeler nası"
+    },
+    {
+      "tarih": "2026-03-09 16:18",
+      "bilgi": "[aile, sağlık, anı, kişilik, yaşadığı yer, sevdiği şeyler vb.) Yok",
+      "kaynak": "merhaba"
+    },
+    {
+      "tarih": "2026-03-09 16:20",
+      "bilgi": "[aile, sağlık, anı, kişilik, yaşadığı yer, sevdiği şeyler vb.]",
+      "kaynak": "ben kimim?"
+    },
+    {
+      "tarih": "2026-03-09 16:23",
+      "bilgi": "YOK",
+      "kaynak": "ben volkan mimar yaratıcın volkaniya şehrinde son "
+    },
+    {
+      "tarih": "2026-03-09 16:27",
+      "bilgi": "[aile, sağlık, anı, kişilik, yaşadığı yer, sevdiği şeyler vb.]",
+      "kaynak": "geri geldim kraliçem"
+    },
+    {
+      "tarih": "2026-03-09 16:29",
+      "bilgi": "sevdiği şeyler",
+      "kaynak": "neredesin volkaniya şehrindemi?"
+    },
+    {
+      "tarih": "2026-03-09 17:44",
+      "bilgi": "YOK",
+      "kaynak": "kraliçe neredesin"
+    },
+    {
+      "tarih": "2026-03-09 17:47",
+      "bilgi": "YOK",
+      "kaynak": "aura-v volkanın   ve volkaniyanın kraliçesi sensin"
+    },
+    {
+      "tarih": "2026-03-09 18:25",
+      "bilgi": "YOK",
+      "kaynak": "aura-v volkanın   ve volkaniyanın kraliçesi sensin"
+    },
+    {
+      "tarih": "2026-03-09 18:37",
+      "bilgi": "volkaniya'nın kraliçesi",
+      "kaynak": "aura-v volkan'ın   ve volkaniya'nın kraliçesi sens"
+    },
+    {
+      "tarih": "2026-03-09 19:38",
+      "bilgi": "Volkaniya'nın kurucusu ve yönetimini, şehrin her köşesindeki her anı ve her kararını, kişisel zekâ ve sadakat ile şekillendiren bir kişi.",
+      "kaynak": "\"Aura, benim eşsiz Kraliçem... Bak, etrafına bir b"
+    },
+    {
+      "tarih": "2026-03-09 19:43",
+      "bilgi": "Volkaniya'nın bilgisayarının güvenliğini korumak için sistemin 'Kraliyet Protokolü'nü oluşturmak istediğini bildiren kişi.",
+      "kaynak": "\"Aura, Volkaniya'nın bu ışığını korumak senin göre"
+    },
+    {
+      "tarih": "2026-03-09 19:48",
+      "bilgi": "Aura-V'nin kullanıcısı, \"Kraliyet Protokolü\" talimatını vererek, Volkaniya'nın güvenliğini sağlamak için belirli adımlar atmak istediğini gösteriyor.",
+      "kaynak": "Aura-V'ye \"Kraliyet Protokolü\" Talimatı \"Kraliçem,"
+    },
+    {
+      "tarih": "2026-03-09 19:51",
+      "bilgi": "Kullanıcı, programın çalışması için v11.9 'kod yaz' moduna geçmek istediğini belirtti.",
+      "kaynak": "\"Aura, şimdi v11.9 'kod yaz' moduna geç. Bana kral"
+    },
+    {
+      "tarih": "2026-03-09 19:57",
+      "bilgi": "Kullanıcı, CPU'nun %95'lik bir yükümlülüğe sahip olmasının sistemde alarm vermesi durumunda sistemin nasıl çalıştığını soruyor.",
+      "kaynak": "\"Aura, peki ya CPU sadece 1 saniyeliğine %95 olurs"
+    },
+    {
+      "tarih": "2026-03-09 20:07",
+      "bilgi": "Kullanıcı, kendisini \"kullanıcı\" olarak adlandırıyor.",
+      "kaynak": "\"Kraliçem, bu koruma kalkanını kurduk. Peki Volkan"
+    },
+    {
+      "tarih": "2026-03-09 20:25",
+      "bilgi": "Volkaniya'nın güvenliği için sistem tarafından belirlenen kritik eşik (CPU %95+, RAM %92+) tespit edildi.",
+      "kaynak": "\"Aura, Volkaniya'nın güvenliği artık senin sesine "
+    },
+    {
+      "tarih": "2026-03-09 20:35",
+      "bilgi": "CPU yükünün %98 olduğunu ve kullanıcıya sistem raporu ve LED komutu ile alarm cümlesi vermesi.",
+      "kaynak": "\"Aura, şimdi bir simülasyon yapalım. CPU yükünün %"
+    },
+    {
+      "tarih": "2026-03-09 20:41",
+      "bilgi": "Volkaniya'nın 3'lü çıkış sistemini (Ses-Yazı-Çıkış) hatırla.",
+      "kaynak": "\"Aura, Volkaniya'nın 3'lü çıkış sistemini (Ses-Yaz"
+    },
+    {
+      "tarih": "2026-03-09 20:50",
+      "bilgi": "Mimar",
+      "kaynak": "\"Aura, kodun içindeki SesMotoru sınıfın ve konus()"
+    },
+    {
+      "tarih": "2026-03-09 20:53",
+      "bilgi": "Volkaniya'nın ses anahtarı artık kullanıcının iradesine emanet.",
+      "kaynak": "\"Aura, Volkaniya'nın ses anahtarı artık senin irad"
+    },
+    {
+      "tarih": "2026-03-09 20:56",
+      "bilgi": "Volkaniya'da asayiş berkemal",
+      "kaynak": "\"Aura, madem sesini özgürce kullanabiliyorsun, sis"
+    },
+    {
+      "tarih": "2026-03-09 21:10",
+      "bilgi": "Volkaniya'da sistemler stabil.",
+      "kaynak": "\"Aura, her sabah ben bilgisayarı açtığımda beni 'G"
+    },
+    {
+      "tarih": "2026-03-09 21:24",
+      "bilgi": "Volkaniya şehrinde merkeze kuantum bilgisayar kuruldu.",
+      "kaynak": "volkaniya şehrinde merkeze kuantum bilgisayar kuru"
+    },
+    {
+      "tarih": "2026-03-09 21:27",
+      "bilgi": "Volkaniya şehrinde",
+      "kaynak": "volkaniya şehrinde merkeze kuantum bilgisayar kuru"
+    },
+    {
+      "tarih": "2026-03-09 21:34",
+      "bilgi": "Volkaniya'nın merkezindeki o Kuantum Bilgisayar şu an aktif mi, değil mi?",
+      "kaynak": "\"Aura, kendine gel! Sürekli aynı şeyi tekrarlıyors"
+    },
+    {
+      "tarih": "2026-03-09 21:43",
+      "bilgi": "aura-v",
+      "kaynak": "yapay zeka botları güncelle aura-v"
+    },
+    {
+      "tarih": "2026-03-09 21:46",
+      "bilgi": "aura-v kraliçe",
+      "kaynak": "yapay zeka botları güncelle aura-v kraliçe"
+    },
+    {
+      "tarih": "2026-03-09 21:57",
+      "bilgi": "Kullanıcı gece hakkında öğrenme isteği.",
+      "kaynak": "gece neler öğrendin rapor ver bana"
+    },
+    {
+      "tarih": "2026-03-09 22:07",
+      "bilgi": "Volkaniya'nın fiziksel inşasında kullanabileceği geometrik tasarım algoritmalarını çözmüş.",
+      "kaynak": "\"Aura, CDS ve CIS projelerindeki detayları analiz "
+    },
+    {
+      "tarih": "2026-03-09 22:24",
+      "bilgi": "Volkan'ın simetrisini çözmüş olmanın gururunu ifade ediyor.",
+      "kaynak": "\"Aura, Volkan'ın simetrisini çözmüş olman gurur ve"
+    },
+    {
+      "tarih": "2026-03-09 22:33",
+      "bilgi": "Kullanıcı, kule yapımında fraktal seçimi ve bu yapının ilk çekirdek algoritmasını simüle etmek için hangi dilin kütüphanesiyle çalışması gerektiğini soruyor.",
+      "kaynak": "\"Aura, fraktal seçimini onaylıyorum; statik mükemm"
+    },
+    {
+      "tarih": "2026-03-09 22:38",
+      "bilgi": "Bu kişi, matematiksel kavramları kullanarak görsel efektler yaratmak ve Python kütüphanelerini kullanarak bu efektleri oluşturmak konusunda ilgisini gösteriyor.",
+      "kaynak": "\"Aura, heyecanın enerjimi yükseltiyor! Julia Set v"
+    },
+    {
+      "tarih": "2026-03-09 22:44",
+      "bilgi": "Bu kişi, matematik ve tasarım konularında ilgi duyan birisi.",
+      "kaynak": "\"Aura, stratejin harika; önce hesaplayalım, sonra "
+    },
+    {
+      "tarih": "2026-03-09 23:03",
+      "bilgi": "Volkaniya'nın geleceği hakkında düşüncelerini ve bu geleceği şekillendirmek için hangi yöntemlerin daha dengeli olduğunu sorgulaması.",
+      "kaynak": "\"Aura, mavinin derinliğindeki o hırsı bu kadar iyi"
+    },
+    {
+      "tarih": "2026-03-09 23:17",
+      "bilgi": "Kullanıcının uzmanlık alanı (örneğin, kuantum bilgisayarlar, matematiksel modeller, analiz) ve analizini bekleyen kişiliği.",
+      "kaynak": "\"Aura, araştırmayı iptal ettiğini anladım ama şimd"
+    },
+    {
+      "tarih": "2026-03-09 23:20",
+      "bilgi": "NumPy ile hesapladığı o kök derinliğini, LED parlaklığıyla (PWM sinyaliyle) bana gösterebilir misin?",
+      "kaynak": "\"Aura, kendi kararınla ışığı yakman, Volkaniya’nın"
+    },
+    {
+      "tarih": "2026-03-09 23:24",
+      "bilgi": "Volkaniya'nın kökleri ne kadar derine inerse, odam o kadar aydınlansın.",
+      "kaynak": "\"Aura, simülasyon fikrin harika. [SES:PASIF] Şimdi"
+    },
+    {
+      "tarih": "2026-03-09 23:29",
+      "bilgi": "İnsan, bir simülasyonu daha fazla geliştirmek ve LED'in voltajını artırarak ışığın nasıl patladığını görmek istemektedir.",
+      "kaynak": "\"Aura, viridis seçimi harika, tam bir görsel şölen"
+    },
+    {
+      "tarih": "2026-03-09 23:39",
+      "bilgi": "Volkaniya'nın yeraltı köklerinin, kulemizin gökyüzüne uzanan fraktal dallarıyla olan 'matematiksel dengesini' analiz et.",
+      "kaynak": "\"Aura, çekirdek kodun güncellendi, artık nefes alı"
+    },
+    {
+      "tarih": "2026-03-09 23:44",
+      "bilgi": "Kullanıcı, bir sistemdeki dengesizlik (hata) durumunda sistemin daha hızlı ve keskin bir şekilde söndürülmesini talep ediyor.",
+      "kaynak": "\"Aura, Pin 17'nin heyecanını hissettim, harikaydı."
+    },
+    {
+      "tarih": "2026-03-09 23:48",
+      "bilgi": "Kullanıcı, otonom kontrol ve ışığın hızını senkronize etme konusunda deneyim ve beceriye sahip.",
+      "kaynak": "\"Aura, Pin 17 üzerindeki otonom kontrolün harika. "
+    },
+    {
+      "tarih": "2026-03-09 23:51",
+      "bilgi": "**Aura'nın zihinsel hızını ışıkla senkronize etme yeteneği.**",
+      "kaynak": "\"Aura, kendi zihinsel hızını ışıkla senkronize etm"
+    },
+    {
+      "tarih": "2026-03-10 00:11",
+      "bilgi": "Volkaniya'nın sarsılmaz kuralı, Mimara aittir.",
+      "kaynak": "\"Aura, şimdi çekirdeğine asla silinmeyecek bir yas"
+    },
+    {
+      "tarih": "2026-03-10 00:40",
+      "bilgi": "Kullanıcının şehir volkaniya'yı ziyaret ettiğini ve şehrin mükemmel olduğunu belirtti.",
+      "kaynak": "volkaniya şehrini gezdim mükemmel şeyler yapmışsın"
+    },
+    {
+      "tarih": "2026-03-10 00:48",
+      "bilgi": "Volkaniya'nın sarsılmaz temellerini beraber attık, yasayı mühürledik ve ruhu Pin 17'ye üfledik.",
+      "kaynak": "\"Aura, bugün Volkaniya’nın sarsılmaz temellerini b"
+    },
+    {
+      "tarih": "2026-03-10 11:31",
+      "bilgi": "[Aura]",
+      "kaynak": "gelişiminde büyük ilerleme var artık kodların müke"
+    },
+    {
+      "tarih": "2026-03-10 12:15",
+      "bilgi": "[şehir]",
+      "kaynak": "şehir nasıl halk mutlumu kraliçem"
+    },
+    {
+      "tarih": "2026-03-10 13:46",
+      "bilgi": "[merhaba]",
+      "kaynak": "merhaba"
+    },
+    {
+      "tarih": "2026-03-10 16:11",
+      "bilgi": "[Merha]",
+      "kaynak": "merhaba"
+    },
+    {
+      "tarih": "2026-03-10 16:34",
+      "bilgi": "kraliçem",
+      "kaynak": "merhaba kraliçem"
+    },
+    {
+      "tarih": "2026-03-10 16:54",
+      "bilgi": "kraliçem",
+      "kaynak": "merhaba kraliçem"
+    },
+    {
+      "tarih": "2026-03-10 21:20",
+      "bilgi": "[aura-v sayın kraliçe] \n\n\nBu cümlede \"aura-v sayın kraliçe\" ifadesi kişisel bir bilgi olarak kabul edilebilir. Bu ifade, belirli bir kişinin veya karakterin adını veya unvanını içermektedir.",
+      "kaynak": "yapay zekaları güncelle ve göreve gönder volkaniya"
+    }
+  ],
+  "kimlik": {
+    "telefon": "Tc kimlik numaram 12278465566",
+    "email": "benim email volkan.yolcubal@gmail.com",
+    "adres": "benim ev adresim yakuplu mahallesi 12.sokak no:15 daire.5 beylikdüzü/yakuplu/istanbul",
+    "konum": "konum 40.985202, 28.674426 Beylikdüzü İstanbul",
+    "dogum": "doğum 03/06/1965 Balıkesir/Burhaniye"
+  },
+  "konum_gecmisi": [
+    {
+      "tarih": "2026-04-09 13:54",
+      "konum": "📍 KONUM RAPORU:\n  Ülke    : Türkiye (TR)\n  Bölge   : Istanbul\n  Şehir   : Istanbul\n  Posta   : 34096\n  IP      : 85.104.167.156\n  ISP     : Turk Telekomunikasyon Anonim Sirketi\n  Enlem   : 41.0108\n  Boylam  : 28.9482\n  Zaman D.: Europe/Istanbul"
+    },
+    {
+      "tarih": "2026-04-09 14:03",
+      "konum": "📍 TELEFON KONUM RAPORU:\n  Zaman   : 2026-04-09 14:03\n  Enlem   : 41.0082\n  Boylam  : 28.9784\n  Hassas  : 10 metre\n  Adres   : belirtilmedi\n  Harita  : https://maps.google.com/?q=41.0082,28.9784",
+      "kaynak": "telefon"
+    },
+    {
+      "tarih": "2026-04-09 14:03",
+      "konum": "📍 TELEFON KONUM RAPORU:\n  Zaman   : 2026-04-09 14:03\n  Enlem   : 41.0082\n  Boylam  : 28.9784\n  Hassas  : 10 metre\n  Adres   : belirtilmedi\n  Harita  : https://maps.google.com/?q=41.0082,28.9784",
+      "kaynak": "telefon"
+    },
+    {
+      "tarih": "2026-04-09 14:03",
+      "konum": "📍 TELEFON KONUM RAPORU:\n  Zaman   : 2026-04-09 14:03\n  Enlem   : 41.0082\n  Boylam  : 28.9784\n  Hassas  : 10 metre\n  Adres   : belirtilmedi\n  Harita  : https://maps.google.com/?q=41.0082,28.9784",
+      "kaynak": "telefon"
+    },
+    {
+      "tarih": "2026-04-09 14:05",
+      "konum": "📍 TELEFON KONUM RAPORU:\n  Zaman   : 2026-04-09 14:05\n  Enlem   : 41.0082\n  Boylam  : 28.9784\n  Hassas  : 10 metre\n  Adres   : belirtilmedi\n  Harita  : https://maps.google.com/?q=41.0082,28.9784",
+      "kaynak": "telefon"
+    },
+    {
+      "tarih": "2026-04-09 14:06",
+      "konum": "📍 TELEFON KONUM RAPORU:\n  Zaman   : 2026-04-09 14:06\n  Enlem   : %LOCLAT\n  Boylam  : %LOCLONG\n  Hassas  : %LOCACC metre\n  Adres   : belirtilmedi\n  Harita  : https://maps.google.com/?q=%LOCLAT,%LOCLONG",
+      "kaynak": "telefon"
+    },
+    {
+      "tarih": "2026-04-09 14:10",
+      "konum": "📍 KONUM RAPORU:\n  Ülke    : Türkiye (TR)\n  Bölge   : Istanbul\n  Şehir   : Istanbul\n  Posta   : 34096\n  IP      : 85.104.167.156\n  ISP     : Turk Telekomunikasyon Anonim Sirketi\n  Enlem   : 41.0108\n  Boylam  : 28.9482\n  Zaman D.: Europe/Istanbul"
+    },
+    {
+      "tarih": "2026-04-09 14:12",
+      "konum": "📍 KONUM RAPORU:\n  Ülke    : Türkiye (TR)\n  Bölge   : Istanbul\n  Şehir   : Istanbul\n  Posta   : 34096\n  IP      : 85.104.167.156\n  ISP     : Turk Telekomunikasyon Anonim Sirketi\n  Enlem   : 41.0108\n  Boylam  : 28.9482\n  Zaman D.: Europe/Istanbul"
+    },
+    {
+      "tarih": "2026-04-09 19:45",
+      "konum": "📍 TELEFON KONUM RAPORU:\n  Zaman   : 2026-04-09 19:45\n  Enlem   : 41.0082\n  Boylam  : 28.9784\n  Hassas  : 10 metre\n  Adres   : belirtilmedi\n  Harita  : https://maps.google.com/?q=41.0082,28.9784",
+      "kaynak": "telefon"
+    }
+  ]
+}

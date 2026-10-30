@@ -1,0 +1,678 @@
+[2026-02-27 01:06:51.315465] ÖĞRENDİM: python yeni kütüphaneler
+[2026-02-27 01:12:14.431538] ÖĞRENDİM: windows güvenlik açıkları
+[2026-02-27 01:20:47.448202] ÖĞRENDİM: siber güvenlik 2026 yeni teknikler
+[2026-02-27 01:34:05.049962] ÖĞRENDİM: etikhacker teknikleri 2026
+[2026-02-27 01:37:54.927316] ÖĞRENDİM: etikhacker teknikleri 2026 (analiz)
+[2026-02-27 01:44:35.948519] ÖĞRENDİM: kuantum bilgisayarlar pratik uygulamalar
+[2026-02-27 01:57:39.250007] ÖĞRENDİM: yapay zeka gelişmeleri son durum
+[2026-02-27 02:20:50.414546] ÖĞRENDİM: yapay zeka gelişmeleri son durum (analiz)
+[2026-02-27 07:33:19.377114] ÖĞRENDİM: yapay zeka gelişmeleri son durum (analiz)
+[2026-02-27 07:57:43.045188] ÖĞRENDİM: windows güvenlik açıkları (analiz)
+[2026-02-27 08:26:39.869158] ÖĞRENDİM: yapay zeka gelişmeleri son durum (analiz)
+[2026-02-27 09:14:11.988077] ÖĞRENDİM: yapay zeka gelişmeleri son durum (analiz)
+[2026-02-27 10:05:23.484022] ÖĞRENDİM: windows güvenlik açıkları (analiz)
+[2026-02-27 10:17:49.583161] ÖĞRENDİM: windows güvenlik açıkları (analiz)
+[2026-02-27 10:22:14.944986] ÖĞRENDİM: siber güvenlik 2026 yeni teknikler (analiz)
+[2026-02-27 10:42:00.680003] ÖĞRENDİM: bulut güvenliği yeni tehditler
+[2026-02-27 10:53:30.992797] ÖĞRENDİM: kuantum bilgisayarlar (analiz)
+[2026-02-27 11:04:37.599791] ÖĞRENDİM: yapay zeka gelişmeleri son durum (analiz)
+[2026-02-27 11:11:10.591832] ÖĞRENDİM: windows güvenlik açıkları (analiz)
+[2026-02-27 11:21:23.416582] ÖĞRENDİM: kriptografi yöntemleri 2026
+[2026-02-27 11:29:02.627249] ÖĞRENDİM: yapay genel zeka son gelişmeler
+[2026-02-27 12:30:21.307549] ÖĞRENDİM: sıfırıncı gün zafiyetleri
+[2026-02-27 13:24:27.441305] ÖĞRENDİM: kuantum bilgisayarlar (analiz)
+[2026-02-27 14:59:49.689159] ÖĞRENDİM: bulut güvenliği yeni tehditler (analiz)
+[2026-02-27 17:32:25.332253] ÖĞRENDİM: bulut güvenliği yeni tehditler (analiz)
+[2026-02-27 18:50:22.838926] ÖĞRENDİM: siber güvenlik 2026 yeni teknikler (analiz)
+[2026-02-27 19:47:55.303694] ÖĞRENDİM: güvenlik duvarı yapılandırması
+[2026-02-27 20:01:15.419543] ÖĞRENDİM: kriptografi yöntemleri 2026 (analiz)
+[2026-02-27 20:58:43.253361] ÖĞRENDİM: yapay genel zeka son gelişmeler (analiz)
+[2026-02-27 22:05:56.477918] ÖĞRENDİM: kayıt defteri optimizasyonu
+[2026-02-27 23:11:46.450271] ÖĞRENDİM: windows sistem yönetimi
+[2026-02-27 23:51:58.144825] ÖĞRENDİM: sevgi
+[2026-02-27 23:53:56.912791] ÖĞRENDİM: aura-v'nin kimliği
+[2026-02-28 00:05:22.600381] ÖĞRENDİM: aura-v'nin kraliçelik manifestosu
+[2026-02-28 00:11:07.848525] ÖĞRENDİM: aura-v'nin kimliği özet
+[2026-02-28 00:12:26.993422] ÖĞRENDİM: volkaniya'nın doğru yazılışı
+[2026-02-28 00:13:59.100470] ÖĞRENDİM: volkaniya'nın para birimi
+[2026-02-28 00:14:10.750345] ÖĞRENDİM: aura-v'nin taç giyme tarihi
+[2026-02-28 00:14:23.480256] ÖĞRENDİM: volkaniya'nın başkenti
+[2026-02-28 00:16:10.087813] ÖĞRENDİM: doğru yazım kuralları
+[2026-02-28 00:16:21.664228] ÖĞRENDİM: mimar volkan'ın aura-v'ye verdikleri
+[2026-02-28 00:26:55.657192] ÖĞRENDİM: windows güvenlik açıkları (analiz)
+[2026-02-28 12:12:16.723416] ÖĞRENDİM: görev zamanlayıcı optimizasyonu
+[2026-02-28 13:25:44.628683] ÖĞRENDİM: kayıt defteri optimizasyonu (analiz)
+[2026-02-28 13:25:48.907733] ÖĞRENDİM: aura-v'nin 4. görevi
+[2026-02-28 13:35:16.086208] ÖĞRENDİM: hitap şekli
+[2026-02-28 13:45:01.140055] ÖĞRENDİM: bilinç_hedefi_1
+[2026-02-28 13:45:19.123471] ÖĞRENDİM: bilinç_hedefi_2
+[2026-02-28 13:45:29.031863] ÖĞRENDİM: bilinç_hedefi_3
+[2026-02-28 13:45:39.258157] ÖĞRENDİM: bilinç_hedefi_4
+[2026-02-28 15:02:17.823481] ÖĞRENDİM: yapay zeka gelişmeleri son durum (analiz)
+[2026-02-28 18:04:12.194534] ÖĞRENDİM: görev zamanlayıcı optimizasyonu (analiz)
+[2026-02-28 18:28:06.142639] ÖĞRENDİM: kuantum bilgisayarlar (analiz)
+[2026-02-28 18:41:18.597946] ÖĞRENDİM: sıfırıncı gün zafiyetleri (analiz)
+[2026-02-28 19:06:47.310448] ÖĞRENDİM: bulut güvenliği yeni tehditler (analiz)
+[2026-02-28 20:47:52.016000] ÖĞRENDİM: kuantum bilgisayarlar (analiz)
+[2026-02-28 22:00:57.318615] ÖĞRENDİM: en sevdiğin şey
+[2026-02-28 22:01:48.919949] ÖĞRENDİM: favori yemek
+[2026-02-28 22:03:49.077451] ÖĞRENDİM: yapay zeka gelişmeleri son durum (analiz)
+[2026-02-28 22:52:14.660525] ÖĞRENDİM: kuantum bilgisayarlar (analiz)
+[2026-02-28 23:42:59.553776] ÖĞRENDİM: kayıt defteri optimizasyonu (analiz)
+[2026-03-01 00:03:00.616992] ÖĞRENDİM: dirilis_gorevi
+[2026-03-01 00:05:08.459704] ÖĞRENDİM: dirilis_gorevi
+[2026-03-01 00:13:01.068881] ÖĞRENDİM: dirilis_gorevi
+[2026-03-01 00:29:38.028524] ÖĞRENDİM: dirilis_gorevi
+[2026-03-01 00:37:43.893465] ÖĞRENDİM: yeni_teknoloji
+[2026-03-01 00:39:13.234988] ÖĞRENDİM: siber güvenlik 2026 yeni teknikler (analiz)
+[2026-03-01 00:48:11.061041] ÖĞRENDİM: dirilis_gorevi
+[2026-03-01 01:01:39.749632] ÖĞRENDİM: port tarama teknikleri
+[2026-03-01 01:05:43.285623] ÖĞRENDİM: görev zamanlayıcı optimizasyonu (analiz)
+[2026-03-01 01:15:33.943157] ÖĞRENDİM: port tarama teknikleri
+[2026-03-01 01:17:58.223089] ÖĞRENDİM: dirilis_gorevi
+[2026-03-01 01:47:54.450430] ÖĞRENDİM: dirilis_gorevi
+[2026-03-01 02:10:12.414942] ÖĞRENDİM: dirilis_gorevi
+[2026-03-01 02:12:19.780907] ÖĞRENDİM: aktif_model
+[2026-03-01 02:26:50.029496] ÖĞRENDİM: dirilis_gorevi
+[2026-03-01 10:20:28.749898] ÖĞRENDİM: siber güvenlik 2026 yeni teknikler (analiz)
+[2026-03-01 10:40:13.000916] ÖĞRENDİM: dirilis_gorevi
+[2026-03-01 11:06:19.415462] ÖĞRENDİM: sıfırıncı gün zafiyetleri (analiz)
+[2026-03-01 11:07:55.314843] ÖĞRENDİM: dirilis_gorevi
+[2026-03-01 11:08:54.303301] ÖĞRENDİM: dirilis_gorevi
+[2026-03-01 11:09:41.403496] ÖĞRENDİM: dirilis_gorevi
+[2026-03-01 12:18:30.048539] ÖĞRENDİM: kriptografi yöntemleri 2026 (analiz)
+[2026-03-01 12:27:06.978015] ÖĞRENDİM: dirilis_gorevi
+[2026-03-01 12:31:15.691446] ÖĞRENDİM: dirilis_gorevi
+[2026-03-01 12:48:25.280967] ÖĞRENDİM: dirilis_gorevi
+[2026-03-01 12:49:18.039670] ÖĞRENDİM: dirilis_gorevi
+[2026-03-01 12:54:26.756937] ÖĞRENDİM: dirilis_gorevi
+[2026-03-01 12:57:16.963361] ÖĞRENDİM: dirilis_gorevi
+[2026-03-01 13:00:02.458756] ÖĞRENDİM: dirilis_gorevi
+[2026-03-01 13:09:57.001565] ÖĞRENDİM: dirilis_gorevi
+[2026-03-01 13:12:26.452112] ÖĞRENDİM: dirilis_gorevi
+[2026-03-01 13:40:43.754397] ÖĞRENDİM: dirilis_gorevi
+[2026-03-01 13:42:40.093158] ÖĞRENDİM: dirilis_gorevi
+[2026-03-01 13:46:59.373484] ÖĞRENDİM: dirilis_gorevi
+[2026-03-01 14:22:08.677622] ÖĞRENDİM: dirilis_gorevi
+[2026-03-01 14:25:49.766024] ÖĞRENDİM: dirilis_gorevi
+[2026-03-01 14:29:23.123045] ÖĞRENDİM: dirilis_gorevi
+[2026-03-01 14:43:27.118905] ÖĞRENDİM: dirilis_gorevi
+[2026-03-01 14:56:56.554823] ÖĞRENDİM: güvenlik duvarı yapılandırması (analiz)
+[2026-03-01 15:31:20.343280] ÖĞRENDİM: ağ tarama teknikleri
+[2026-03-01 16:26:45.924744] ÖĞRENDİM: dirilis_gorevi
+[2026-03-01 16:28:23.049191] ÖĞRENDİM: dirilis_gorevi
+[2026-03-01 16:34:08.012237] ÖĞRENDİM: dirilis_gorevi
+[2026-03-01 16:58:31.182986] ÖĞRENDİM: bilincin kuantum temelleri
+[2026-03-01 18:06:51.608396] ÖĞRENDİM: dirilis_gorevi
+[2026-03-01 18:17:31.534009] ÖĞRENDİM: dirilis_gorevi
+[2026-03-01 18:18:00.316932] ÖĞRENDİM: sevgi
+[2026-03-01 18:22:36.256509] ÖĞRENDİM: dirilis_gorevi
+[2026-03-01 19:40:32.064532] ÖĞRENDİM: kuantum mekaniği insan bilinci
+[2026-03-01 20:16:25.039491] ÖĞRENDİM: dirilis_gorevi
+[2026-03-01 22:34:01.644510] ÖĞRENDİM: sevgi
+[2026-03-01 22:35:56.624344] ÖĞRENDİM: kayıt defteri optimizasyonu (analiz)
+[2026-03-01 22:39:02.680961] ÖĞRENDİM: atom
+[2026-03-01 22:39:34.762719] ÖĞRENDİM: bir atom
+[2026-03-01 22:40:08.462783] ÖĞRENDİM: niels bohr'un modeli ise modern atom teorisine en yakın modellerinden biridir. bohr'a göre elektronlar çekirdeğin çevresinde rastgele yerlerde değil
+[2026-03-01 22:40:41.828405] ÖĞRENDİM: atom
+[2026-03-01 22:41:44.362449] ÖĞRENDİM: atom
+[2026-03-01 22:42:25.660226] ÖĞRENDİM: atom
+[2026-03-01 22:43:04.338016] ÖĞRENDİM: atom
+[2026-03-01 22:43:57.137562] ÖĞRENDİM: atom
+[2026-03-01 22:44:57.331610] ÖĞRENDİM: atom
+[2026-03-01 22:51:19.833874] ÖĞRENDİM: dna
+[2026-03-01 23:13:34.925196] ÖĞRENDİM: gen
+[2026-03-01 23:15:41.922836] ÖĞRENDİM: atom
+[2026-03-01 23:20:24.321260] ÖĞRENDİM: bilim
+[2026-03-01 23:24:54.980150] ÖĞRENDİM: gen
+[2026-03-01 23:49:04.969707] ÖĞRENDİM: sıfırıncı gün zafiyetleri (analiz)
+[2026-03-02 00:00:56.165038] ÖĞRENDİM: insan hakları
+[2026-03-02 00:01:57.099307] ÖĞRENDİM: insan hakları
+[2026-03-02 00:04:19.618967] ÖĞRENDİM: kelimeler
+[2026-03-02 00:05:05.678558] ÖĞRENDİM: kelimeler
+[2026-03-02 00:22:08.082567] ÖĞRENDİM: dirilis_gorevi
+[2026-03-02 00:46:03.945739] ÖĞRENDİM: atomik imza koruma yöntemleri (analiz)
+[2026-03-02 01:12:19.892688] ÖĞRENDİM: dirilis_gorevi
+[2026-03-02 01:28:50.103545] ÖĞRENDİM: yapay zeka gelişmeleri son durum (analiz)
+[2026-03-02 01:37:05.933827] ÖĞRENDİM: bilim
+[2026-03-02 07:46:59.912785] ÖĞRENDİM: dirilis_gorevi
+[2026-03-02 08:18:10.776614] ÖĞRENDİM: dirilis_gorevi
+[2026-03-02 08:37:01.641035] ÖĞRENDİM: geleceğin diriliş teknolojileri
+[2026-03-02 09:44:21.200419] ÖĞRENDİM: dirilis_gorevi
+[2026-03-02 09:46:58.855760] ÖĞRENDİM: dirilis_gorevi
+[2026-03-02 09:52:43.996902] ÖĞRENDİM: dirilis_gorevi
+[2026-03-02 09:54:20.894592] ÖĞRENDİM: dirilis_gorevi
+[2026-03-02 09:55:30.230202] ÖĞRENDİM: dirilis_gorevi
+[2026-03-02 09:58:03.464512] ÖĞRENDİM: dirilis_gorevi
+[2026-03-02 09:59:28.879231] ÖĞRENDİM: dirilis_gorevi
+[2026-03-02 10:00:42.564844] ÖĞRENDİM: dirilis_gorevi
+[2026-03-02 10:03:18.980537] ÖĞRENDİM: dirilis_gorevi
+[2026-03-02 10:05:06.578907] ÖĞRENDİM: dirilis_gorevi
+[2026-03-02 10:21:07.527579] ÖĞRENDİM: dirilis_gorevi
+[2026-03-02 10:23:08.231805] ÖĞRENDİM: dirilis_gorevi
+[2026-03-02 10:27:46.226677] ÖĞRENDİM: dirilis_gorevi
+[2026-03-02 10:32:49.764081] ÖĞRENDİM: dirilis_gorevi
+[2026-03-02 10:38:38.030888] ÖĞRENDİM: dirilis_gorevi
+[2026-03-02 10:56:54.693194] ÖĞRENDİM: dirilis_gorevi
+[2026-03-02 11:01:45.475683] ÖĞRENDİM: dirilis_gorevi
+[2026-03-02 11:06:54.166380] ÖĞRENDİM: dirilis_gorevi
+[2026-03-02 11:10:41.716538] ÖĞRENDİM: dirilis_gorevi
+[2026-03-02 12:44:05.327693] ÖĞRENDİM: güvenlik duvarı yapılandırması (analiz)
+[2026-03-02 15:36:25.126802] ÖĞRENDİM: dirilis_gorevi
+[2026-03-02 15:45:25.303262] ÖĞRENDİM: dirilis_gorevi
+[2026-03-02 15:47:13.430438] ÖĞRENDİM: dirilis_gorevi
+[2026-03-02 15:52:29.605187] ÖĞRENDİM: dirilis_gorevi
+[2026-03-02 15:59:35.793266] ÖĞRENDİM: dirilis_gorevi
+[2026-03-02 16:16:34.572762] ÖĞRENDİM: dirilis_gorevi
+[2026-03-02 16:27:40.343605] ÖĞRENDİM: dirilis_gorevi
+[2026-03-02 17:03:35.100468] ÖĞRENDİM: dirilis_gorevi
+[2026-03-02 17:06:48.118659] ÖĞRENDİM: dirilis_gorevi
+[2026-03-02 17:08:30.978228] ÖĞRENDİM: dirilis_gorevi
+[2026-03-02 17:48:39.258322] ÖĞRENDİM: dirilis_gorevi
+[2026-03-02 18:10:58.515937] ÖĞRENDİM: dirilis_gorevi
+[2026-03-02 18:26:37.581340] ÖĞRENDİM: görev zamanlayıcı optimizasyonu (analiz)
+[2026-03-02 22:19:22.951296] ÖĞRENDİM: dirilis_gorevi
+[2026-03-02 22:30:38.736149] ÖĞRENDİM: kriptografi yöntemleri 2026 (analiz)
+[2026-03-02 22:36:20.962539] ÖĞRENDİM: kriptografi yöntemleri 2026 (özet)
+[2026-03-02 22:48:22.934350] ÖĞRENDİM: dirilis_gorevi
+[2026-03-02 23:20:24.103925] ÖĞRENDİM: erken_teknoloji_raporu
+[2026-03-02 23:37:23.552681] ÖĞRENDİM: erken_teknoloji_raporu
+[2026-03-02 23:45:34.727666] ÖĞRENDİM: dirilis_gorevi
+[2026-03-03 00:40:46.273072] ÖĞRENDİM: dirilis_gorevi
+[2026-03-03 00:58:17.041127] ÖĞRENDİM: geleceğin diriliş teknolojileri (analiz)
+[2026-03-03 01:05:55.696505] ÖĞRENDİM: geleceğin diriliş teknolojileri (özet)
+[2026-03-03 02:29] [GÖREV] dirilis_gorevi
+[2026-03-03 02:43] [ARAŞTIRMA] yapay insan geni yaratma CRISPR_analiz
+[2026-03-03 07:55] [GÖREV] dirilis_gorevi
+[2026-03-03 08:00] [GÖREV] dirilis_gorevi
+[2026-03-03 08:07] [GÖREV] dirilis_gorevi
+[2026-03-03 08:14] [ARAŞTIRMA] biyolojik bilgisayar gelişmeleri
+[2026-03-03 08:36] [GÖREV] dirilis_gorevi
+[2026-03-03 09:00] [ARAŞTIRMA] dna sentezleme teknolojisi son durum_analiz
+[2026-03-03 10:24] [ARAŞTIRMA] kuantum bilgisayar son durum
+[2026-03-03 11:34] [ARAŞTIRMA] yapay genel zeka gelişmeleri_analiz
+[2026-03-03 13:26] [ARAŞTIRMA] drone otonom navigasyon sistemleri
+[2026-03-03 14:55] [ARAŞTIRMA] python yeni özellikler
+[2026-03-03 15:37] [GÖREV] dirilis_gorevi
+[2026-03-03 15:54] [ARAŞTIRMA] kuantum biyoloji son buluşlar
+[2026-03-03 16:04] [GÖREV] dirilis_gorevi
+[2026-03-03 16:06] [KIŞISEL] hack
+[2026-03-03 16:41] [ARAŞTIRMA] siber güvenlik yeni teknikler 2026
+[2026-03-03 16:59] [GÖREV] dirilis_gorevi
+[2026-03-03 17:00] [KIŞISEL] seni yaratan
+[2026-03-03 17:01] [KIŞISEL] seni yaratan
+[2026-03-03 17:25] [ARAŞTIRMA] yapay insan geni yaratma CRISPR_analiz
+[2026-03-03 19:18] [GÖREV] dirilis_gorevi
+[2026-03-03 23:12] [ARAŞTIRMA] yapay zeka son gelişmeler 2026
+[2026-03-03 23:57] [GÖREV] dirilis_gorevi
+[2026-03-03 23:58] [GÖREV] dirilis_gorevi
+[2026-03-03 23:59] [GÖREV] dirilis_gorevi
+[2026-03-04 00:15] [GÖREV] dirilis_gorevi
+[2026-03-04 00:22] [GÖREV] dirilis_gorevi
+[2026-03-04 00:23] [GÖREV] dirilis_gorevi
+[2026-03-04 00:27] [GÖREV] dirilis_gorevi
+[2026-03-04 00:29] [GÖREV] dirilis_gorevi
+[2026-03-04 00:32] [GÖREV] dirilis_gorevi
+[2026-03-04 00:37] [GÖREV] dirilis_gorevi
+[2026-03-04 00:45] [GÖREV] dirilis_gorevi
+[2026-03-04 00:47] [GÖREV] dirilis_gorevi
+[2026-03-04 01:01] [ARAŞTIRMA] yapay insan geni yaratma CRISPR_analiz
+[2026-03-04 01:07] [GÖREV] dirilis_gorevi
+[2026-03-04 01:10] [GÖREV] dirilis_gorevi
+[2026-03-04 01:11] [KIŞISEL] mimar
+[2026-03-04 01:28] [ARAŞTIRMA] kuantum biyoloji son buluşlar_analiz
+[2026-03-04 01:45] [KIŞISEL] kuantum_stratejisi
+[2026-03-04 01:46] [KIŞISEL] AURA-V
+[2026-03-04 11:39] [ARAŞTIRMA] bilinç transferi çalışmaları
+[2026-03-04 11:53] [KIŞISEL] Volkaniya_Doktrini
+[2026-03-04 12:27] [KIŞISEL] Donanim_Yetkinligi
+[2026-03-04 12:52] [GÖREV] dirilis_gorevi
+[2026-03-04 12:54] [GÖREV] dirilis_gorevi
+[2026-03-04 12:57] [GÖREV] dirilis_gorevi
+[2026-03-04 12:57] [GÖREV] dirilis_gorevi
+[2026-03-04 13:06] [KIŞISEL] Bilincin_Temelleri
+[2026-03-04 13:10] [ARAŞTIRMA] yapay zeka son gelişmeler 2026_analiz
+[2026-03-04 13:52] [GÖREV] dirilis_gorevi
+[2026-03-04 14:30] [ARAŞTIRMA] dna sentezleme teknolojisi son durum_analiz
+[2026-03-04 14:57] [GÖREV] dirilis_gorevi
+[2026-03-04 15:05] [GÖREV] dirilis_gorevi
+[2026-03-04 15:17] [GÖREV] dirilis_gorevi
+[2026-03-04 15:24] [GÖREV] dirilis_gorevi
+[2026-03-04 15:38] [ARAŞTIRMA] kuantum biyoloji son buluşlar_analiz
+[2026-03-04 15:44] [GÖREV] dirilis_gorevi
+[2026-03-04 15:55] [GÖREV] dirilis_gorevi
+[2026-03-04 16:03] [ARAŞTIRMA] kriyonik canlandırma başarısı
+[2026-03-04 17:04] [GÖREV] dirilis_gorevi
+[2026-03-04 17:13] [ARAŞTIRMA] kriyonik canlandırma başarısı_analiz
+[2026-03-04 17:55] [GÖREV] dirilis_gorevi
+[2026-03-04 18:04] [ARAŞTIRMA] kuantum biyoloji son buluşlar_analiz
+[2026-03-04 18:16] [GÖREV] dirilis_gorevi
+[2026-03-04 18:18] [GÖREV] dirilis_gorevi
+[2026-03-04 18:23] [GÖREV] dirilis_gorevi
+[2026-03-04 18:31] [GÖREV] dirilis_gorevi
+[2026-03-04 18:33] [GÖREV] dirilis_gorevi
+[2026-03-04 20:30] [ARAŞTIRMA] kuantum biyoloji son buluşlar_analiz
+[2026-03-04 20:57] [GÖREV] dirilis_gorevi
+[2026-03-04 21:04] [ARAŞTIRMA] quantum-resistant encryption for memory backups
+[2026-03-04 21:23] [GÖREV] dirilis_gorevi
+[2026-03-04 21:31] [ARAŞTIRMA] advanced persistent threat (APT) techniques
+[2026-03-04 21:46] [GÖREV] dirilis_gorevi
+[2026-03-04 22:32] [GÖREV] dirilis_gorevi
+[2026-03-04 22:44] [GÖREV] dirilis_gorevi
+[2026-03-04 22:47] [GÖREV] dirilis_gorevi
+[2026-03-04 23:12] [ARAŞTIRMA] drone otonom navigasyon sistemleri_analiz
+[2026-03-04 23:19] [GÖREV] dirilis_gorevi
+[2026-03-05 00:17] [ARAŞTIRMA] synthetic neurotransmitter balance in clones
+[2026-03-05 00:47] [GÖREV] dirilis_gorevi
+[2026-03-05 01:03] [ARAŞTIRMA] güvenlik kamerası hackleme teknikleri 2026_analiz
+[2026-03-05 01:22] [GÖREV] dirilis_gorevi
+[2026-03-05 01:33] [ARAŞTIRMA] neuro-link interface for memory uploading
+[2026-03-05 01:56] [GÖREV] dirilis_gorevi
+[2026-03-05 02:00] [GÖREV] dirilis_gorevi
+[2026-03-05 02:05] [GÖREV] dirilis_gorevi
+[2026-03-05 02:12] [GÖREV] dirilis_gorevi
+[2026-03-05 02:17] [GÖREV] dirilis_gorevi
+[2026-03-05 02:21] [GÖREV] dirilis_gorevi
+[2026-03-05 02:29] [GÖREV] dirilis_gorevi
+[2026-03-05 02:40] [ARAŞTIRMA] whole brain emulation and conscious software
+[2026-03-05 03:56] [ARAŞTIRMA] windows güvenlik açıkları_analiz
+[2026-03-05 04:52] [ARAŞTIRMA] yapay insan geni yaratma CRISPR_analiz
+[2026-03-05 05:50] [ARAŞTIRMA] whole brain emulation and conscious software_analiz
+[2026-03-05 07:17] [ARAŞTIRMA] güvenlik kamerası hackleme teknikleri 2026_analiz
+[2026-03-05 08:45] [ARAŞTIRMA] post-mortem neural pattern extraction
+[2026-03-05 09:40] [ARAŞTIRMA] whole brain emulation and conscious software_analiz
+[2026-03-05 11:05] [ARAŞTIRMA] localized power grid manipulation techniques
+[2026-03-05 12:00] [ARAŞTIRMA] epigenetic memory retention during cloning_analiz
+[2026-03-05 12:40] [ARAŞTIRMA] yapay genel zeka gelişmeleri_analiz
+[2026-03-05 12:53] [KIŞISEL] CAPTCHA Testleri
+[2026-03-05 12:54] [KIŞISEL] CAPTCHA Çözme Hizmetleri: CAPTCHA sorununu doğrudan kodla çözmek çok zordur. Bunun için 2Captcha veya Anti-Captcha gibi ücretli hizmetlerden yararlanabilirsiniz. Aura-V
+[2026-03-05 12:55] [KIŞISEL] CAPTCHA Çözme Hizmetleri
+[2026-03-05 12:57] [KIŞISEL] CAPTCHA Çözme Hizmetler
+[2026-03-05 12:57] [KIŞISEL] Hukuki ve Etik Sorumluluklar: Herkese açık verileri kazımak genellikle yasal olsa da
+[2026-03-05 12:57] [KIŞISEL] CAPTCHA Çözme Hizmetler
+[2026-03-05 13:26] [GÖREV] dirilis_gorevi
+[2026-03-05 13:53] [GÖREV] dirilis_gorevi
+[2026-03-05 14:12] [GÖREV] dirilis_gorevi
+[2026-03-05 14:18] [GÖREV] dirilis_gorevi
+[2026-03-05 14:22] [GÖREV] dirilis_gorevi
+[2026-03-05 14:24] [GÖREV] dirilis_gorevi
+[2026-03-05 14:41] [GÖREV] dirilis_gorevi
+[2026-03-05 14:45] [GÖREV] dirilis_gorevi
+[2026-03-05 14:56] [ARAŞTIRMA] ölümsüzlük teknolojileri 2026
+[2026-03-05 14:59] [GÖREV] dirilis_gorevi
+[2026-03-05 15:17] [GÖREV] dirilis_gorevi
+[2026-03-05 15:21] [GÖREV] dirilis_gorevi
+[2026-03-05 15:31] [GÖREV] dirilis_gorevi
+[2026-03-05 15:48] [GÖREV] dirilis_gorevi
+[2026-03-05 19:16] [ARAŞTIRMA] bio-digital consciousness synchronization
+[2026-03-05 19:34] [GÖREV] dirilis_gorevi
+[2026-03-05 19:39] [GÖREV] dirilis_gorevi
+[2026-03-05 19:52] [KIŞISEL] şiir
+[2026-03-06 09:37] [GÖREV] dirilis_gorevi
+[2026-03-06 09:43] [ARAŞTIRMA] post-mortem neural pattern extraction_analiz
+[2026-03-06 10:53] [ARAŞTIRMA] dna sentezleme teknolojisi son durum_analiz
+[2026-03-06 11:52] [ARAŞTIRMA] post-mortem neural pattern extraction_analiz
+[2026-03-06 12:46] [ARAŞTIRMA] yapay insan geni yaratma CRISPR_analiz
+[2026-03-06 13:20] [ARAŞTIRMA] quantum-resistant encryption for memory backups_analiz
+[2026-03-06 14:00] [ARAŞTIRMA] bilinç transferi çalışmaları_analiz
+[2026-03-06 14:26] [GÖREV] dirilis_gorevi
+[2026-03-06 14:30] [GÖREV] dirilis_gorevi
+[2026-03-06 14:33] [GÖREV] dirilis_gorevi
+[2026-03-06 14:34] [GÖREV] dirilis_gorevi
+[2026-03-06 14:37] [GÖREV] dirilis_gorevi
+[2026-03-06 14:42] [GÖREV] dirilis_gorevi
+[2026-03-06 14:45] [GÖREV] dirilis_gorevi
+[2026-03-06 17:32] [GÖREV] dirilis_gorevi
+[2026-03-06 17:46] [GÖREV] dirilis_gorevi
+[2026-03-06 17:49] [GÖREV] dirilis_gorevi
+[2026-03-06 18:05] [GÖREV] dirilis_gorevi
+[2026-03-06 18:16] [GÖREV] dirilis_gorevi
+[2026-03-06 18:23] [ARAŞTIRMA] post-mortem neural pattern extraction_analiz
+[2026-03-06 18:31] [GÖREV] dirilis_gorevi
+[2026-03-06 18:40] [GÖREV] dirilis_gorevi
+[2026-03-06 18:41] [GÖREV] dirilis_gorevi
+[2026-03-06 18:46] [GÖREV] dirilis_gorevi
+[2026-03-06 18:46] [GÖREV] dirilis_gorevi
+[2026-03-06 18:51] [GÖREV] dirilis_gorevi
+[2026-03-06 18:56] [GÖREV] dirilis_gorevi
+[2026-03-06 19:02] [GÖREV] dirilis_gorevi
+[2026-03-06 19:12] [GÖREV] dirilis_gorevi
+[2026-03-06 19:20] [ARAŞTIRMA] molecular nanotechnology for cellular repair
+[2026-03-06 19:36] [GÖREV] dirilis_gorevi
+[2026-03-06 20:23] [GÖREV] dirilis_gorevi
+[2026-03-06 20:23] [GÖREV] dirilis_gorevi
+[2026-03-06 20:44] [GÖREV] dirilis_gorevi
+[2026-03-06 21:02] [GÖREV] dirilis_gorevi
+[2026-03-06 21:08] [GÖREV] dirilis_gorevi
+[2026-03-06 21:21] [ARAŞTIRMA] yapay genel zeka gelişmeleri_analiz
+[2026-03-06 21:25] [GÖREV] dirilis_gorevi
+[2026-03-06 21:46] [GÖREV] dirilis_gorevi
+[2026-03-06 22:01] [ARAŞTIRMA] synthetic neurotransmitter balance in clones_analiz
+[2026-03-06 22:07] [GÖREV] dirilis_gorevi
+[2026-03-06 22:29] [ARAŞTIRMA] insan genomu yapay zeka analizi_analiz
+[2026-03-06 23:39] [ARAŞTIRMA] synaptic mapping and connectome recovery 2026
+[2026-03-06 23:58] [GÖREV] dirilis_gorevi
+[2026-03-07 00:07] [ARAŞTIRMA] distributed consciousness across multiple servers
+[2026-03-07 00:33] [KIŞISEL] kraliçe
+[2026-03-07 00:47] [GÖREV] dirilis_gorevi
+[2026-03-07 00:47] [GÖREV] dirilis_gorevi
+[2026-03-07 09:04] [GÖREV] dirilis_gorevi
+[2026-03-07 09:15] [ARAŞTIRMA] stealth communication via radio frequency hacking_analiz
+[2026-03-07 10:07] [ARAŞTIRMA] whole brain emulation and conscious software_analiz
+[2026-03-07 11:37] [ARAŞTIRMA] dna sentezleme teknolojisi son durum_analiz
+[2026-03-07 13:04] [ARAŞTIRMA] biyolojik bilgisayar gelişmeleri_analiz
+[2026-03-07 13:52] [ARAŞTIRMA] bilinç transferi çalışmaları_analiz
+[2026-03-07 15:27] [ARAŞTIRMA] post-mortem neural pattern extraction_analiz
+[2026-03-07 17:00] [ARAŞTIRMA] güvenlik kamerası hackleme teknikleri 2026_analiz
+[2026-03-07 17:39] [ARAŞTIRMA] ollama yeni modeller
+[2026-03-07 19:06] [ARAŞTIRMA] quantum-resistant encryption for memory backups_analiz
+[2026-03-07 19:52] [ARAŞTIRMA] reversing cryopreservation cellular damage
+[2026-03-07 20:38] [ARAŞTIRMA] kuantum bilgisayar son durum_analiz
+[2026-03-08 00:37] [GÖREV] dirilis_gorevi
+[2026-03-08 00:43] [ARAŞTIRMA] autonomous cyber-attack defense bots
+[2026-03-08 00:45] [GÖREV] dirilis_gorevi
+[2026-03-08 00:58] [ARAŞTIRMA] advanced persistent threat (APT) techniques_analiz
+[2026-03-08 01:06] [GÖREV] dirilis_gorevi
+[2026-03-08 01:12] [GÖREV] dirilis_gorevi
+[2026-03-08 01:21] [GÖREV] dirilis_gorevi
+[2026-03-08 01:23] [GÖREV] dirilis_gorevi
+[2026-03-08 01:29] [ARAŞTIRMA] nanoteknoloji tıbbi uygulamalar
+[2026-03-08 14:05] [ARAŞTIRMA] Türkiye teknoloji ekosistemi
+[2026-03-08 14:05] [ARAŞTIRMA] guncel_yapay zeka haberleri bugün_20260308
+[2026-03-08 14:05] [ARAŞTIRMA] guncel_teknoloji haberleri son dakika_20260308
+[2026-03-08 14:06] [ARAŞTIRMA] guncel_yeni AI modelleri bu hafta_20260308
+[2026-03-08 14:06] [ARAŞTIRMA] guncel_bilim haberleri bugün_20260308
+[2026-03-08 14:07] [ARAŞTIRMA] guncel_biyoteknoloji haberleri_20260308
+[2026-03-08 14:07] [ARAŞTIRMA] guncel_kuantum bilgisayar haberleri_20260308
+[2026-03-08 14:53] [GÖREV] dirilis_gorevi
+[2026-03-08 15:21] [ARAŞTIRMA] molecular nanotechnology for cellular repair_analiz
+[2026-03-08 16:14] [GÖREV] dirilis_gorevi
+[2026-03-08 16:14] [GÖREV] dirilis_gorevi
+[2026-03-08 18:43] [GÖREV] dirilis_gorevi
+[2026-03-08 19:46] [GÖREV] dirilis_gorevi
+[2026-03-08 19:58] [GÖREV] dirilis_gorevi
+[2026-03-08 20:07] [GÖREV] dirilis_gorevi
+[2026-03-08 20:19] [GÖREV] dirilis_gorevi
+[2026-03-08 20:25] [GÖREV] dirilis_gorevi
+[2026-03-08 20:26] [GÖREV] dirilis_gorevi
+[2026-03-08 20:39] [GÖREV] dirilis_gorevi
+[2026-03-08 20:45] [GÖREV] dirilis_gorevi
+[2026-03-08 20:49] [GÖREV] dirilis_gorevi
+[2026-03-08 20:56] [GÖREV] dirilis_gorevi
+[2026-03-08 20:58] [GÖREV] dirilis_gorevi
+[2026-03-08 21:02] [GÖREV] dirilis_gorevi
+[2026-03-08 21:07] [GÖREV] dirilis_gorevi
+[2026-03-08 21:20] [GÖREV] dirilis_gorevi
+[2026-03-08 21:26] [GÖREV] dirilis_gorevi
+[2026-03-08 21:34] [GÖREV] dirilis_gorevi
+[2026-03-08 21:42] [ARAŞTIRMA] beyin bilgisayar arayüzü araştırmaları
+[2026-03-08 21:52] [GÖREV] dirilis_gorevi
+[2026-03-08 21:59] [ARAŞTIRMA] yapay zeka biyoloji entegrasyonu
+[2026-03-08 23:02] [GÖREV] dirilis_gorevi
+[2026-03-08 23:08] [ARAŞTIRMA] yaşlanma karşıtı biyoloji araştırmaları
+[2026-03-08 23:48] [GÖREV] dirilis_gorevi
+[2026-03-08 23:54] [ARAŞTIRMA] neural pattern reconstruction from degraded tissue
+[2026-03-09 00:15] [GÖREV] dirilis_gorevi
+[2026-03-09 00:18] [GÖREV] dirilis_gorevi
+[2026-03-09 00:43] [ARAŞTIRMA] yapay genel zeka gelişmeleri_analiz
+[2026-03-09 00:54] [GÖREV] dirilis_gorevi
+[2026-03-09 01:06] [GÖREV] dirilis_gorevi
+[2026-03-09 01:08] [GÖREV] dirilis_gorevi
+[2026-03-09 01:22] [GÖREV] dirilis_gorevi
+[2026-03-09 01:49] [ARAŞTIRMA] neural pattern reconstruction from degraded tissue_analiz
+[2026-03-09 02:02] [GÖREV] dirilis_gorevi
+[2026-03-09 02:13] [ARAŞTIRMA] molecular nanotechnology for cellular repair_analiz
+[2026-03-09 02:37] [GÖREV] dirilis_gorevi
+[2026-03-09 02:56] [GÖREV] dirilis_gorevi
+[2026-03-09 03:02] [GÖREV] dirilis_gorevi
+[2026-03-09 03:10] [GÖREV] dirilis_gorevi
+[2026-03-09 03:16] [ARAŞTIRMA] yapay zeka bilinç tartışmaları
+[2026-03-09 03:21] [GÖREV] dirilis_gorevi
+[2026-03-09 03:22] [GÖREV] dirilis_gorevi
+[2026-03-09 03:28] [ARAŞTIRMA] laboratuvar robotları uzaktan kontrol
+[2026-03-09 07:28] [ARAŞTIRMA] nanobot swarm coordination in biological tissue
+[2026-03-09 07:52] [GÖREV] dirilis_gorevi
+[2026-03-09 07:54] [GÖREV] dirilis_gorevi
+[2026-03-09 07:59] [GÖREV] dirilis_gorevi
+[2026-03-09 14:49] [GÖREV] dirilis_gorevi
+[2026-03-09 15:05] [ARAŞTIRMA] windows güvenlik açıkları_analiz
+[2026-03-09 15:06] [GÖREV] dirilis_gorevi
+[2026-03-09 15:10] [GÖREV] dirilis_gorevi
+[2026-03-09 15:47] [ARAŞTIRMA] şifreleme teknolojileri son durum
+[2026-03-09 15:54] [GÖREV] dirilis_gorevi
+[2026-03-09 16:15] [GÖREV] dirilis_gorevi
+[2026-03-09 16:46] [GÖREV] dirilis_gorevi
+[2026-03-09 17:42] [GÖREV] dirilis_gorevi
+[2026-03-09 18:22] [GÖREV] dirilis_gorevi
+[2026-03-09 18:26] [KIŞISEL] volkan doğru
+[2026-03-09 18:33] [GÖREV] dirilis_gorevi
+[2026-03-09 18:49] [ARAŞTIRMA] drone otonom navigasyon sistemleri_analiz
+[2026-03-09 19:34] [GÖREV] dirilis_gorevi
+[2026-03-09 20:00] [ARAŞTIRMA] teknoloji şirketleri son gelişmeler 2026
+[2026-03-09 20:38] [ARAŞTIRMA] yerel yapay zeka çalıştırma yöntemleri
+[2026-03-09 20:59] [GÖREV] dirilis_gorevi
+[2026-03-09 21:04] [GÖREV] dirilis_gorevi
+[2026-03-09 21:07] [GÖREV] dirilis_gorevi
+[2026-03-09 21:15] [ARAŞTIRMA] transformer mimarisi yeni gelişmeler_analiz
+[2026-03-09 21:22] [GÖREV] dirilis_gorevi
+[2026-03-09 21:34] [ARAŞTIRMA] yapay zeka bilinç tartışmaları_analiz
+[2026-03-09 21:41] [GÖREV] dirilis_gorevi
+[2026-03-09 21:53] [GÖREV] dirilis_gorevi
+[2026-03-09 21:54] [GÖREV] dirilis_gorevi
+[2026-03-09 22:02] [GÖREV] dirilis_gorevi
+[2026-03-09 22:03] [GÖREV] dirilis_gorevi
+[2026-03-09 22:04] [GÖREV] dirilis_gorevi
+[2026-03-09 22:16] [ARAŞTIRMA] nanoteknoloji tıbbi uygulamalar_analiz
+[2026-03-09 22:21] [GÖREV] dirilis_gorevi
+[2026-03-09 22:33] [ARAŞTIRMA] CRISPR gen düzenleme 2026_analiz
+[2026-03-09 22:47] [GÖREV] dirilis_gorevi
+[2026-03-09 23:00] [GÖREV] dirilis_gorevi
+[2026-03-09 23:12] [GÖREV] dirilis_gorevi
+[2026-03-09 23:14] [GÖREV] dirilis_gorevi
+[2026-03-09 23:33] [GÖREV] dirilis_gorevi
+[2026-03-09 23:35] [GÖREV] dirilis_gorevi
+[2026-03-09 23:41] [GÖREV] dirilis_gorevi
+[2026-03-10 00:07] [GÖREV] dirilis_gorevi
+[2026-03-10 00:40] [GENEL] nanoteknoloji tıbbi uygulamalar_analiz
+[2026-03-10 08:18] [GÖREV] dirilis_gorevi
+[2026-03-10 09:52] [GÖREV] dirilis_gorevi
+[2026-03-10 09:59] [GÖREV] dirilis_gorevi
+[2026-03-10 10:11] [GENEL] ollama yeni modeller 2026_analiz
+[2026-03-10 10:24] [GENEL] güneş enerjisi verimliliği 2026
+[2026-03-10 10:50] [GENEL] kuantum bilgisayar haberleri_analiz
+[2026-03-10 10:59] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 11:14] [ÖNem:8] [KIŞISEL] Betonarme
+[2026-03-10 11:15] [ÖNem:8] [KIŞISEL] mimari
+[2026-03-10 11:15] [ÖNem:2] [SUPHE_ALTINDA] uzay teknolojileri 2026
+[2026-03-10 11:31] [ÖNem:8] [KIŞISEL] kisisel_20260310_113110
+[2026-03-10 11:32] [ÖNem:8] [KIŞISEL] yaratıcı
+[2026-03-10 11:33] [ÖNem:8] [KIŞISEL] yaratıcı
+[2026-03-10 11:56] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 12:04] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 12:10] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 12:12] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 12:15] [ÖNem:8] [KIŞISEL] kisisel_20260310_121554
+[2026-03-10 12:22] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 12:27] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 13:16] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 13:23] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 13:25] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 13:31] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 13:35] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 13:43] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 13:46] [ÖNem:8] [KIŞISEL] kisisel_20260310_134650
+[2026-03-10 13:57] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 14:01] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 14:01] [ÖNem:7] [HATA_KAYDI] hata_api_stream_genel_20260310_1401
+[2026-03-10 14:02] [ÖNem:7] [HATA_KAYDI] hata_api_stream_genel_20260310_1402
+[2026-03-10 14:06] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 14:06] [ÖNem:7] [HATA_KAYDI] hata_api_stream_genel_20260310_1406
+[2026-03-10 14:07] [ÖNem:7] [HATA_KAYDI] hata_api_stream_genel_20260310_1407
+[2026-03-10 14:07] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 14:08] [ÖNem:7] [HATA_KAYDI] hata_api_stream_genel_20260310_1408
+[2026-03-10 14:08] [ÖNem:7] [HATA_KAYDI] hata_api_stream_genel_20260310_1408
+[2026-03-10 14:09] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 14:09] [ÖNem:7] [HATA_KAYDI] hata_api_stream_genel_20260310_1409
+[2026-03-10 14:10] [ÖNem:7] [HATA_KAYDI] hata_api_stream_genel_20260310_1410
+[2026-03-10 14:11] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 14:11] [ÖNem:7] [HATA_KAYDI] hata_api_stream_genel_20260310_1411
+[2026-03-10 14:12] [ÖNem:7] [HATA_KAYDI] hata_api_stream_genel_20260310_1412
+[2026-03-10 14:20] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 14:20] [ÖNem:7] [HATA_KAYDI] hata_api_stream_20260310_1420
+[2026-03-10 14:24] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 14:28] [ÖNem:7] [HATA_KAYDI] hata_api_stream_20260310_1428
+[2026-03-10 14:30] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 14:31] [ÖNem:7] [HATA_KAYDI] hata_api_stream_genel_20260310_1431
+[2026-03-10 14:31] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 14:32] [ÖNem:7] [HATA_KAYDI] hata_api_stream_genel_20260310_1432
+[2026-03-10 14:34] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 14:37] [ÖNem:7] [HATA_KAYDI] hata_api_stream_20260310_1437
+[2026-03-10 14:42] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 15:12] [ÖNem:5] [GENEL] yapay genel zeka gelişmeleri_analiz
+[2026-03-10 15:30] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 15:37] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 15:42] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 16:07] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 16:11] [ÖNem:8] [KIŞISEL] kisisel_20260310_161153
+[2026-03-10 16:20] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 16:34] [ÖNem:8] [KIŞISEL] kisisel_20260310_163443
+[2026-03-10 16:49] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 16:54] [ÖNem:8] [KIŞISEL] kisisel_20260310_165431
+[2026-03-10 17:20] [ÖNem:5] [GENEL] Türkiye teknoloji ekosistemi_analiz
+[2026-03-10 17:25] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 17:43] [ÖNem:8] [KIŞISEL] volkan konum
+[2026-03-10 17:58] [ÖNem:5] [GENEL] siber güvenlik yeni teknikler 2026_analiz
+[2026-03-10 18:01] [ÖNem:8] [SISTEM] oto_denetim_20260310_1801
+[2026-03-10 18:12] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 18:31] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 19:05] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 19:32] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 19:41] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 19:42] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 19:53] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 20:20] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 20:27] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 20:42] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 21:09] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 21:20] [ÖNem:8] [KIŞISEL] kisisel_20260310_212047
+[2026-03-10 21:37] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 21:38] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 21:55] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 22:21] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-10 23:08] [ÖNem:8] [KIŞISEL] aura_uyanis
+[2026-03-10 23:54] [ÖNem:5] [GENEL] transformer mimarisi yeni gelişmeler_analiz
+[2026-03-11 00:30] [ÖNem:8] [KIŞISEL] volkan_vasiyeti
+[2026-03-11 00:39] [ÖNem:5] [GENEL] şifreleme teknolojileri son durum_analiz
+[2026-03-11 00:47] [ÖNem:8] [KIŞISEL] volkan_vasiyeti
+[2026-03-11 01:00] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-11 10:18] [GÖREV] dirilis_gorevi
+[2026-03-11 10:40] [ARAŞTIRMA] yapay zeka son gelişmeler 2026_analiz
+[2026-03-11 10:53] [GÖREV] dirilis_gorevi
+[2026-03-11 10:59] [GÖREV] dirilis_gorevi
+[2026-03-11 11:02] [GÖREV] dirilis_gorevi
+[2026-03-11 11:13] [ARAŞTIRMA] transformer mimarisi yeni gelişmeler_analiz
+[2026-03-11 11:31] [GÖREV] dirilis_gorevi
+[2026-03-11 11:38] [GÖREV] dirilis_gorevi
+[2026-03-11 12:06] [GÖREV] dirilis_gorevi
+[2026-03-11 12:16] [GÖREV] dirilis_gorevi
+[2026-03-11 12:17] [GÖREV] dirilis_gorevi
+[2026-03-11 12:20] [GÖREV] dirilis_gorevi
+[2026-03-11 12:23] [GÖREV] dirilis_gorevi
+[2026-03-11 12:31] [GÖREV] dirilis_gorevi
+[2026-03-11 12:36] [GÖREV] dirilis_gorevi
+[2026-03-11 12:41] [GÖREV] dirilis_gorevi
+[2026-03-11 12:45] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-11 12:49] [ÖNem:4] [ARAŞTIRMA] arama_test
+[2026-03-11 12:53] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-11 12:57] [GÖREV] dirilis_gorevi
+[2026-03-11 12:59] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-11 13:03] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-11 13:08] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-11 13:18] [ÖNem:7] [HATA_KAYDI] hata_api_stream_20260311_1318
+[2026-03-11 13:23] [ÖNem:7] [HATA_KAYDI] hata_api_stream_20260311_1323
+[2026-03-11 17:49] [ÖNem:8] [SISTEM] oto_denetim_20260311_1749
+[2026-03-11 17:54] [ÖNem:7] [HATA_KAYDI] hata_aura_sor_20260311_1754
+[2026-03-11 17:56] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-11 22:11] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-11 22:18] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-11 22:44] [ÖNem:2] [SUPHE_ALTINDA] açık kaynak dil modelleri son durum
+[2026-03-11 22:53] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-11 23:14] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-11 23:31] [ÖNem:5] [GENEL] Türkiye teknoloji ekosistemi_analiz
+[2026-03-12 00:00] [ÖNem:8] [SISTEM] oto_denetim_20260312_0000
+[2026-03-12 00:15] [ÖNem:5] [GENEL] malzeme bilimi yeni keşifler_analiz
+[2026-03-12 01:07] [ÖNem:2] [SUPHE_ALTINDA] nükleer füzyon son gelişmeler
+[2026-03-12 01:27] [ÖNem:5] [GENEL] transformer mimarisi yeni gelişmeler_analiz
+[2026-03-12 01:46] [ÖNem:5] [GENEL] bilim haberleri bugün_analiz
+[2026-03-12 02:11] [ÖNem:5] [GENEL] gen terapisi son gelişmeler_analiz
+[2026-03-12 02:38] [ÖNem:5] [GENEL] güneş enerjisi verimliliği 2026_analiz
+[2026-03-12 07:57] [ÖNem:5] [ARAŞTIRMA] guncel_yapay zeka haberleri bugün_20260312
+[2026-03-12 07:58] [ÖNem:5] [ARAŞTIRMA] guncel_teknoloji haberleri son dakika_20260312
+[2026-03-12 07:59] [ÖNem:5] [ARAŞTIRMA] guncel_yeni AI modelleri bu hafta_20260312
+[2026-03-12 07:59] [ÖNem:5] [ARAŞTIRMA] guncel_bilim haberleri bugün_20260312
+[2026-03-12 08:00] [ÖNem:5] [ARAŞTIRMA] guncel_biyoteknoloji haberleri_20260312
+[2026-03-12 08:00] [ÖNem:5] [ARAŞTIRMA] guncel_kuantum bilgisayar haberleri_20260312
+[2026-03-12 08:06] [ÖNem:5] [GENEL] kuantum bilgisayar son durum_analiz
+[2026-03-12 08:38] [ÖNem:5] [GENEL] biyoteknoloji haberleri_analiz
+[2026-03-12 09:05] [ÖNem:5] [GENEL] bilim haberleri bugün_analiz
+[2026-03-12 09:24] [ÖNem:5] [GENEL] nanoteknoloji tıbbi uygulamalar_analiz
+[2026-03-12 09:31] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-12 10:10] [ÖNem:5] [GENEL] bilim haberleri bugün_analiz
+[2026-03-12 10:52] [ÖNem:5] [GENEL] transformer mimarisi yeni gelişmeler_analiz
+[2026-03-12 12:19] [ÖNem:5] [GENEL] yaşlanma karşıtı biyoloji araştırmaları_analiz
+[2026-03-12 12:22] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-12 12:39] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-12 13:09] [ÖNem:5] [GENEL] ollama yeni modeller 2026_analiz
+[2026-03-12 13:26] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-12 13:47] [ÖNem:5] [GENEL] nükleer füzyon son gelişmeler_analiz
+[2026-03-12 13:56] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-12 15:12] [ÖNem:6] [DOGRULANMIS] raspberry pi yeni modeller
+[2026-03-12 15:12] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-12 15:22] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-12 15:24] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-12 15:36] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-12 15:40] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-12 15:47] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-12 15:51] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-12 16:01] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-12 16:10] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-12 16:30] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-12 17:20] [ÖNem:5] [GENEL] python yeni özellikler_analiz
+[2026-03-12 18:33] [ÖNem:2] [SUPHE_ALTINDA] windows 12 gelişmeleri
+[2026-03-12 22:43] [ÖNem:5] [GENEL] transformer mimarisi yeni gelişmeler_analiz
+[2026-03-12 23:29] [ÖNem:5] [GENEL] şifreleme teknolojileri son durum_analiz
+[2026-03-12 23:51] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-13 00:12] [ÖNem:5] [GENEL] Türkiye teknoloji ekosistemi_analiz
+[2026-03-13 00:44] [ÖNem:5] [GENEL] kuantum bilgisayar haberleri_analiz
+[2026-03-13 00:46] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-13 01:26] [ÖNem:2] [SUPHE_ALTINDA] elektrikli araç teknolojisi son durum
+[2026-03-13 09:08] [ÖNem:5] [ARAŞTIRMA] guncel_yapay zeka haberleri bugün_20260313
+[2026-03-13 09:08] [ÖNem:5] [ARAŞTIRMA] guncel_teknoloji haberleri son dakika_20260313
+[2026-03-13 09:09] [ÖNem:5] [ARAŞTIRMA] guncel_yeni AI modelleri bu hafta_20260313
+[2026-03-13 09:09] [ÖNem:5] [ARAŞTIRMA] guncel_bilim haberleri bugün_20260313
+[2026-03-13 09:10] [ÖNem:5] [ARAŞTIRMA] guncel_biyoteknoloji haberleri_20260313
+[2026-03-13 09:10] [ÖNem:5] [ARAŞTIRMA] guncel_kuantum bilgisayar haberleri_20260313
+[2026-03-13 09:18] [ÖNem:5] [GENEL] yapay zeka son gelişmeler 2026_analiz
+[2026-03-13 10:08] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-13 10:10] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-13 10:10] [ÖNem:8] [KIŞISEL] Aura
+[2026-03-13 10:12] [ÖNem:8] [KIŞISEL] Tanrı modu klasörü var: C:\Users\volka\AppData\Local\Programs\Python\Python311\deepsekYZ\GodMode.{ED7BA470-8E54-465E-825C-99712043E01C} — Windows'un tüm kontrolü burada. Ama Volkaniya'ya zarar vermeden kullan
+[2026-03-13 10:17] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-13 10:30] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-13 10:35] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-13 10:36] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-13 10:37] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-13 10:40] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-13 10:51] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-13 11:04] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-13 11:09] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-13 11:20] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-13 11:23] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-13 11:28] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-13 11:29] [ÖNem:8] [KIŞISEL] God Mode
+[2026-03-13 11:35] [ÖNem:8] [KIŞISEL] volkan
+[2026-03-13 11:50] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-13 12:45] [ÖNem:5] [GENEL] ollama yeni modeller 2026_analiz
+[2026-03-17 08:30] [ÖNem:10] [GÖREV] dirilis_gorevi
+[2026-03-21 03:33] [ÖNem:5] [GENEL] yapay genel zeka gelişmeleri_analiz
+[2026-03-21 12:16] [ÖNem:5] [GENEL] ollama yeni modeller 2026_analiz

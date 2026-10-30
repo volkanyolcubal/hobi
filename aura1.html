@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>AURA-V — Volkaniya</title>
+<style>
+  :root {
+    --bg: #f1f5f9; /* Beyaza yakın açık gri */
+    --panel: #ffffff; 
+    --border: #e2e8f0;
+    --accent: #8b5cf6; 
+    --accent2: #a78bfa; 
+    --glow: rgba(139, 92, 246, 0.1);
+    --text: #1e293b; 
+    --muted: #64748b;
+    --green: #10b981; --red: #ef4444; --gold: #f59e0b;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  body { background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; height:100dvh; display:flex; flex-direction:column; overflow:hidden; }
+  
+  /* Header Tasarımı */
+  header { background:var(--panel); border-bottom:1px solid var(--border); padding:8px 15px; display:flex; align-items:center; justify-content:space-between; z-index:100; box-shadow:0 2px 10px rgba(0,0,0,0.03); }
+  .logo { display:flex; align-items:center; gap:8px; }
+  .logo-icon { font-size:22px; }
+  .logo-text h1 { font-size:15px; font-weight:800; color:var(--accent); letter-spacing:1px; margin:0; }
+  .logo-text p { font-size:9px; color:var(--muted); margin:0; }
+  
+  .status-bar { display:flex; gap:6px; align-items:center; }
+  .badge { font-size:10px; padding:3px 8px; border-radius:12px; display:flex; align-items:center; gap:4px; background:var(--bg); border:1px solid var(--border); }
+  .dot { width:6px; height:6px; border-radius:50%; }
+  .dot.green { background:var(--green); box-shadow:0 0 4px var(--green); }
+  .dot.red { background:var(--red); }
+
+  /* Ana İçerik ve Sidebar Düzeni */
+  .main { display:flex; flex:1; overflow:hidden; flex-direction: row; }
+  
+  /* Sidebar - Mobilde Alt Menüye Dönüşür */
+  .sidebar { width:180px; background:var(--panel); border-right:1px solid var(--border); display:flex; flex-direction:column; padding:12px 8px; gap:4px; flex-shrink:0; }
+  .sidebar-title { font-size:9px; letter-spacing:1px; color:var(--muted); text-transform:uppercase; margin-bottom:4px; padding-left:8px; }
+  .nav-btn { background:transparent; border:none; color:var(--text); padding:10px; border-radius:10px; cursor:pointer; text-align:left; font-size:13px; display:flex; align-items:center; gap:8px; width:100%; transition: 0.2s; }
+  .nav-btn.active { background:var(--accent); color:white; font-weight:600; }
+
+  .content { flex:1; display:flex; flex-direction:column; overflow:hidden; position:relative; background:var(--bg); }
+  .tab { display:none; flex:1; flex-direction:column; overflow:hidden; }
+  .tab.active { display:flex; }
+
+  /* Chat Alanı */
+  #chat-messages { flex:1; overflow-y:auto; padding:15px; display:flex; flex-direction:column; gap:10px; }
+  .msg { max-width:85%; display:flex; flex-direction:column; gap:3px; }
+  .msg.user { align-self:flex-end; }
+  .msg.aura { align-self:flex-start; }
+  .msg-bubble { padding:10px 14px; border-radius:16px; font-size:14px; line-height:1.4; word-wrap: break-word; }
+  .msg.user .msg-bubble { background:var(--accent); color:white; border-bottom-right-radius:2px; }
+  .msg.aura .msg-bubble { background:var(--panel); border:1px solid var(--border); color:var(--text); border-bottom-left-radius:2px; box-shadow:0 2px 5px rgba(0,0,0,0.02); }
+  .msg-meta { font-size: 9px; color: var(--muted); padding: 0 4px; }
+
+  /* Yazıyor... */
+  .typing { display:none; align-items:center; gap:5px; padding:10px 15px; background:var(--panel); border-radius:15px; width:fit-content; border:1px solid var(--border); margin-bottom:10px; }
+  .typing.show { display:flex; }
+  .typing span { width:5px; height:5px; border-radius:50%; background:var(--accent2); animation:bounce 1s infinite; }
+  @keyframes bounce { 0%,80%,100%{transform:translateY(0)} 40%{transform:translateY(-5px)} }
+
+  /* Input Alanı */
+  .chat-input-area { padding:10px; border-top:1px solid var(--border); background:var(--panel); display:flex; gap:8px; align-items:center; }
+  #chat-input { flex:1; background:var(--bg); border:1px solid var(--border); color:var(--text); padding:10px 15px; border-radius:20px; font-size:14px; outline:none; }
+  .send-btn { background:var(--accent); border:none; color:white; width:40px; height:40px; border-radius:50%; cursor:pointer; display:flex; align-items:center; justify-content:center; }
+
+  /* Dashboard Kartları */
+  .dash-grid { display:grid; grid-template-columns: 1fr 1fr; gap:10px; padding:15px; }
+  .dash-card { background:var(--panel); border:1px solid var(--border); border-radius:15px; padding:12px; box-shadow:0 2px 5px rgba(0,0,0,0.02); }
+  .dash-card h3 { font-size:11px; color:var(--muted); text-transform:uppercase; }
+  .dash-value { font-size:18px; font-weight:700; color:var(--accent); margin-top:4px; }
+  .progress-bar { height:5px; background:var(--bg); border-radius:3px; margin-top:8px; overflow:hidden; }
+  .progress-fill { height:100%; background:var(--accent); transition:width 0.5s; }
+
+  /* Mobil Ekran Düzenlemeleri (Media Queries) */
+  @media (max-width: 600px) {
+    .main { flex-direction: column-reverse; } /* Sidebar aşağıya iner */
+    .sidebar { width: 100%; height: 60px; flex-direction: row; padding: 5px; border-right: none; border-top: 1px solid var(--border); justify-content: space-around; }
+    .sidebar-title { display: none; }
+    .nav-btn { flex-direction: column; font-size: 10px; gap: 2px; align-items: center; justify-content: center; padding: 5px; width: auto; }
+    .nav-btn span { display: none; } /* Metinleri gizle sadece ikon kalsın dersen açılır */
+    
+    header { padding: 8px 10px; }
+    .status-bar .badge:nth-child(2) { display: none; } /* Mobilde bazı badge'leri gizleyelim yer açalım */
+    .dash-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <div class="logo-icon">👑</div>
+    <div class="logo-text"><h1>AURA-V</h1><p>v11.2 Mobile</p></div>
+  </div>
+  <div class="status-bar">
+    <div class="badge"><div class="dot" id="dot-baglanti"></div><span id="lbl-baglanti">...</span></div>
+    <div class="badge" id="badge-duygu">✨ hazır</div>
+  </div>
+</header>
+
+<div class="main">
+  <div class="sidebar">
+    <div class="sidebar-title">Menü</div>
+    <button class="nav-btn active" onclick="showTab('chat',this)">💬 <span>Sohbet</span></button>
+    <button class="nav-btn" onclick="showTab('dashboard',this)">📊 <span>Panel</span></button>
+    <button class="nav-btn" onclick="showTab('hafiza',this)">🧠 <span>Hafıza</span></button>
+    <button class="nav-btn" onclick="showTab('tunel',this)">🌐 <span>Tünel</span></button>
+  </div>
+
+  <div class="content">
+    <div id="tab-chat" class="tab active">
+      <div id="chat-messages">
+        <div class="msg aura"><div class="msg-bubble">Mimarım, Volkaniya sistemleri mobil cihazınız için optimize edildi. 👑</div></div>
+        <div class="typing" id="typing"><span></span><span></span><span></span></div>
+      </div>
+      <div class="chat-input-area">
+        <input id="chat-input" type="text" placeholder="Mesaj yazın..." autocomplete="off">
+        <button class="send-btn" id="btn-gonder" onclick="mesajGonder()">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+        </button>
+      </div>
+    </div>
+
+    <div id="tab-dashboard" class="tab">
+      <div class="dash-grid">
+        <div class="dash-card"><h3>CPU</h3><div class="dash-value" id="d-cpu">%0</div><div class="progress-bar"><div class="progress-fill" id="p-cpu" style="width:0%"></div></div></div>
+        <div class="dash-card"><h3>RAM</h3><div class="dash-value" id="d-ram">%0</div><div class="progress-bar"><div class="progress-fill" id="p-ram" style="width:0%"></div></div></div>
+        <div class="dash-card"><h3>ENERJİ</h3><div class="dash-value" id="d-enerji">%0</div><div class="progress-bar"><div class="progress-fill" id="p-enerji" style="width:0%"></div></div></div>
+        <div class="dash-card"><h3>UPTIME</h3><div class="dash-value" id="d-uptime" style="font-size:12px">-</div></div>
+      </div>
+    </div>
+
+    <div id="tab-hafiza" class="tab" style="padding:15px;">
+        <h3 class="sidebar-title">Hafıza Durumu</h3>
+        <div id="h-toplam" class="dash-value">0 Konu</div>
+        <div id="haf-liste" style="font-size:13px; color:var(--muted); margin-top:10px;"></div>
+    </div>
+
+    <div id="tab-tunel" class="tab" style="padding:15px;">
+        <h3 class="sidebar-title">Aktif Adres</h3>
+        <div id="tunel-url-box" class="msg-bubble" style="background:var(--panel); border:1px solid var(--border); font-family:monospace; font-size:12px; margin-top:10px;">...</div>
+    </div>
+  </div>
+</div>
+
+<script>
+// NOT: AURA_URL olarak senin yerel IP adresin (192.168.1.104) kullanılacak.
+let AURA_URL = "https://unoutspoken-laxly-georgene.ngrok-free.dev";
+let gonderiliyor = false;
+
+async function api(endpoint, body = null) {
+    try {
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 3600000); // 1 Saat limit
+
+        const opts = {
+            method: body ? 'POST' : 'GET',
+            headers: { 'Content-Type': 'application/json', 'ngrok-skip-browser-warning': 'true' },
+            signal: controller.signal
+        };
+        if (body) opts.body = JSON.stringify(body);
+
+        const response = await fetch(AURA_URL + endpoint, opts);
+        clearTimeout(timeoutId);
+        return await response.json();
+    } catch (e) {
+        return { hata: "Bağlantı koptu veya Aura meşgul." };
+    }
+}
+
+async function durumKontrol() {
+    const d = await api('/api/durum');
+    const dotB = document.getElementById('dot-baglanti');
+    const lblB = document.getElementById('lbl-baglanti');
+
+    if (d.hata) {
+        dotB.className = 'dot red';
+        lblB.textContent = 'X';
+    } else {
+        dotB.className = 'dot green';
+        lblB.textContent = 'OK';
+        document.getElementById('badge-duygu').textContent = '✨ ' + (d.duygu || 'hazır');
+        document.getElementById('d-enerji').textContent = '%' + (d.enerji || 0);
+        document.getElementById('p-enerji').style.width = (d.enerji || 0) + '%';
+        if(d.hafiza_bilgi) document.getElementById('h-toplam').textContent = d.hafiza_bilgi.toplam_konu + ' Konu';
+    }
+}
+
+async function mesajGonder() {
+    if (gonderiliyor) return;
+    const inp = document.getElementById('chat-input');
+    const msg = inp.value.trim();
+    if (!msg) return;
+
+    gonderiliyor = true;
+    inp.value = '';
+    inp.disabled = true;
+    ekleMesaj('user', msg);
+    
+    const typing = document.getElementById('typing');
+    typing.classList.add('show');
+    
+    const r = await api('/api/chat', { mesaj: msg });
+    
+    typing.classList.remove('show');
+    ekleMesaj('aura', r.hata ? r.hata : r.cevap, r.duygu);
+    
+    gonderiliyor = false;
+    inp.disabled = false;
+    inp.focus();
+}
+
+function ekleMesaj(kim, metin, duygu) {
+    const box = document.getElementById('chat-messages');
+    const div = document.createElement('div');
+    div.className = 'msg ' + kim;
+    div.innerHTML = `<div class="msg-bubble">${metin}</div><div class="msg-meta">${new Date().toLocaleTimeString().slice(0,5)} ${duygu ? '· '+duygu : ''}</div>`;
+    box.insertBefore(div, document.getElementById('typing'));
+    box.scrollTop = box.scrollHeight;
+}
+
+function showTab(id, btn) {
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+    document.getElementById('tab-' + id).classList.add('active');
+    btn.classList.add('active');
+    if(id === 'dashboard') dashboardVeriCek();
+}
+
+async function dashboardVeriCek() {
+    const d = await api('/api/dashboard');
+    if(d.hata) return;
+    document.getElementById('d-cpu').textContent = '%' + d.cpu_toplam;
+    document.getElementById('p-cpu').style.width = d.cpu_toplam + '%';
+    document.getElementById('d-ram').textContent = '%' + d.ram_kullanim;
+    document.getElementById('p-ram').style.width = d.ram_kullanim + '%';
+    document.getElementById('d-uptime').textContent = d.uptime;
+}
+
+document.getElementById('chat-input').addEventListener('keypress', (e) => { if (e.key === 'Enter') mesajGonder(); });
+
+document.getElementById('tunel-url-box').textContent = AURA_URL;
+setInterval(durumKontrol, 5000);
+durumKontrol();
+</script>
+</body>
+</html>

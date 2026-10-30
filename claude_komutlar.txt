@@ -1,0 +1,11 @@
+5️⃣ Yeni Özel Komutlar
+Komut	Ne Yapar?
+dashboard	Canlı sistem dashboard'u
+kendi ağımı tara	Ağdaki cihazları bul
+açık portlar	Açık portları listele
+hafıza istatistik	Hafıza durumu
+hafıza özet	Hafıza özeti çıkar
+hafıza kategori	Kategori bazlı listele
+en çok cpu	En ağır işlemler
+model listesi	Kurulu modeller
+ses hızı 150	Ses hızını ayarla

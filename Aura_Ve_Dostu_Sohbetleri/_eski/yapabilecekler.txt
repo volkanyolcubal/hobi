@@ -1,0 +1,437 @@
+# ============================================================
+#  VOLKANİYA — YAPABİLECEKLER LİSTESİ
+#  Orijinal + Yeni Eklentiler
+# ============================================================
+
+# ── SİSTEM KONTROLÜ ─────────────────────────────────────────
+Bilgisayarı kapat/yeniden başlat/uyut
+Sistem bilgilerini öğren (CPU, RAM, disk)
+Ekran çözünürlüğünü öğren/değiştir
+Ses seviyesini ayarla/aç/kapa
+Pil seviyesini öğren (laptop)
+Ekran parlaklığını ayarla
+CPU/GPU sıcaklığını oku
+RAM temizliği yap
+Disk birimlerini listele (C:, D:, USB)
+Disk kullanımını analiz et
+Sistem uptime süresini öğren
+Önyükleme süresini ölç
+Windows lisans anahtarını oku
+Kurulu sürücüleri listele
+Donanım bilgilerini detaylı raporla (motherboard, BIOS, GPU)
+Ortam değişkenlerini oku/yaz/sil (Environment Variables)
+Görev zamanlayıcısına iş ekle/kaldır (Task Scheduler)
+Hizmetleri listele/başlat/durdur (Windows Services)
+Sistem geri yükleme noktası oluştur
+Başlangıç programlarını listele/devre dışı bırak
+
+# ── ZAMAN & TAKVİM ──────────────────────────────────────────
+Şu anki saati göster
+Şu anki tarihi göster
+Haftanın gününü öğren
+Gün doğumu/gün batımı saatini hesapla
+Takvim göster
+Saatlik alarm kur
+Zamanlayıcı başlat
+Kronometre
+Dünyadaki başka bir şehrin saatini göster
+Sayaç başlat
+İki tarih arasındaki farkı hesapla
+Belirli bir tarihin haftanın hangi günü olduğunu bul
+Tatil/bayram günlerini listele
+Pomodoro zamanlayıcısı başlat
+
+# ── DOSYA & KLASÖR ──────────────────────────────────────────
+Dosya oluştur/sil/kopyala/taşı/yeniden adlandır
+Dosya içeriğini oku/yaz
+Klasör oluştur/sil
+Klasör içeriğini listele
+Dosya boyutunu öğren
+Dosyanın hash'ini hesapla (MD5, SHA)
+Dosya bütünlük kontrolü
+Dosya uzantısını değiştir
+Dosya türünü algıla
+Zip/Rar arşivi oluştur/aç
+Json/XML/CSV dosyası oku/yaz
+Excel dosyası oku/yaz
+PDF dosyası oku/yaz/birleştir/böl
+Word dosyası oku/yaz
+Resim dosyasını yeniden boyutlandır/döndür
+Resim dosyasını başka formata dönüştür
+Video dosyası bilgilerini oku
+Ses dosyası bilgilerini oku/çal
+Log dosyasına yaz
+Geçici dosya oluştur
+Gizli dosya oluştur
+Belirli uzantıdaki tüm dosyaları bul
+Dosyaları tarihe/boyuta göre sırala ve listele
+Yinelenen dosyaları bul ve sil
+Klasör ağacını görselleştir
+Dosya içinde metin ara (grep benzeri)
+Birden fazla dosyada toplu metin değiştir
+Dosya oluşturma/değiştirme tarihini değiştir
+Boş klasörleri otomatik temizle
+Belirli klasörü otomatik yedekle (backup)
+OneDrive/Google Drive klasörüne dosya kopyala
+
+# ── PROGRAM YÖNETİMİ ────────────────────────────────────────
+Program başlat/kapat
+Aktif çalışan programları listele
+Bir programın çalışıp çalışmadığını kontrol et
+Programı yönetici olarak çalıştır
+Programı belirli bir zamanda başlat
+Programın öncelik seviyesini değiştir
+Programı belirli bir süre çalıştır
+Programın çıktısını yakala
+Çalışan programı öldür
+Tüm programları kapat
+En çok RAM/CPU kullanan programları sırala
+Program başlatma süresini ölç
+pip ile Python paketi yükle/kaldır/güncelle
+winget ile Windows uygulaması yükle/kaldır
+Conda ortamı oluştur/yönet
+Python sanal ortamı (venv) oluştur/etkinleştir
+
+# ── AĞ & İNTERNET ───────────────────────────────────────────
+İnternete bağlı mı kontrol et
+IP adresini öğren (yerel ve genel)
+Web sitesi içeriğini indir
+Web sitesi kaynak kodunu al
+Web sitesine form gönder
+Dosya indir
+Dosya yükle
+Web sitesinin SSL sertifikasını kontrol et
+DNS sorgula
+Port taraması yap
+Ağdaki cihazları tara
+Wi-Fi ağlarını listele
+Wi-Fi şifresini öğren
+Bluetooth cihazlarını tara
+Bluetooth'a dosya gönder/al
+Seri port ile iletişim
+SSH bağlantısı kur
+Telnet bağlantısı kur
+Socket sunucusu başlat
+Socket istemcisi bağlan
+HTTP sunucusu başlat
+FTP sunucusu başlat
+Mail gönder
+Mail oku
+Webhook gönder
+API çağrısı yap
+JSON verisini API'ye gönder/al
+WebSocket bağlantısı
+VPN bağlantısı kur
+İnternet hızını test et
+Ping at ve gecikmeyi ölç
+Traceroute yap
+MAC adresini öğren
+ARP tablosunu listele
+Proxy üzerinden istek gönder
+ngrok ile yerel sunucuyu internete aç
+Cloudflare tüneli başlat
+
+# ── KULLANICI ARAYÜZÜ ───────────────────────────────────────
+Kullanıcıdan metin girişi al
+Kullanıcıdan şifre girişi al
+Kullanıcıdan sayısal giriş al
+Kullanıcıdan evet/hayır al
+Kullanıcıdan dosya seçtir
+Kullanıcıdan renk seçtir
+Kullanıcıdan tarih seçtir
+Mesaj kutusu göster
+Uyarı/Info/Hata penceresi
+Bildirim göster
+Sesli komut dinle
+Sesli yanıt ver
+Metni ses dosyasına kaydet
+Komut satırı argümanlarını oku
+Progress bar göster
+Tablo göster
+Menü oluştur
+GUI pencere oluştur
+Web arayüzü oluştur
+Animasyon göster
+Sistem tepsisine (tray) simge ekle
+Karanlık/aydınlık tema uygula
+Kısayol tuşu (hotkey) tanımla
+Sürükle-bırak destekli pencere
+Çoklu sekme destekli GUI
+
+# ── SES & MÜZİK ─────────────────────────────────────────────
+Ses çal
+Ses kaydet
+Ses seviyesini ölç
+Ses efekt uygula
+Müzik çal
+Müzik durdur/duraklat/devam et
+Müzik sesini ayarla
+Müzik listesini karıştır
+Müzik dosyası bilgilerini oku
+Nota çal
+Metni şarkıya dönüştür
+Ses dosyasını başka formata çevir (mp3→wav vb.)
+Ses dosyasından gürültü temizle
+Mikrofon seviyesini izle
+Ses dalgası görselleştir
+Spotify API ile şarkı bilgisi al
+Radyo yayını dinle (internet)
+
+# ── GÖRÜNTÜ & VİDEO ─────────────────────────────────────────
+Kamera aç ve görüntü al
+Kameradan video kaydet
+Ekran görüntüsü al
+Ekran video kaydı yap
+Resim aç/göster
+Resim üzerine yazı yaz
+Resimde yüz tanıma
+Resimde nesne tanıma
+Resimde renk analizi
+Resmi siyah-beyaz yap
+Resmi bulanıklaştır
+Resimde kenar algılama
+Resimleri birleştir
+Resimlere filtre uygula
+Resimden EXIF verilerini oku/sil
+Video dosyasından kare çıkar
+Video dosyasını GIF'e dönüştür
+Video dosyasını kırp/kes
+Videodan ses ayır
+Birden fazla videoyu birleştir
+Canlı kamera görüntüsüne filtre uygula
+Resimden metin tanı (OCR)
+
+# ── BARKOD & QR ─────────────────────────────────────────────
+QR kod oku
+QR kod oluştur
+Barkod oku
+Barkod oluştur
+Optik karakter tanıma
+El yazısı tanıma
+
+# ── DONANIM & ÇEVRE BIRIMLERI ───────────────────────────────
+USB bağlantı olayını algıla
+GPIO kontrol
+RFID/NFC oku
+Parmak izi oku
+Kızılötesi alıcı/verici
+Joypad/Gamepad oku
+Mouse konumunu oku/kontrol et
+Klavye tuşlarını oku
+Tuş vuruşu simüle et
+Mouse tıklaması simüle et
+Yazıcıya yazdır
+Yazıcı durumunu kontrol et
+Monitör bilgilerini oku (yenileme hızı, çözünürlük)
+
+# ── OTOMASYON & İZLEME ──────────────────────────────────────
+Belirli bir saatte çalıştır
+Dosya izle
+Klasör izle
+Belirli bir klasörü senkronize et
+E-posta gelince çalıştır
+Web sitesi değişince bildirim gönder
+RSS beslemesini oku
+Twitter/Instagram/Facebook postlarını oku
+Telegram botu yap
+Discord botu yap
+WhatsApp mesajı gönder/oku
+Slack mesajı gönder
+Reddit botu yap
+Web scraping yap
+Otomatik form doldur (Selenium)
+Tarayıcıda otomatik dolaş
+IFTTT/Zapier webhook tetikle
+Belirli kelime geçince bildirim gönder
+CPU/RAM belirli eşiği geçince alarm ver
+Servis çökünce otomatik yeniden başlat
+GitHub Actions tetikle
+Cron görev yönet
+
+# ── SOSYAL MEDYA & İÇERİK ───────────────────────────────────
+YouTube videosu indir
+YouTube videosu bilgilerini oku
+YouTube oynatma listesini indir
+Twitch yayınını izle/indir
+Spotify çalma listesini oku
+Instagram profilini analiz et
+Reddit gönderilerini çek ve analiz et
+Haber başlıklarını çek ve özetle
+Hava durumunu API'den al ve göster
+Döviz kurlarını anlık çek
+Kripto para fiyatlarını anlık çek
+Borsa verilerini çek ve grafik çiz
+Deprem verilerini anlık izle
+
+# ── VERİ & VERİTABANI ───────────────────────────────────────
+PDF'ten metin çıkar
+Word'den metin çıkar
+Excel'den veri oku/yaz
+CSV'den veri oku/yaz
+JSON'dan veri oku/yaz
+Veritabanına bağlan (SQLite/MySQL/PostgreSQL)
+Veritabanında sorgu çalıştır
+Veritabanı yedekle/geri yükle
+Excel raporu oluştur
+Grafik çiz (matplotlib)
+İnteraktif grafik çiz (plotly)
+Harita üzerinde veri göster
+Veri temizleme ve normalleştirme
+İstatistiksel analiz yap (ortalama, medyan, std)
+Makine öğrenmesi modeli eğit (sklearn)
+Veriyi train/test olarak böl
+Korelasyon matrisi oluştur
+Pivot tablo oluştur
+Büyük CSV dosyasını parçalara böl
+
+# ── YAPAY ZEKA & ML ─────────────────────────────────────────
+Kendi yapay zeka modelini eğit
+Önceden eğitilmiş model kullan
+Görüntü sınıflandırma
+Nesne tespiti (YOLO)
+Yüz tanıma
+Duygu analizi (metin)
+Yüz ifadesi duygu analizi (görüntü)
+Dil çevirisi
+Metin özetleme
+Soru cevaplama
+Metin sınıflandırma
+ChromaDB / vektör veritabanı
+RAG (Retrieval Augmented Generation)
+Yerel LLM çalıştır (Ollama)
+Model fine-tuning
+Modeli quantize et
+Yapay zeka ajanı
+Yapay zeka ajanına araç ekle
+Kendi kendine öğrenen yapay zeka
+Yapay zeka ile kod yazdır
+Yapay zeka ile hata ayıkla
+Yapay zeka ile test senaryosu oluştur
+Yapay zeka ile kod gözden geçir (code review)
+Yapay zeka ile dökümantasyon yaz
+Embeddings oluştur
+Semantik benzerlik hesapla
+Prompt optimizasyonu yap
+Yapay zeka ile veri etiketle
+Yapay zeka ile anomali tespiti yap
+Whisper ile ses dosyasını metne çevir
+Stable Diffusion ile resim üret
+Yapay zeka ile müzik üret
+
+# ── GÜVENLİK & TEST ─────────────────────────────────────────
+Hash kırma
+Şifre gücü testi
+Rastgele güçlü şifre üret
+Port tarama (Nmap)
+Zafiyet tarama
+SQL injection test
+XSS test
+SQLmap çalıştır
+Metasploit çalıştır
+Nmap çalıştır
+Burp Suite ile proxy dinle
+Wireshark ile paket yakala
+Paket analizi
+Ağ trafiğini izle
+ARP spoofing tespiti
+Keylogger
+Dosya şifreleme (AES)
+Metin şifreleme
+Zararlı yazılım tespiti
+Virüsten koruma yazılımını kontrol et
+Güvenlik duvarı ayarlarını değiştir
+Windows Defender'ı kontrol et
+Güncellemeleri kontrol et
+Registry oku/yaz/sil
+Olay görüntüleyici loglarını oku
+SSL sertifikası oluştur
+JWT token oluştur/doğrula
+İki faktörlü kimlik doğrulama (TOTP) kodu üret
+Parola hash'le (bcrypt)
+Steganografi ile resme veri göm/çıkar
+
+# ── TARAYICI OTOMASYONU ─────────────────────────────────────
+Web tarayıcısı aç
+Belirli bir URL'yi aç
+Belirli bir aramayı yap
+Tarayıcıda otomatik dolaş
+Tarayıcıda JavaScript çalıştır
+Tarayıcıda çerezleri oku/yaz
+Tarayıcıda screenshot al
+Tarayıcıda PDF çıktısı al
+Tarayıcıda dosya indir
+Tarayıcıda dosya yükle
+Selenium ile web otomasyon testi
+Playwright ile headless tarayıcı
+BeautifulSoup ile HTML parse
+İndirilmiş web sayfasını ofline analiz et
+
+# ── KOD GELİŞTİRME ARAÇLARI ────────────────────────────────
+Python kodunu lint/format et (black, flake8)
+Kodun unit testini yaz ve çalıştır
+Kodun karmaşıklığını ölç
+Kod satır sayısını say
+Git commit geçmişini analiz et
+Git ile diff al
+Otomatik changelog oluştur
+API dökümantasyonu üret (Swagger)
+Dockerfile oluştur
+docker-compose.yml oluştur
+Docker container başlat/durdur
+Sanal makine durumunu kontrol et
+CI/CD pipeline tetikle
+Kod bağımlılıklarını güncelle
+requirements.txt oluştur
+Proje iskeletini (boilerplate) oluştur
+
+# ── MATEMATİK & BİLİM ───────────────────────────────────────
+Matematiksel ifade hesapla
+Sembolik matematik (SymPy)
+Matris işlemleri
+Fourier dönüşümü hesapla
+Diferansiyel denklem çöz
+İstatistiksel hipotez testi
+Olasılık dağılımı çiz
+Monte Carlo simülasyonu
+Fizik simülasyonu (sarkaç, yay)
+Kimyasal formül parse et
+Birim dönüşümü yap
+Para birimi dönüştür
+Pi sayısını hesapla
+Fraktal çiz (Mandelbrot)
+Asal sayıları bul
+
+# ── YARATICI & EĞLENCE ──────────────────────────────────────
+Basit oyun yap (Pygame)
+Sayı tahmin oyunu
+Kelime oyunu
+Quiz oyunu
+Zar at
+Yazı tura at
+Şanslı sayı üret
+ASCII sanat çiz
+Terminal'de renkli yazı
+Terminal'de animasyon
+Sudoku oluştur/çöz
+Satranç tahtası göster
+2048 oyunu yap
+Yılan oyunu yap
+Hikaye üret (yapay zeka ile)
+Şiir yaz (yapay zeka ile)
+Şaka anlat (yapay zeka ile)
+Rastgele renk paleti üret
+Logo tasarla (SVG)
+Emoji sözlüğü ara
+
+# ── ÇIKIŞ & KONTROL AKIŞI ──────────────────────────────────
+Programdan çık
+Tüm programları kapat ve kapat
+Sadece bu programı kapat
+Kullanıcı çıkış yapmak istediğinde sor
+Çıkış menüsü göster
+Belirli bir tuşa basınca çık
+Zamanlayıcı ile otomatik çıkış
+Çıkış yapmadan önce kaydet
+Hata günlüğüne bakarak otomatik düzelt
+Kendi kendini güncelleyen script yaz
+Sistem çöktüğünde kurtarma betiği çalıştır

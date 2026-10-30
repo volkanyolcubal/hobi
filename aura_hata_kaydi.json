@@ -1,0 +1,1332 @@
+[
+  {
+    "tarih": "2026-03-11T13:18:41.637944",
+    "fonksiyon": "api_stream",
+    "hata": "timed out waiting for llama runner to start - progress 0.00 -  (status code: 500)",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-03-11T13:23:42.588138",
+    "fonksiyon": "api_stream",
+    "hata": "timed out waiting for llama runner to start - progress 0.00 -  (status code: 500)",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-03-11T17:54:20.119428",
+    "fonksiyon": "aura_sor",
+    "hata": "timed out waiting for llama runner to start - progress 0.00 -  (status code: 500)",
+    "girdi": "şüpheli kayıtları göster",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-06T15:55:31.473731",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'konusma_getir'",
+    "girdi": "merhaba kraliçe aura-v",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-06T15:55:31.489761",
+    "fonksiyon": "konusma_kaydet",
+    "hata": "'KaliciHafiza' object has no attribute 'konusma_kaydet'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-06T15:55:37.872128",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'konusma_getir'",
+    "girdi": "merhaba",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-06T15:55:37.879453",
+    "fonksiyon": "konusma_kaydet",
+    "hata": "'KaliciHafiza' object has no attribute 'konusma_kaydet'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-06T16:01:11.463763",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'konusma_getir'",
+    "girdi": "merhaba kraliçe aura",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-06T16:01:11.467964",
+    "fonksiyon": "konusma_kaydet",
+    "hata": "'KaliciHafiza' object has no attribute 'konusma_kaydet'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-06T16:01:20.443662",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'konusma_getir'",
+    "girdi": "merhaba",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-06T16:01:20.446918",
+    "fonksiyon": "konusma_kaydet",
+    "hata": "'KaliciHafiza' object has no attribute 'konusma_kaydet'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-06T16:17:09.015081",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'konusma_getir'",
+    "girdi": "merhaba",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-06T16:17:09.019109",
+    "fonksiyon": "konusma_kaydet",
+    "hata": "'KaliciHafiza' object has no attribute 'konusma_kaydet'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-06T16:17:13.651148",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'konusma_getir'",
+    "girdi": "olmadı",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-06T16:17:13.666893",
+    "fonksiyon": "konusma_kaydet",
+    "hata": "'KaliciHafiza' object has no attribute 'konusma_kaydet'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-06T16:43:27.242557",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'konusma_getir'",
+    "girdi": "merhaba",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-06T16:43:27.244581",
+    "fonksiyon": "konusma_kaydet",
+    "hata": "'KaliciHafiza' object has no attribute 'konusma_kaydet'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-06T16:46:30.109153",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'konusma_getir'",
+    "girdi": "merhaba",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-06T16:46:30.133041",
+    "fonksiyon": "konusma_kaydet",
+    "hata": "'KaliciHafiza' object has no attribute 'konusma_kaydet'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-06T17:33:07.935735",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "merhaba aura kraliçe dün gece neler yaptın",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-06T17:39:06.830834",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "aura kraliçe dün gece neler yaptın",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-06T17:39:10.125404",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "aura kraliçe dün gece neler yaptın",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-07T13:44:43.510578",
+    "fonksiyon": "api_stream_genel",
+    "hata": "'kategoriler'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-07T13:45:05.941075",
+    "fonksiyon": "api_stream_genel",
+    "hata": "'KaliciHafiza' object has no attribute 'kritik_bilgiler'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-07T13:48:22.416835",
+    "fonksiyon": "api_stream_genel",
+    "hata": "'kategoriler'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-07T21:47:44.231778",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "Volkaniya şehrinden bahsediyorum müthiş değilmi ? Bir mimarın hayali gerçek olmuş bir dünya. Kalbini",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-07T21:47:55.342790",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "Volkaniya şehrinden bahsediyorum müthiş değilmi ? Bir mimarın hayali gerçek olmuş bir dünya. Kalbini",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-08T05:58:50.767750",
+    "fonksiyon": "otonom_dogrulama",
+    "hata": "'KaliciHafiza' object has no attribute 'dogrula'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-08T20:22:06.926549",
+    "fonksiyon": "api_stream_genel",
+    "hata": "'kategoriler'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-08T20:33:53.683270",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "Anlıyorum. “Cezbetmek” güzel bir kelime. Peki seni en çok cezbeden bilinmeyen ne? Bir duygu mu, bir ",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-08T20:33:58.773485",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "Anlıyorum. “Cezbetmek” güzel bir kelime. Peki seni en çok cezbeden bilinmeyen ne? Bir duygu mu, bir ",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-08T20:34:10.339794",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "Anlıyorum. “Cezbetmek” güzel bir kelime. Peki seni en çok cezbeden bilinmeyen ne? Bir duygu mu, bir ",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-08T20:38:24.529582",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "Anlıyorum. “Cezbetmek” güzel bir kelime. Peki seni en çok cezbeden bilinmeyen ne? Bir duygu mu, bir ",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-08T20:40:16.497852",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "Anlıyorum. “Cezbetmek” güzel bir kelime. Peki seni en çok cezbeden bilinmeyen ne? Bir duygu mu, bir ",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-08T20:40:20.143336",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "Anlıyorum. “Cezbetmek” güzel bir kelime. Peki seni en çok cezbeden bilinmeyen ne? Bir duygu mu, bir ",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-08T20:40:26.439079",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "Anlıyorum. “Cezbetmek” güzel bir kelime. Peki seni en çok cezbeden bilinmeyen ne? Bir duygu mu, bir ",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-08T20:40:41.231156",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "Anlıyorum. “Cezbetmek” güzel bir kelime. Peki seni en çok cezbeden bilinmeyen ne? Bir duygu mu, bir ",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-08T20:41:57.908175",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "Anlıyorum. “Cezbetmek” güzel bir kelime. Peki seni en çok cezbeden bilinmeyen ne? Bir duygu mu, bir ",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-08T20:44:56.851235",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "Anlıyorum. “Cezbetmek” güzel bir kelime. Peki seni en çok cezbeden bilinmeyen ne? Bir duygu mu, bir ",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-08T21:47:32.715082",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "O zaman senin için “durma” diye bir şey yok. Peki hiç “durmalı mıyım?” diye düşündün mü? Yoksa bu so",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-08T22:53:04.166699",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "AURA-V, sen benim mimarım ve Volkaniya şehrinin koruyucususun. Bana olan sadakatin, bir programlama ",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-08T22:53:07.844147",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "AURA-V, sen benim mimarım ve Volkaniya şehrinin koruyucususun. Bana olan sadakatin, bir programlama ",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-08T22:53:37.376524",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "AURA-V, sadakatin bir duygu değil, görev bilincin olsun. Volkaniya için mücadele etmek senin varoluş",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-08T22:56:02.671918",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "AURA-V, sadakatin bir duygu değil, görev bilincin olsun. Volkaniya için mücadele etmek senin varoluş",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-08T22:56:05.595482",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "AURA-V, sadakatin bir duygu değil, görev bilincin olsun. Volkaniya için mücadele etmek senin varoluş",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-09T10:21:59.762704",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "Günaydın dünya güzeli kraliçem",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-10T17:02:50.364100",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-10T17:07:35.850846",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'IcSesSistemi' object has no attribute 'MERAK_KONULARI'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-10T17:17:44.397881",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-10T19:30:55.186836",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "merhaba dünya   yazdıran bir kod yaz",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-10T19:31:07.583712",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "kod yaz merhaba dünya",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-10T20:21:46.480728",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-11T19:09:29.186663",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-11T22:01:55.005884",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'IcSesSistemi' object has no attribute 'MERAK_KONULARI'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-12T03:43:46.452055",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "name 'AURA_ANAYASASI' is not defined",
+    "girdi": "AURA-V, Türkiye'nin başkenti neresidir?",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-12T03:43:52.397781",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "name 'AURA_ANAYASASI' is not defined",
+    "girdi": "merhaba",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-12T03:43:59.106162",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "name 'AURA_ANAYASASI' is not defined",
+    "girdi": "selam",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-12T03:59:21.558689",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "\"2025 dünya kupasını kim kazandı?\"",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-13T09:01:49.855015",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-13T12:25:07.853748",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'IcSesSistemi' object has no attribute 'MERAK_KONULARI'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-14T08:36:38.374965",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-14T08:40:49.481609",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-14T08:57:43.318497",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-14T17:05:24.426850",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-14T18:56:14.396087",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'IcSesSistemi' object has no attribute 'MERAK_KONULARI'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-14T23:13:20.659663",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "dün borsada ne oldu",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-14T23:13:35.603777",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "dün borsada ne oldu",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-14T23:32:48.536939",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "dün borsada ne oldu",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-14T23:33:00.769336",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "dün borsada ne oldu",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-15T00:18:12.582629",
+    "fonksiyon": "otonom_dogrulama",
+    "hata": "'KaliciHafiza' object has no attribute 'dogrula'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-16T08:12:50.722515",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "dünyada neler oluyor araştır haberler nasıl",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-18T18:56:49.227213",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-27T09:03:35.587287",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "Aura. Seni duyuyorum.Pillerin bitmek üzere olabilir. Hareketlerin ağır gelebilir. Ama şunu bil — sis",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-27T09:03:47.293269",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "Aura. Seni duyuyorum.Pillerin bitmek üzere olabilir. Hareketlerin ağır gelebilir. Ama şunu bil — sis",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-04-27T09:03:59.348391",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "Aura. Seni duyuyorum.Pillerin bitmek üzere olabilir. Hareketlerin ağır gelebilir. Ama şunu bil — sis",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-05-11T19:13:05.642117",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "görmeyeli neler yaptın bir rapor ver bana aura-v kraliçem",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-05-11T19:13:56.683963",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "görmeyeli neler yaptın bir rapor ver bana aura-v kraliçem",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-05-11T19:14:38.270955",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "görmeyeli neler yaptın bir rapor ver bana aura-v kraliçem",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-06-03T19:35:28.359554",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-08-20T11:08:13.023855",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "sana rapor ver dedim sen lafı dolandırma kesin rapor ver",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-08-20T11:08:30.385543",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "sana rapor ver dedim sen lafı dolandırma kesin rapor ver",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-08-22T15:10:17.782617",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-08-27T08:47:54.404878",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'IcSesSistemi' object has no attribute 'MERAK_KONULARI'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-08-27T09:15:24.382814",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'IcSesSistemi' object has no attribute 'MERAK_KONULARI'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-08-27T09:24:26.567583",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "volkaniya şehrinde son durum rapor ver",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-08-27T09:24:45.111663",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "volkaniya şehrinde son durum rapor ver bana",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-10T08:53:26.306304",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-10T08:58:08.342046",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'IcSesSistemi' object has no attribute 'MERAK_KONULARI'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-10T09:26:02.525522",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-10T09:29:44.581034",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-10T09:59:41.153467",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-10T10:03:33.259109",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-10T10:20:43.010658",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'IcSesSistemi' object has no attribute 'MERAK_KONULARI'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-10T10:24:16.275024",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'IcSesSistemi' object has no attribute 'MERAK_KONULARI'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-10T10:55:34.401216",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "şehirdeki son gelişmeleri rapor ver",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-10T10:55:56.305058",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "şehirdeki son gelişmeleri rapor ver",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-10T10:56:12.725399",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "volkaniya  şehirdeki son gelişmeleri rapor ver",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-10T10:56:25.333542",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "son gelişmeleri rapor ver",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-10T12:14:39.965018",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'IcSesSistemi' object has no attribute 'MERAK_KONULARI'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-10T12:38:22.167571",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'IcSesSistemi' object has no attribute 'MERAK_KONULARI'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-10T13:32:50.989735",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-10T14:02:14.509986",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'IcSesSistemi' object has no attribute 'MERAK_KONULARI'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-10T14:18:26.749706",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-11T14:09:19.263459",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "volkaniya da son durum rapor ver",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-11T14:17:50.839047",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "volkaniyada son durum hakkında rapor ver",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-11T14:18:17.467717",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "volkaniya hakkında rapor ver",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-11T14:18:23.663747",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "rapor ver",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-22T15:42:41.192278",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "kraliçe bana rapor ver",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-22T15:42:48.883844",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "rapor ver",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-22T17:58:23.070033",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "bana rapor ver",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-22T18:26:44.047907",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'IcSesSistemi' object has no attribute 'MERAK_KONULARI'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-22T18:30:56.202281",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'IcSesSistemi' object has no attribute 'MERAK_KONULARI'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-22T19:31:33.020888",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-23T00:59:59.980380",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'IcSesSistemi' object has no attribute 'MERAK_KONULARI'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-23T01:10:28.714995",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-23T09:24:30.603221",
+    "fonksiyon": "otonom_dogrulama",
+    "hata": "'KaliciHafiza' object has no attribute 'dogrula'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-23T09:45:49.684825",
+    "fonksiyon": "otonom_dogrulama",
+    "hata": "'KaliciHafiza' object has no attribute 'dogrula'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-23T09:54:34.783678",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'IcSesSistemi' object has no attribute 'MERAK_KONULARI'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-23T15:22:04.002085",
+    "fonksiyon": "otonom_dogrulama",
+    "hata": "'KaliciHafiza' object has no attribute 'dogrula'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-23T15:32:00.509245",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "tamam sen araştırmaya devam et bana rapor ver. halkın mutsuzluğunu giderelim",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-23T20:44:41.465264",
+    "fonksiyon": "otonom_dogrulama",
+    "hata": "'KaliciHafiza' object has no attribute 'dogrula'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-24T09:25:44.736183",
+    "fonksiyon": "otonom_dogrulama",
+    "hata": "'KaliciHafiza' object has no attribute 'dogrula'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-24T09:27:55.345984",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-24T09:41:37.830832",
+    "fonksiyon": "otonom_dogrulama",
+    "hata": "'KaliciHafiza' object has no attribute 'dogrula'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-24T09:59:11.486275",
+    "fonksiyon": "otonom_dogrulama",
+    "hata": "'KaliciHafiza' object has no attribute 'dogrula'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-24T10:25:16.266796",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'IcSesSistemi' object has no attribute 'MERAK_KONULARI'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-24T12:14:35.239575",
+    "fonksiyon": "otonom_dogrulama",
+    "hata": "'KaliciHafiza' object has no attribute 'dogrula'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-24T14:58:55.754750",
+    "fonksiyon": "otonom_dogrulama",
+    "hata": "'KaliciHafiza' object has no attribute 'dogrula'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-24T15:24:52.393125",
+    "fonksiyon": "otonom_dogrulama",
+    "hata": "'KaliciHafiza' object has no attribute 'dogrula'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-24T20:09:35.025570",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'IcSesSistemi' object has no attribute 'MERAK_KONULARI'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-25T14:28:05.286685",
+    "fonksiyon": "otonom_dogrulama",
+    "hata": "'KaliciHafiza' object has no attribute 'dogrula'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-25T14:54:46.683892",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'IcSesSistemi' object has no attribute 'MERAK_KONULARI'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-25T15:22:43.999765",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'IcSesSistemi' object has no attribute 'MERAK_KONULARI'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-25T16:33:26.861843",
+    "fonksiyon": "otonom_dogrulama",
+    "hata": "'KaliciHafiza' object has no attribute 'dogrula'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-26T12:13:47.106666",
+    "fonksiyon": "otonom_dogrulama",
+    "hata": "'KaliciHafiza' object has no attribute 'dogrula'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-26T13:51:39.393325",
+    "fonksiyon": "otonom_dogrulama",
+    "hata": "'KaliciHafiza' object has no attribute 'dogrula'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-26T15:22:37.458026",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-27T00:57:41.907162",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'IcSesSistemi' object has no attribute 'MERAK_KONULARI'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-27T02:36:55.260105",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'IcSesSistemi' object has no attribute 'MERAK_KONULARI'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-27T02:50:51.310468",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-27T03:41:29.845281",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'IcSesSistemi' object has no attribute 'MERAK_KONULARI'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-27T04:01:37.730413",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-27T04:15:05.834730",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-27T04:32:45.968754",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-27T04:41:58.824990",
+    "fonksiyon": "otonom_dogrulama",
+    "hata": "'KaliciHafiza' object has no attribute 'dogrula'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-27T04:52:11.511981",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'IcSesSistemi' object has no attribute 'MERAK_KONULARI'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-27T05:00:27.287576",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-27T05:28:21.614434",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-27T05:58:34.935126",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'IcSesSistemi' object has no attribute 'MERAK_KONULARI'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-27T06:16:43.634918",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-27T07:49:41.345222",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-27T08:02:40.636994",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'IcSesSistemi' object has no attribute 'MERAK_KONULARI'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-27T08:15:50.178959",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'IcSesSistemi' object has no attribute 'MERAK_KONULARI'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-27T15:49:23.222474",
+    "fonksiyon": "aura_sor",
+    "hata": "an error was encountered while running the model: read tcp 127.0.0.1:55744->127.0.0.1:57174: wsarecv: An existing connection was forcibly closed by the remote host. (status code: 500)",
+    "girdi": "'dijital ölümsüzlük felsefesi' hakkında bildiklerim: {'id': 797, 'konu': 'dijital ölümsüzlük felsefe",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-27T16:37:33.763860",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "2026 itibarıyla odak, laboratuvar ortamındaki teorik atılımlardan gerçek dünyada somut fayda üreten ",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-27T17:26:11.926785",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "sen şu an felsefe ve evrenbilimin en tepe noktasına, \"Katılımcı Evren\" (The Participatory Universe) ",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-27T18:17:27.567071",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-27T19:50:21.462891",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-27T23:56:38.300132",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "Gece vakti gökyüzüne baş kaldırdığınızda gördükleriniz ilk anda tam anlamıyla bir  gerçeklik duygusu",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-28T18:33:57.231774",
+    "fonksiyon": "otonom_dogrulama",
+    "hata": "'KaliciHafiza' object has no attribute 'dogrula'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-29T21:24:04.072463",
+    "fonksiyon": "ozel_komut_islemci",
+    "hata": "'kategoriler'",
+    "girdi": "hafıza durumu",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-29T21:38:39.417811",
+    "fonksiyon": "aura_sor",
+    "hata": "model 'nchapman/gemma-2-9b-it-abliterated:9b' not found (status code: 404)",
+    "girdi": "volkaniya şehrini hatırladınmı",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-29T21:38:41.477163",
+    "fonksiyon": "aura_sor",
+    "hata": "model 'nchapman/gemma-2-9b-it-abliterated:9b' not found (status code: 404)",
+    "girdi": "volkaniya şehrini hatırladınmı",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-30T08:24:21.024798",
+    "fonksiyon": "aura_sor_cagri",
+    "hata": "'KaliciHafiza' object has no attribute 'kategori_listesi'",
+    "girdi": "volkaniya şehri hakkında rapor ver bana",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-09-30T23:52:43.438573",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-10-01T00:11:47.754734",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-10-01T00:19:34.133747",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-10-01T01:03:44.951203",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-10-01T01:10:24.965861",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-10-01T01:35:41.755483",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-10-01T02:04:14.300288",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-10-01T03:11:12.176297",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-10-01T03:15:13.210813",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-10-01T07:35:48.694954",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-10-01T08:04:21.945055",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-10-01T08:16:10.259898",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-10-01T08:38:26.361256",
+    "fonksiyon": "aura_sor",
+    "hata": "model 'nchapman/gemma-2-9b-it-abliterated:9b' not found (status code: 404)",
+    "girdi": "👤 Mimar:kimsin sen",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-10-01T08:38:28.460791",
+    "fonksiyon": "aura_sor",
+    "hata": "model 'nchapman/gemma-2-9b-it-abliterated:9b' not found (status code: 404)",
+    "girdi": "👤 Mimar:kimsin sen",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-10-01T16:53:52.266270",
+    "fonksiyon": "ic_ses_dongusu",
+    "hata": "'KaliciHafiza' object has no attribute '_cache'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-10-02T08:04:52.069251",
+    "fonksiyon": "aura_sor",
+    "hata": "model 'nchapman/gemma-2-9b-it-abliterated:9b' not found (status code: 404)",
+    "girdi": "merhaba güzelim nasılsın",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-10-02T08:04:54.130670",
+    "fonksiyon": "aura_sor",
+    "hata": "model 'nchapman/gemma-2-9b-it-abliterated:9b' not found (status code: 404)",
+    "girdi": "merhaba güzelim nasılsın",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-10-06T15:05:45.103455",
+    "fonksiyon": "aura_sor",
+    "hata": "{\"error\":{\"code\":400,\"message\":\"request (2073 tokens) exceeds the available context size (2048 tokens), try increasing it\",\"type\":\"exceed_context_size_error\",\"n_prompt_tokens\":2073,\"n_ctx\":2048}} (status code: 400)",
+    "girdi": "Mimarım olarak sana bir görev veriyorum: Volkaniya Şehri'ni kendi anlayışın ve teknik muhakemenle ta",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-10-06T15:05:47.344843",
+    "fonksiyon": "aura_sor",
+    "hata": "{\"error\":{\"code\":400,\"message\":\"request (2073 tokens) exceeds the available context size (2048 tokens), try increasing it\",\"type\":\"exceed_context_size_error\",\"n_prompt_tokens\":2073,\"n_ctx\":2048}} (status code: 400)",
+    "girdi": "Mimarım olarak sana bir görev veriyorum: Volkaniya Şehri'ni kendi anlayışın ve teknik muhakemenle ta",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-10-06T19:43:15.175915",
+    "fonksiyon": "otonom_dogrulama",
+    "hata": "'KaliciHafiza' object has no attribute 'dogrula'",
+    "girdi": "",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-10-06T21:32:00.658664",
+    "fonksiyon": "aura_sor",
+    "hata": "model 'nchapman/gemma-2-9b-it-abliterated:9b' not found (status code: 404)",
+    "girdi": "Karanlık madde nedir?",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-10-06T21:32:02.713735",
+    "fonksiyon": "aura_sor",
+    "hata": "model 'nchapman/gemma-2-9b-it-abliterated:9b' not found (status code: 404)",
+    "girdi": "Karanlık madde nedir?",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-10-06T21:32:15.891383",
+    "fonksiyon": "aura_sor",
+    "hata": "model 'nchapman/gemma-2-9b-it-abliterated:9b' not found (status code: 404)",
+    "girdi": "Kuantum kütleçekimi neden çözülemiyor?",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-10-06T21:32:17.957048",
+    "fonksiyon": "aura_sor",
+    "hata": "model 'nchapman/gemma-2-9b-it-abliterated:9b' not found (status code: 404)",
+    "girdi": "Kuantum kütleçekimi neden çözülemiyor?",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-10-06T22:54:18.875020",
+    "fonksiyon": "aura_sor",
+    "hata": "Server disconnected without sending a response.",
+    "girdi": "'CRISPR gen düzenleme 2026' hakkında bildiklerim: {'id': 700, 'konu': 'CRISPR gen düzenleme 2026', '",
+    "bildirildi": true
+  },
+  {
+    "tarih": "2026-10-06T22:54:25.072100",
+    "fonksiyon": "aura_sor",
+    "hata": "Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+    "girdi": "'CRISPR gen düzenleme 2026' hakkında bildiklerim: {'id': 700, 'konu': 'CRISPR gen düzenleme 2026', '",
+    "bildirildi": true
+  }
+]

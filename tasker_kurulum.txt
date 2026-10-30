@@ -1,0 +1,75 @@
+======================================================
+TASKER — AURA-V OTOMATİK KONUM GÖNDERİCİ
+Kurulum Adımları
+======================================================
+
+NGROK ADRESİN:
+https://unoutspoken-laxly-georgene.ngrok-free.dev
+
+AURA KONUM ENDPOİNTİ:
+https://unoutspoken-laxly-georgene.ngrok-free.dev/api/konum
+
+======================================================
+TASKER PROFİL KURULUMU (Adım Adım)
+======================================================
+
+1. Tasker aç → "Profiles" sekmesi → (+) butonu
+2. "Time" seç → Her 15 dakikada bir tetikle:
+   - From: 00:00
+   - To:   23:59
+   - Every: 15 minutes
+
+3. Sağ alt (+) → New Task → İsim: "AuraKonum"
+
+4. Task içine şu aksiyonları ekle:
+
+---- AKSİYON 1: GPS Konumu Al ----
+   + → Location → Get Location
+   Source: Any (GPS + Network)
+   Timeout: 30 saniye
+   Variable Prefix: %LOC
+   (Bu %LOCLAT ve %LOCLONG değişkenlerini doldurur)
+
+---- AKSİYON 2: HTTP İsteği Gönder ----
+   + → Net → HTTP Request
+   Method: GET
+   URL: https://unoutspoken-laxly-georgene.ngrok-free.dev/api/konum?lat=%LOCLAT&lon=%LOCLONG&acc=%LOCACC
+
+   VEYA POST olarak göndermek istersen:
+   Method: POST
+   URL: https://unoutspoken-laxly-georgene.ngrok-free.dev/api/konum
+   Content Type: application/json
+   Body: {"lat":"%LOCLAT","lon":"%LOCLONG","acc":"%LOCACC"}
+
+---- AKSİYON 3 (İsteğe bağlı): Bildirim ----
+   + → Alert → Notify
+   Title: Aura Konum
+   Text: Konum gönderildi: %LOCLAT, %LOCLONG
+
+======================================================
+TEST
+======================================================
+
+Tasker'da profile oluşturduktan sonra:
+1. Task'ı manuel çalıştır (▶ butonu)
+2. AURA konsolunda şunu gör:
+   📍 [TELEFON KONUM]: 41.xxx, 28.xxx — hassasiyet: 10m
+
+Sonra AURA'ya yaz:
+   konum geçmişi
+→ Telefon konumun listede görünecek.
+
+======================================================
+AURA'DA YENİ KOMUTLAR
+======================================================
+
+konumumu bul      → IP üzerinden anlık konum
+konumumu kaydet   → IP konumunu hafızaya kaydet
+konum geçmişi     → Tüm konum geçmişi (telefon + IP)
+
+======================================================
+NOT
+======================================================
+- Tasker'ın "Location" izni ve arka planda çalışma izni açık olmalı
+- Android pil optimizasyonundan Tasker'ı muaf tut
+- ngrok her gün sıfırlanmıyorsa URL değişmez (sabit domain kullanıyorsun ✅)

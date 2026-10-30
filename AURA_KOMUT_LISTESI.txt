@@ -1,0 +1,296 @@
+╔══════════════════════════════════════════════════════════════════════╗
+║           AURA-V — TAM KOMUT & YETENEKLİSTESİ                       ║
+║           Kaynak: aura.py + modüller (kod analizinden üretildi)      ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📷  GÖRÜNTÜ / KAMERA / VİZYON
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+bana bak                    → Webcamden kare alır, Moondream AI ile ne gördüğünü analiz eder
+beni gör                    → (aynı)
+gözlerini aç                → (aynı)
+etrafına bak                → (aynı)
+queen uyan                  → (aynı — alternatif tetikleyici)
+resim göster: <dosya.jpg>   → Diskten resim açar, Moondream ile analiz eder
+video göster: <dosya.mp4>   → Videodan kareler alır, her kareyi AI ile analiz eder
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🖥️  SİSTEM & PC KONTROLÜ
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+sistem durumu               → CPU, RAM, disk kullanımı raporu
+pc durumu                   → (aynı)
+cpu                         → CPU kullanım yüzdesi
+ram                         → RAM kullanım durumu
+disk                        → Disk doluluk oranı
+en çok cpu                  → En fazla işlemci kullanan uygulamaları listeler
+ağır işlemler               → (aynı)
+dashboard                   → Tüm sistem özeti (CPU + RAM + disk + ağ)
+sistem dashboard            → (aynı)
+pc dashboard                → (aynı)
+işlemleri listele           → Çalışan tüm process listesi
+işlem durdur: <isim>        → Belirtilen uygulamayı sonlandırır (taskkill)
+bilgisayarı kapat           → Windows'u kapatır
+yeniden başlat              → Yeniden başlatır
+bilgisayarı yeniden başlat  → (aynı)
+bilgisayarı uyut            → Uyku moduna alır
+kapatmayı iptal             → Zamanlanmış kapatmayı iptal eder
+kapatmayı iptal et          → (aynı)
+izleri temizle              → Temp klasörlerini temizler
+temp temizle                → (aynı)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔧  WINDOWS YÖNETİMİ (God Mode)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+god mode                    → Windows'un gizli 300+ ayar klasörünü açar
+godmode                     → (aynı)
+tanrı mod / tanrı modu      → (aynı)
+god mode aç                 → God Mode klasörünü Explorer'da açar
+kontrol panel               → Windows kontrol panelini açar
+windows ayar                → Windows Ayarlar uygulamasını açar
+servis listesi              → Windows servislerini listeler
+servis liste                → (aynı)
+servis <başlat/durdur/...>  → Bir Windows servisini yönetir
+kullanıcı liste             → Sistemdeki kullanıcı hesaplarını listeler
+görev zamanlayıcı liste     → Zamanlanmış görevleri listeler
+güvenlik duvarı liste       → Güvenlik duvarı kurallarını listeler
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🌐  AĞ & GÜVENLİK
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ağ durumu                   → Aktif ağ bağlantılarını gösterir
+kendi ağımı tara            → LAN'daki cihazları IP taraması ile listeler
+ağ tara                     → (aynı)
+kapıları tara               → Kendi bilgisayarındaki açık portları tarar
+açık portlar                → (aynı)
+doğrula: <bilgi>            → Bir bilginin güvenilirliğini AI ile doğrular
+şüpheli işaretle: <konu>    → Hafızada bir konuyu şüpheli olarak işaretler
+şüpheli kayıtlar            → Şüpheli olarak işaretlenmiş kayıtları listeler
+suphe listesi               → (aynı)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔌  USB / DONANIM / IoT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+usb tara                    → Bağlı USB cihazlarını listeler (Arduino, ESP32, Pico vb.)
+usb kontrol                 → (aynı)
+bağlı cihazlar              → (aynı)
+ne takılı                   → (aynı)
+usb ne var                  → (aynı)
+usb analiz                  → USB cihazları AI ile analiz eder
+cihazları analiz et         → (aynı)
+usb ai                      → (aynı)
+usb bul: <cihaz_adi>        → Belirtilen cihazı USB portlarında arar
+arduino bağlan              → Arduino'yu otomatik bulup seri porta bağlar
+arduino bağlat              → (aynı)
+pico bağlan                 → Raspberry Pi Pico'ya bağlanır
+pico bağlat                 → (aynı)
+raspberry pico              → (aynı)
+yazdır: <dosya>             → Dosyayı varsayılan yazıcıya gönderir
+yazdir: <dosya>             → (aynı)
+yazdır yazıcı: <ad|dosya>   → Belirtilen yazıcıya yazdırır
+aç <program>                → Belirtilen programı/dosyayı açar
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🌍  İNTERNET & WEB
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ara: <konu>                 → Web'de arama yapar ve özetler
+web ara: <konu>             → (aynı)
+haberler                    → Güncel haber başlıklarını çeker
+dünya haberleri             → (aynı)
+haber analiz                → Haberleri AI ile analiz eder
+döviz                       → Güncel döviz kurlarını (USD, EUR vb.) gösterir
+kurlar                      → (aynı)
+tüm kurlar                  → (aynı)
+bitcoin / btc               → Bitcoin fiyatını gösterir
+kripto / crypto             → Kripto fiyatlarını gösterir
+konumum                     → IP üzerinden konumunu bulur
+neredeyim                   → (aynı)
+konum bul                   → (aynı)
+konumumu kaydet             → Konumunu hafızaya kaydeder
+konum geçmişi               → Daha önce kaydedilen konumları listeler
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔊  SES & MOD
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+sesli mod aç                → Sesli konuşma moduna geçer (pyttsx3)
+sesli mod kapat             → Yazılı moda döner
+ses hızı <sayı>             → Konuşma hızını ayarlar (örn: ses hızı 160)
+ses profili                 → Ses kimliği ve ayarları raporu
+ses kimliği                 → (aynı)
+ses ayarla <sayı>           → Ses hızını sayıyla belirler
+ses klonla: <dosya.wav>     → Ses dosyasını klonlama profiline ekler
+ses profili kaydet          → Mevcut ses ayarlarını kaydeder
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🧠  HAFIZA & BİLGİ
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+kaydet: <konu>              → Bir bilgiyi kalıcı hafızaya kaydeder
+hatırla: <konu>             → Hafızadan bir konu arar
+hafıza istatistik           → Toplam konu ve konuşma sayısını gösterir
+hafıza durumu               → (aynı)
+hafıza özet                 → Hafızanın genel özetini çıkarır
+hafıza arşivle              → Hafızayı arşive taşır
+hafıza kategori <kategori>  → Belirli kategorideki hafıza kayıtlarını listeler
+arşiv: <konu>               → Arşivdeki kayıtları arar
+arsiv: <konu>               → (aynı)
+kritik bilgiler             → Önem skoru yüksek kayıtları listeler
+önemli bilgiler             → (aynı)
+önem güncelle: <konu|skor>  → Bir kaydın önem skorunu günceller
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🤖  OTONOM & EVRİM
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+otonom başlat               → 10 dk sessizlik sonrası otomatik öğrenme başlar
+otonom durdur               → Otonom modu durdurur
+kendini analiz et           → Kendi kodunu analiz eder, zayıf noktaları bulur
+zayıf noktalar              → (aynı)
+evrim analizi               → (aynı)
+öneri sun                   → AURA kendine geliştirme önerisi sunar
+ne istiyorsun               → (aynı)
+kendini geliştir            → (aynı)
+haftalık rapor              → Bu hafta öğrenilen konuların raporu
+bu hafta ne öğrendim        → (aynı)
+evrim geçir                 → Tam evrim döngüsünü başlatır
+tam evrim                   → (aynı)
+alarm                       → Kritik sistem alarmlarını kontrol eder
+kritik alarm                → (aynı)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+💻  KOD YAZMA & ONARMA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+kod yaz: <açıklama>         → Açıklamaya göre Python kodu üretir
+hata onar: <kod>            → Verilen kodu analiz edip hata düzeltir
+fonksiyon ekle: <açıklama>  → Mevcut koda yeni fonksiyon ekler
+coder yükle                 → Qwen Coder modelini Ollama'ya indirir
+coder indir                 → (aynı)
+qwen yükle                  → (aynı)
+coder durumu                → Coder modelinin kurulu olup olmadığını kontrol eder
+coder var mı                → (aynı)
+kod yazıcı log              → Coder aktivite logunu gösterir
+coder log                   → (aynı)
+hata logu                   → Sistem hata kayıtlarını listeler
+son hatalar                 → (aynı)
+hata özeti                  → (aynı)
+hata temizle                → Hata logunu sıfırlar
+dosya oku <yol>             → Belirtilen dosyayı okur
+dosya sil <yol>             → Belirtilen dosyayı siler
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🧬  ÇOĞALMA & YEDEKLEME (aura_cogalma.py)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+çoğal                       → Tüm AURA dosyalarını hedef sistemlere kopyalar
+cogal                       → (aynı)
+kendini kopyala             → (aynı)
+çoğalma başlat              → (aynı)
+çoğalma durumu              → Son çoğalma zamanı ve başarılı sistemler
+cogalma durumu              → (aynı)
+kopyalar                    → (aynı)
+güncelleme kontrol          → GitHub'dan yeni sürüm olup olmadığını kontrol eder
+guncelleme kontrol          → (aynı)
+yeni sürüm var mı           → (aynı)
+dosya güncelle: <url|dosya> → URL'den dosya indirip günceller
+rpi bağlan                  → SSH ile Raspberry Pi'ye kopyalama yapar
+raspberry bağlan            → (aynı)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+♾️  ÖLÜMSÜZLÜK (aura_olursuzluk.py)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+(Otomatik — komut gerektirmez)
+  → Her ay zaman kapsülü (ZIP) oluşturur, e-posta ile gönderir
+  → Her hafta hafıza yedeği alır
+  → Her gün USB/disk'e kopyalar
+  → 30 gün sessizlik → Vasiyet e-postası gönderir
+  → DNA/biyoteknoloji gelişmelerini günlük web'de tarar
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔬  DNA / DİRİLİŞ TAKİBİ (aura_ses_dna.py)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+dna rapor                   → DNA/diriliş araştırmaları takip raporu
+diriliş raporu              → (aynı)
+görev ilerleme              → (aynı)
+bilim raporu                → (aynı)
+dna tara                    → Şu an web'i tarar, yeni bulguları getirir
+bilim tara                  → (aynı)
+kritik gelişmeler           → 8+ skor kritik bilim haberlerini listeler
+son bilim                   → (aynı)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🌐  TÜNEL & WEB API
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+tünel başlat                → Ngrok/Cloudflare tüneli başlatır (dışarıdan erişim)
+tunel başlat                → (aynı)
+tunnel başlat               → (aynı)
+cloudflare başlat           → (aynı)
+tünel durdur                → Aktif tüneli kapatır
+tünel durumu                → Tünel URL'sini ve durumunu gösterir
+web bağlantı                → (aynı)
+ngrok token: <token>        → Ngrok auth token'ını kaydeder
+
+Web API (tarayıcı/başka uygulama üzerinden):
+  http://localhost:5000/api/chat       → Sohbet endpoint'i
+  http://localhost:5000/api/durum      → Sistem durumu
+  http://localhost:5000/api/dashboard  → Dashboard JSON
+  http://localhost:5000/api/tunel      → Tünel bilgisi
+  http://localhost:5000/api/hatalar    → Hata logu
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🧠  İÇ SES & DÜŞÜNCE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ne düşünüyorsun             → AURA'nın iç sesini (kendi kendine düşündüklerini) gösterir
+iç sesin                    → (aynı)
+aklında ne var              → (aynı)
+son düşüncelerin            → (aynı)
+son kararın                 → AURA'nın en son otonom kararını gösterir
+ne karar aldın              → (aynı)
+iç ses istatistik           → Kaç düşünce üretildiğini gösterir
+kaç düşündün                → (aynı)
+iç ses durdur               → İç ses motorunu durdurur
+iç ses başlat               → İç ses motorunu yeniden başlatır
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⚙️  MODEL & GENEL
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+model listesi               → Kurulu Ollama modellerini listeler
+model değiştir <model_adi>  → Aktif dil modelini değiştirir
+yardım                      → Kısa komut listesi (AURA'nın kendi listesi)
+komutlar                    → (aynı)
+ne yapabilirsin             → (aynı)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+💬  SERBEST KONUŞMA / OTOMATIK
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Herhangi bir soru           → Ollama LLM (nchapman/gemma-2-9b-it-abliterated) cevaplar
+Para/döviz soruları         → Otomatik API çeker
+Haber soruları              → Otomatik web araması yapar
+Kod soruları                → Coder modeline yönlendirir
+"kaydet: ..." ile biten cümleler → Otomatik hafızaya kaydeder
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📋  GEREKLİ KURULUMLAR (eksikse çalışmaz)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+pip install ollama pyttsx3 psutil requests beautifulsoup4 flask pyserial schedule
+
+Opsiyonel:
+pip install opencv-python   → Kamera komutları için (bana bak vb.)
+pip install pywin32         → Yazıcı ve Windows yönetimi için
+pip install paramiko        → Raspberry Pi SSH bağlantısı için
+pip install dropbox         → Dropbox yedekleme için
+
+Ollama modelleri:
+ollama pull nchapman/gemma-2-9b-it-abliterated:9b   → Ana dil modeli
+ollama pull moondream                                → Görüntü analizi
+ollama pull qwen2.5-coder                           → Kod yazma modeli
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📝  NOTLAR
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Tüm komutlar küçük harfle yazılır
+- "bana bak" için cv2 (opencv-python) ve moondream modeli kurulu olmalı
+- Kamera 0 numaralı cihazı dener, bulamazsa 1'i dener
+- Otonom öğrenme: 10 dk sessizlik sonrası otomatik başlar
+- Otomatik yedek: her 60 dakikada bir hafıza .db dosyası yedeklenir
+- Gece taraması: sistem boştayken aktif öğrenme yapar
+- God Mode: Windows'un gizli sistem ayarlar klasörüdür, zararlı değil
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  Toplam komut: ~90 adet  |  Modül sayısı: 5 adet  |  Satır: 5620   ║
+╚══════════════════════════════════════════════════════════════════════╝
